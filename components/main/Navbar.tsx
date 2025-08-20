@@ -265,7 +265,9 @@ export function Navbar({ lang, dict }: NavbarProps) {
               onClick={() => setIsSheetOpen(false)}
             >
               <Gift className="h-4 w-4 text-avangarda flex-shrink-0" />
-              <span className="text-lg truncate">Kup Voucher</span>
+              <span className="text-lg truncate">
+                {dict.nav.voucher || "Kup Voucher"}
+              </span>
             </a>
 
             <a
@@ -369,7 +371,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                       className="bg-avangarda font-alata px-3 py-1.5 text-sm text-white transition-colors duration-300 hover:bg-avangarda/90"
                     >
                       <GiftIcon className="h-4 w-4 mr-2" />
-                      Kup Voucher
+                      {dict.nav.voucher || "Kup Voucher"}
                     </Button>
                   </Link>
                 </div>
@@ -500,7 +502,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                       size="sm"
                       className="bg-gradient-to-r from-avangarda to-avangarda/80 font-alata px-4 py-2 text-sm text-white transition-all duration-300 hover:from-avangarda/90 hover:to-avangarda/70 shadow-lg"
                     >
-                      ZAREZERWUJ
+                      {dict.nav.book}
                     </Button>
                   </Link>
                 </div>
@@ -533,7 +535,9 @@ export function Navbar({ lang, dict }: NavbarProps) {
                     className="bg-avangarda font-alata px-3 py-2 text-xs text-white transition-colors duration-300 hover:bg-avangarda/90"
                   >
                     <GiftIcon className="h-3 w-3" />
-                    <span className="ml-1 text-xs">Voucher</span>
+                    <span className="ml-1 text-xs">
+                      {dict.nav.voucher || "Voucher"}
+                    </span>
                   </Button>
                 </Link>
 
@@ -545,7 +549,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                     size="sm"
                     className="bg-gradient-to-r from-avangarda to-avangarda/80 font-alata px-3 py-2 text-xs text-white transition-all duration-300 hover:from-avangarda/90 hover:to-avangarda/70"
                   >
-                    ZAREZERWUJ
+                    {dict.nav.book}
                   </Button>
                 </Link>
 
@@ -610,7 +614,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                 className="bg-avangarda font-alata px-2 text-xs text-white sm:px-4 sm:text-sm flex transition-colors duration-300 hover:bg-avangarda/90"
               >
                 <GiftIcon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                Kup Voucher
+                {dict.nav.voucher || "Kup Voucher"}
               </Button>
             </Link>
             <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>

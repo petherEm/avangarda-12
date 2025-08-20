@@ -11,6 +11,7 @@
     "kids": "DLA DZIECI",
     "gallery": "GALERIA",
     "book": "REZERWUJ",
+    "voucher": "Kup Voucher",
     "menu": "Menu",
     "phone": "+48 29 752 50 34",
     "subscribe": "Zapisz się",
@@ -67,6 +68,7 @@
     "description": "Pozwól sobie na chwile relaksu lub aktywny wypoczynek w wyjątkowym stylu. Wybierz pakiet dopasowany do swoich potrzeb i odkryj pełnię możliwości, jakie oferuje Hotel Avangarda.",
     "details": "Szczegóły",
     "from": "już od",
+    "seeAll": "Zobacz wszystkie",
     "availability": "Dostępne pakiety zmieniają się sezonowo. Sprawdź aktualne oferty poniżej lub skontaktuj się z recepcją, aby uzyskać najnowsze informacje.",
     "browseTitle": "Dostępne oferty i pakiety",
     "imageAlt": "Zdjęcie ilustrujące nasze oferty specjalne",
@@ -1403,7 +1405,7 @@
         }
       }
     },
-    "description": "W Hotelu Avangarda to Ty i Twój biznes jesteście najważniejsi. Tutaj wsłuchamy się w Twoje potrzeby, zaproponujemy nieszablonowe rozwiązania i sprawimy, że Twoi pracownicy wyjadą wzmocnieni i pełni energii do działania. Jeżeli na swoją konferencję szukasz butikowego hotelu na wyłączność – świetnie trafiłeś! Tu nie będziesz jednym z wielu, u nas możesz być jednym jedynym i to dla Ciebie przygotujemy program integracji czy scenariusz wieczornej imprezy po dniu pełnym intensywnej pracy.Poznaj nasze możliwości, stworzone z myślą o kompletnej obsłudze pobytów biznesowych – od noclegów, poprzez konferencje, całodzienne integracje aż po bogatą ofertę niezapomnianych wieczorów.",
+    "description": "W Hotelu Avangarda to Ty i Twój biznes jesteście najważsi. Tutaj wsłuchamy się w Twoje potrzeby, zaproponujemy nieszablonowe rozwiązania i sprawimy, że Twoi pracownicy wyjadą wzmocnieni i pełni energii do działania. Jeżeli na swoją konferencję szukasz butikowego hotelu na wyłączność – świetnie trafiłeś! Tu nie będziesz jednym z wielu, u nas możesz być jednym jedynym i to dla Ciebie przygotujemy program integracji czy scenariusz wieczornej imprezy po dniu pełnym intensywnej pracy.Poznaj nasze możliwości, stworzone z myślą o kompletnej obsłudze pobytów biznesowych – od noclegów, poprzez konferencje, całodzienne integracje aż po bogatą ofertę niezapomnianych wieczorów.",
     "mainTitle": "Konferencje \n & Eventy",
     "mainDescription": "Butikowy hotel, położony w cichym, zielonym zakątku Mazowsza, zaledwie godzinę drogi od Warszawy, oferuje możliwość wynajmu\n na wyłączność i stanowi doskonałe miejsce do organizacji wydarzeń biznesowych – od kameralnych spotkań zarządu po duże konferencje, eventy, targi i spotkania branżowe. Tworzymy długotrwałe relacje\n z Klientami Biznesowymi, zapewniając indywidualne, pełne zaangażowania podejście oraz gotowość, by sprostać nawet najbardziej wymagającym projektom.",
     "facilities": {
