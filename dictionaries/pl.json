@@ -1059,7 +1059,7 @@
       },
       "supervision": {
         "title": "Nadzór",
-        "description": "Przeszkolony personel na miejscu, choć nadal wymagany jest nadzór rodzicielski."
+               "description": "Przeszkolony personel na miejscu, choć nadal wymagany jest nadzór rodzicielski."
       }
     },
     "bookPoolSession": "Zarezerwuj wizytę na basenie"
@@ -1591,7 +1591,7 @@
       "layoutTitle": "Pojemność w różnych układach:",
       "people": "osób",
       "additionalEquipmentOld2": "Dodatkowe wyposażenie:",
-      "additionalEquipmentDescriptionOld2": "flipchart sucho ścieralny / magnetyczny z kompletnym zestawem arkuszy i markerów, bloczki, ołówki.",
+      "additionalEquipmentDescriptionOld2": "flipchart suchościeralny / magnetyczny z kompletnym zestawem arkuszy i markerów, bloczki, ołówki.",
       "roomDescriptionOld2": "Opis sali",
       "askAboutRoomOld2": "ZAPYTAJ O SALĘ",
       "popularBadge": "Popularna",
@@ -1599,8 +1599,8 @@
       "imageAlt": "Widok sali",
       "equipmentTitle": "Wyposażenie standardowe",
       "badges": {
-        "exhibitionSpace": "Przestrzeń targowa",
-        "prestigious": "Prestiżowa", 
+        "exhibitionSpace": "Przestrzeń wystawowa",
+        "prestigious": "Prestiżowa",
         "greenConferences": "Zielone konferencje"
       },
       "equipment": {
@@ -1906,5 +1906,96 @@
     "terms": "Regulamin",
     "privacy": "Prywatność",
     "childProtection": "Standard Ochrony Małoletnich"
+  },
+  "vouchers": {
+    "hero": {
+      "badge": "Voucher Podarunkowy",
+      "cashVoucher": "Voucher kwotowy",
+      "purchaseButton": "Kup voucher"
+    },
+    "benefits": {
+      "title": "Dlaczego voucher Avangarda?",
+      "flexibility": {
+        "title": "Elastyczność",
+        "description": "Wykorzystaj w dowolnym terminie przez 6 miesięcy"
+      },
+      "universality": {
+        "title": "Uniwersalność", 
+        "description": "Voucher można wykorzystać zgodnie z osobistymi preferencjami"
+      },
+      "personalization": {
+        "title": "Personalizacja",
+        "description": "Możliwość dodania osobistej wiadomości"
+      },
+      "security": {
+        "title": "Bezpieczeństwo",
+        "description": "Gwarancja realizacji przez cały okres ważności"
+      }
+    },
+    "howToUse": {
+      "title": "Jak wykorzystać voucher",
+      "step1": {
+        "title": "Zarezerwuj termin",
+        "description": "Skontaktuj się z recepcją i podaj numer vouchera podczas rezerwacji"
+      },
+      "step2": {
+        "title": "Potwierdź dostępność", 
+        "description": "Sprawdzimy dostępność wybranych usług w preferowanym terminie"
+      },
+      "step3": {
+        "title": "Ciesz się pobytem",
+        "description": "Wykorzystaj voucher na dowolne usługi hotelowe zgodnie z jego wartością"
+      }
+    },
+    "perfectGift": {
+      "title": "Idealny prezent na",
+      "occasions": [
+        "Rocznice i jubileusze",
+        "Urodziny i imieniny", 
+        "Święta i okazje specjalne",
+        "Podziękowania biznesowe",
+        "Prezenty ślubne",
+        "Niespodzianki dla bliskich"
+      ]
+    },
+    "terms": {
+      "title": "Warunki wykorzystania",
+      "restaurant": {
+        "title": "Voucher do restauracji Dzika Róża",
+        "description": "Voucher można wykorzystać na dowolnie skomponowany posiłek wraz z napojami z menu dostępnego w Restauracji Dzika Róża. Sprawdź nasze menu i wybierz kwotę vouchera, a osoba obdarowana sama zadecyduje, co chciałaby zjeść."
+      },
+      "club": {
+        "title": "Voucher do Klubu Coola",
+        "description": "Voucher można wykorzystać na dowolną grę, przekąski lub usługi w Klubie Coola. Sprawdź menu Klubu, ofertę dostępnych usług i wybierz kwotę vouchera, a osoba obdarowana sama zadecyduje, jak chciałaby spędzić czas w Klubie."
+      },
+      "spa": {
+        "title": "Voucher SPA",
+        "description": "Voucher można wykorzystać na dowolny zabieg, rytuał lub masaż w Avangarda SPA. Sprawdź katalog usług dostępnych w SPA i wybierz kwotę vouchera, a osoba obdarowana sama zadecyduje, na jaki zabieg ma ochotę."
+      },
+      "hotel": {
+        "title": "Voucher na usługi hotelowe",
+        "description": "Voucher można wykorzystać na pobyt w naszym hotelu tj.nocleg ze śniadaniem w komfortowym pokoju hotelowym z dostępem do strefy Wellness i bezpłatnym parkingiem. Sprawdź cennik hotelowych, dostępne pakiety pobytowe i wybierz kwotę vouchera, a osoba obdarowana sama zadecyduje, w jakim terminie chciałaby do nas przyjechać."
+      },
+      "important": "W przypadku pytań dotyczących wykorzystania vouchera, skontaktuj się z naszą recepcją pod numerem +48 29 752 50 34."
+    },
+    "practicalInfo": {
+      "title": "Informacje praktyczne",
+      "reservations": {
+        "title": "Rezerwacje",
+        "phone": "+48 29 752 50 34",
+        "email": "recepcja@hotelavangarda.pl"
+      },
+      "hours": {
+        "title": "Godziny recepcji",
+        "time": "24/7",
+        "description": "Codziennie"
+      },
+      "payment": {
+        "title": "Płatność",
+        "cards": "Karta, przelew",
+        "cash": "Gotówka"
+      }
+    },
+    "notFound": "Nie znaleziono vouchera."
   }
 }

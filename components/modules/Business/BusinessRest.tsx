@@ -516,7 +516,7 @@ export default function BusinessEntertainment({
                   {/* Full-width image for outdoor tab */}
                   <div className="relative aspect-video w-full h-[500px] overflow-hidden ">
                     <Image
-                      src="/outdoor/out-02.JPG"
+                      src="/entertainment/10.jpeg"
                       alt={dict.business.entertainment.spaces.outdoor.title}
                       fill
                       className="object-cover"

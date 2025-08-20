@@ -1804,5 +1804,96 @@
     "terms": "Terms",
     "privacy": "Privacy",
     "childProtection": "Child Protection Standard"
+  },
+  "vouchers": {
+    "hero": {
+      "badge": "Gift Voucher",
+      "cashVoucher": "Cash Voucher", 
+      "purchaseButton": "Purchase Voucher"
+    },
+    "benefits": {
+      "title": "Why Avangarda Voucher?",
+      "flexibility": {
+        "title": "Flexibility",
+        "description": "Use at any time within 6 months"
+      },
+      "universality": {
+        "title": "Universality",
+        "description": "Voucher can be used according to personal preferences"
+      },
+      "personalization": {
+        "title": "Personalization", 
+        "description": "Option to add a personal message"
+      },
+      "security": {
+        "title": "Security",
+        "description": "Guarantee of fulfillment throughout the validity period"
+      }
+    },
+    "howToUse": {
+      "title": "How to Use Your Voucher",
+      "step1": {
+        "title": "Make a Reservation",
+        "description": "Contact reception and provide your voucher number when booking"
+      },
+      "step2": {
+        "title": "Confirm Availability",
+        "description": "We will check availability of selected services for your preferred date"
+      },
+      "step3": {
+        "title": "Enjoy Your Stay",
+        "description": "Use your voucher for any hotel services according to its value"
+      }
+    },
+    "perfectGift": {
+      "title": "Perfect Gift For",
+      "occasions": [
+        "Anniversaries and jubilees",
+        "Birthdays and name days",
+        "Holidays and special occasions", 
+        "Business thank you gifts",
+        "Wedding presents",
+        "Surprises for loved ones"
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "restaurant": {
+        "title": "Dzika Róża Restaurant Voucher",
+        "description": "The voucher can be used for any meal composition along with drinks from the menu available at Dzika Róża Restaurant. Check our menu and choose the voucher amount, and the recipient will decide what they would like to eat."
+      },
+      "club": {
+        "title": "Club Coola Voucher", 
+        "description": "The voucher can be used for any game, snacks or services at Club Coola. Check the Club's menu, available services and choose the voucher amount, and the recipient will decide how they would like to spend time at the Club."
+      },
+      "spa": {
+        "title": "SPA Voucher",
+        "description": "The voucher can be used for any treatment, ritual or massage at Avangarda SPA. Check the catalog of services available at the SPA and choose the voucher amount, and the recipient will decide which treatment they fancy."
+      },
+      "hotel": {
+        "title": "Hotel Services Voucher",
+        "description": "The voucher can be used for a stay at our hotel, i.e. accommodation with breakfast in a comfortable hotel room with access to the Wellness area and free parking. Check hotel pricing, available stay packages and choose the voucher amount, and the recipient will decide when they would like to visit us."
+      },
+      "important": "If you have questions regarding voucher usage, please contact our reception at +48 29 752 50 34."
+    },
+    "practicalInfo": {
+      "title": "Practical Information",
+      "reservations": {
+        "title": "Reservations",
+        "phone": "+48 29 752 50 34", 
+        "email": "recepcja@hotelavangarda.pl"
+      },
+      "hours": {
+        "title": "Reception Hours",
+        "time": "24/7",
+        "description": "Every day"
+      },
+      "payment": {
+        "title": "Payment",
+        "cards": "Card, transfer", 
+        "cash": "Cash"
+      }
+    },
+    "notFound": "Voucher not found."
   }
 }

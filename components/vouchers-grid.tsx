@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Tag } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 interface VouchersGridProps {
   vouchers: Voucher[];
@@ -209,7 +209,7 @@ function VouchersGrid({ vouchers, lang = "en", dict }: VouchersGridProps) {
                       {/* Button - Hidden by default, visible on hover */}
                       <div className="transform transition-all duration-300 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0">
                         <Link
-                          href={`/${lang}/vouchery/${voucher.slug?.current}`}
+                          href={`/${lang}/${lang === "pl" ? "vouchery" : "vouchers"}/${voucher.slug?.current}`}
                           className="block w-full"
                         >
                           <Button
@@ -223,24 +223,6 @@ function VouchersGrid({ vouchers, lang = "en", dict }: VouchersGridProps) {
                         </Link>
                       </div>
                     </div>
-
-                    {/* Value badge - moved to top left */}
-                    {voucher.voucherValue && (
-                      <div className="absolute top-4 left-4 bg-white text-pink-600 px-4 py-2 rounded-lg shadow-lg flex items-center gap-2 font-medium">
-                        <Tag className="h-4 w-4" />
-                        <span>
-                          {new Intl.NumberFormat(
-                            lang === "pl" ? "pl-PL" : "en-US",
-                            {
-                              style: "currency",
-                              currency: "PLN",
-                              minimumFractionDigits: 0,
-                              maximumFractionDigits: 0,
-                            }
-                          ).format(voucher.voucherValue)}
-                        </span>
-                      </div>
-                    )}
                   </div>
                 </div>
               </motion.div>
@@ -322,7 +304,7 @@ function VouchersGrid({ vouchers, lang = "en", dict }: VouchersGridProps) {
                   {/* Button - Hidden by default, visible on hover */}
                   <div className="transform transition-all duration-300 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0">
                     <Link
-                      href={`/${lang}/vouchery/${voucher.slug?.current}`}
+                      href={`/${lang}/${lang === "pl" ? "vouchery" : "vouchers"}/${voucher.slug?.current}`}
                       className="block w-full"
                     >
                       <Button
@@ -336,24 +318,6 @@ function VouchersGrid({ vouchers, lang = "en", dict }: VouchersGridProps) {
                     </Link>
                   </div>
                 </div>
-
-                {/* Value badge - moved to top left */}
-                {voucher.voucherValue && (
-                  <div className="absolute top-6 left-6 bg-white text-pink-600 px-6 py-3 rounded-lg shadow-lg flex items-center gap-2 font-medium text-lg">
-                    <Tag className="h-5 w-5" />
-                    <span>
-                      {new Intl.NumberFormat(
-                        lang === "pl" ? "pl-PL" : "en-US",
-                        {
-                          style: "currency",
-                          currency: "PLN",
-                          minimumFractionDigits: 0,
-                          maximumFractionDigits: 0,
-                        }
-                      ).format(voucher.voucherValue)}
-                    </span>
-                  </div>
-                )}
               </div>
             </div>
           </motion.div>
