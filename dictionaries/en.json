@@ -1,0 +1,1808 @@
+{
+  "nav": {
+    "rooms": "ROOMS",
+    "offers": "PACKAGES",
+    "hotel": "HOTEL",
+    "dining": "RESTAURANTS",
+    "spa": "SPA & WELLNESS",
+    "events": "CELEBRATIONS",
+    "business": "BUSINESS",
+    "entertainment": "ATTRACTIONS",
+    "kids": "FOR KIDS",
+    "gallery": "GALLERY",
+    "book": "BOOK",
+    "menu": "Menu",
+    "phone": "+48 29 752 50 34",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy"
+  },
+  "ctaGeneric": {
+    "title": "Book your stay today!",
+    "description": "Discover Hotel Avangarda – a place where comfort meets relaxation and attractions await at every step. Whether you dream of a peaceful retreat, a family adventure, or a romantic escape for two, here everyone will find something to enjoy.",
+    "bookNow": "BOOK NOW"
+  },
+  "about": {
+    "title": "Hotel Avangarda",
+    "description": "Hotel Avangarda is located on the outskirts of charming Różan on the Narew River, about 100 km from Warsaw. Carefully designed facilities, combined with the natural green surroundings, create a harmonious blend of tranquility, comfort, and proximity to local attractions. It is a place where tradition meets modernity, offering a unique space for relaxation, work, and discovering the region.",
+    "address": "ul. Przykładowa 1, 07-300 Różan",
+    "phone": "+48 29 7525034",
+    "email": "recepcja@avangarda.pl",
+    "hours": "Reception open 24/7",
+    "directions": {
+      "car": "Easy access from national road 61. Free parking available on site.",
+      "public": "Regular bus connections from Warsaw and Ostrołęka. The bus stop is located 200m from the hotel."
+    },
+    "googleMaps": "Open in Google Maps"
+  },
+  "hotelIntro": {
+    "learnMore": "Learn more",
+    "whatMakesUsDifferent": "What makes us different",
+    "location": "Location",
+    "features": {
+      "uniqueLocation": {
+        "title": "Unique location",
+        "description": "Peaceful, green surroundings by the river – perfect for those who value tranquility and closeness to nature."
+      },
+      "wellness": {
+        "title": "Wellness & SPA",
+        "description": "Modern relaxation zone with pool, saunas, jacuzzi and rich offer of beauty treatments."
+      },
+      "cuisine": {
+        "title": "Signature cuisine",
+        "description": "Authentic flavors, natural ingredients inspired by local traditions, seasonality, elegance of presentation"
+      },
+      "familyBusiness": {
+        "title": "Space for families and business",
+        "description": "Stylish interiors and professional service – excellent conditions for organizing weddings, celebrations and corporate meetings."
+      },
+      "hospitality": {
+        "title": "We are here for you",
+        "description": "Every guest is important to us – we focus on warm atmosphere, comfort and attention to detail."
+      }
+    }
+  },
+  "offers": {
+    "title": "Explore our packages and exclusive offers",
+    "description": "Take time to unwind or stay active in a setting full of style. Pick the package that matches your needs and explore everything Hotel Avangarda has prepared for you.",
+    "details": "Details",
+    "from": "from",
+    "availability": "Available packages change seasonally. Check current offers below or contact reception for the latest information.",
+    "browseTitle": "Browse Available Packages",
+    "imageAlt": "Image illustrating our special offers",
+    "knowMore": "Know more"
+  },
+  "restaurants": {
+    "title": "Restaurants & Bars",
+    "description": "Three unique venues, three distinct flavors. At Dzika Róża, tradition meets modernity with exquisite dishes that delight our guests. Klub Coola serves authentic Italian pizza, handcrafted burgers, and pastries from our hotel patisserie. And at the seasonal Przystań Avangarda, fresh fish and a holiday atmosphere take center stage. A children’s menu is available at all of our venues.",
+    "details": "Details"
+  },
+  "diningDetails": {
+    "ctaTitle": "Reserve Your Table Today",
+    "ctaDescription": "Experience our exceptional cuisine and atmosphere. Call us to book your table or download our menu to explore our delicious offerings.",
+    "callToBook": "Call to Book",
+    "downloadMenu": "Download Menu"
+  },
+  "fortDetails": {
+    "title": "FORT No.4",
+    "description": "The Fort is barbecue restaurant located in the heart of the city. We offer a wide range of dishes that will satisfy even the most demanding palates. We invite you to taste our culinary delights."
+  },
+  "portDetails": {
+    "title": "Port",
+    "description": "Port is a place where you can relax and have fun. We offer a wide range of drinks and snacks, as well as a unique atmosphere that will make your evening unforgettable.",
+    "button": "Details"
+  },
+  "rooms": {
+    "title": "Our Rooms",
+    "description": "Our hotel consists of two buildings and offers 42 comfortable rooms, including single and double rooms, family studios, and apartments. The main building is equipped with an elevator, and some rooms feature a balcony with views of the garden or the Narew River. The adjoining building offers spacious rooms for two, three, or five guests.",
+    "mainDescription": "We offer a wide selection of comfortable rooms and apartments, tailored to the needs of every guest – from cozy interiors for couples to spacious apartments perfect for family holidays.",
+    "everyRoomHas": "Each room is equipped with:",
+    "chooseRoom": "Choose your room",
+    "bookNow": "Book now",
+    "amenitiesTitle": "Room Amenities",
+    "whatsIncluded": {
+      "title": "What's Included",
+      "breakfast": "Breakfast",
+      "poolSaunaJacuzzi": "Pool, saunas, jacuzzi",
+      "saltCave": "Salt cave",
+      "gym": "Gym",
+      "playroom": "Children's playroom",
+      "dailyHousekeeping": "Daily housekeeping",
+      "parking": "Parking"
+    },
+    "roomAmenities": {
+      "wifi": "Free Wi-Fi",
+      "ac": "Air conditioning"
+    },
+    "single": {
+      "name": "Single Room",
+      "description": "An air-conditioned room with one double bed for greater sleeping comfort, located on the second floor of the hotel. The room features sloped ceilings and does not have a balcony.",
+      "price": "from 280 PLN / night",
+      "capacity": "1-2 people",
+      "size": "17m²",
+      "beds": "1 x single bed"
+    },
+    "standard": {
+      "name": "Standard Room",
+      "description": "An air-conditioned room with two single beds, located on the first floor of the hotel. The option for a child aged 0–3 does not include an extra bed. Some rooms feature a balcony.",
+      "price": "from 380 PLN / night",
+      "capacity": "1-2 people",
+      "size": "21m²",
+      "beds": "2 x single bed"
+    },
+    "standardPremium": {
+      "name": "Premium Room",
+      "description": "A spacious, air-conditioned family room with either twin or double beds and a sofa bed (sleeping area 140x200 cm). The child option (0–3 years) does not include an additional bed or use of the sofa. The room is located on the hotel’s first floor. Some rooms feature a balcony, while others offer additional amenities for guests with disabilities.",
+      "price": "from 480 PLN / night",
+      "capacity": "1-4 people",
+      "size": "31m²",
+      "beds": "1 x double bed or 2 x single beds + 1 x double sofa bed"
+    },
+    "family": {
+      "name": "Family Room",
+      "description": "An air-conditioned family room featuring a bedroom with two single beds and a living area with a sofa bed (sleeping area 140x200 cm). The child option (0–3 years) does not include an additional bed or use of the sofa. The room has sloped ceilings, is located on the second floor of the hotel, and does not have a balcony.",
+      "price": "from 620 PLN / night",
+      "capacity": "1-4 people",
+      "size": "37m²",
+      "beds": "2 x single beds + 1 x double sofa bed"
+    },
+    "apartment": {
+      "name": "Apartment",
+      "description": "An air-conditioned luxury room with a living area and a separate bedroom featuring a large double bed (sleeping area 220x200 cm). The bedroom has sloped ceilings. The room includes a furnished 15 m² terrace overlooking the wooded surroundings of the Lower Narew Valley and is located on the second floor of the hotel.",
+      "price": "from 620 PLN / night",
+      "capacity": "1-2 people",
+      "size": "77m²",
+      "beds": "1 x king-size bed"
+    },
+    "externalSingle": {
+      "name": "1-Person Room",
+      "description": "An air-conditioned room with a single bed, located on the first or second floor of the hotel’s annex building (100 m from the main Hotel). The room features sloped ceilings and does not have a balcony. Check-in and check-out take place in the main building, where meals included in the offer are also served. Hotel attractions are available in the main building. Please note that the annex has no elevator; access to the room is via stairs. The room offers a view of the historic Tsar’s Road.",
+      "price": "from 220 PLN / night",
+      "capacity": "1 person",
+      "size": "16m²",
+      "beds": "1 x single bed"
+    },
+    "externalDouble": {
+      "name": "2-Person Room",
+      "description": "An air-conditioned twin room with two single beds, located on the first or second floor of the hotel’s annex building (100 m from the main Hotel). The child option (0–3 years) does not include an additional bed. The room features sloped ceilings and does not have a balcony. Check-in and check-out are carried out in the main building, where meals included in the package are also served. Hotel attractions are available in the main building. Please note that the annex has no elevator; access to the rooms is via stairs. Some rooms offer views of the historic Tsar’s Road.",
+      "price": "from 320 PLN / night",
+      "capacity": "1-2 people",
+      "size": "18-25m²",
+      "beds": "2 x single beds"
+    },
+    "externalTriple": {
+      "name": "3-Person Room",
+      "description": "An air-conditioned room with three single beds, located on the first or second floor of the hotel’s annex building (100 m from the main Hotel). The child option (0–3 years) does not include an additional bed. The room features sloped ceilings and does not have a balcony. Check-in and check-out are handled in the main building, where meals included in the package are also served. Hotel facilities and attractions are available in the main building. Please note that the annex has no elevator; access to the rooms is via stairs. Some rooms offer views of the historic Tsar’s Road.",
+      "price": "from 440 PLN / night",
+      "capacity": "1-3 people",
+      "size": "23-45m²",
+      "beds": "3 x single bed"
+    },
+    "externalFamily": {
+      "name": "Family Studio Room",
+      "description": "An air-conditioned family room with two bedrooms: one with two single beds and the other with three. The child option (0–3 years) does not include an additional bed. Some rooms may feature sloped ceilings and none have a balcony. The room is located on the first or second floor of the hotel’s annex building, 100 m from the main Hotel. Check-in and check-out take place in the main building, where meals included in the package are also served. Hotel facilities and attractions are available in the main building. Please note that the annex has no elevator; rooms are accessible by stairs.",
+      "price": "from 560 PLN / night",
+      "capacity": "1-5 people",
+      "size": "38m²",
+      "beds": "5 x single beds"
+    },
+    "features": {
+      "bathroom": "Bathroom with shower",
+      "towels": "Towels",
+      "toiletries": "Toiletries set",
+      "hairdryer": "Hair dryer",
+      "bathrobe": "Bathrobe (available at reception on request)",
+      "teaCoffee": "Tea and coffee making facilities",
+      "fridge": "Refrigerator",
+      "tvChannels": "TV with terrestrial and satellite channels",
+      "airConditioning": "Air conditioning",
+      "freeWifi": "Free internet",
+      "familyBeds": "Family beds",
+      "largeBathroom": "Large bathroom",
+      "fridgeMicrowave": "Fridge with microwave",
+      "loungeArea": "Lounge area",
+      "kingSizeBed": "King-size bed",
+      "sofaBed": "Sofa bed",
+      "kitchenette": "Kitchenette",
+      "diningArea": "Dining area",
+      "luxuryBathroom": "Luxury bathroom",
+      "balcony": "Balcony",
+      "smartTV": "Smart TV",
+      "coffeeMachine": "Coffee machine",
+      "bathroomWithTub": "Bathroom with shower and bathtub",
+      "twoTVs": "2 x TV with internet and terrestrial and satellite channels"
+    }
+  },
+  "gastro": {
+    "tags": {
+      "traditional": "Traditional",
+      "polish": "Polish",
+      "local": "Local ingredients",
+      "seasonal": "Seasonal",
+      "fresh": "Fresh",
+      "changing": "Ever-changing",
+      "sweet": "Sweet",
+      "homemade": "Homemade",
+      "artistic": "Artistic",
+      "kids": "Kids",
+      "fun": "Fun",
+      "healthy": "Healthy"
+    },
+    "specialties": {
+      "polish": {
+        "name": "Traditional Polish Dishes",
+        "description": "Our menu offers classic Polish dishes prepared according to traditional recipes using the highest quality local ingredients. Each dish is a journey through the rich history of Polish cuisine.",
+        "price": "39-89 PLN"
+      },
+      "seasonal": {
+        "name": "Seasonal Menu",
+        "description": "Our seasonal menu changes with the seasons, using the freshest ingredients available at the time. This ensures our dishes always impress with their freshness and intensity of flavors.",
+        "price": "42-95 PLN"
+      },
+      "desserts": {
+        "name": "Exceptional Desserts",
+        "description": "Our pastry shop is famous for its exceptional desserts that are true works of art. Each dessert is a combination of perfect taste, texture, and aesthetics.",
+        "price": "22-38 PLN"
+      },
+      "kids": {
+        "name": "For Children",
+        "description": "We've prepared a special menu for our youngest guests. Healthy and tasty dishes that children love, prepared with the highest quality ingredients.",
+        "price": "22-38 PLN"
+      }
+    },
+    "tabs": {
+      "traditional": "Traditional",
+      "seasonal": "Seasonal",
+      "kids": "For Kids",
+      "desserts": "Desserts"
+    },
+    "intro": {
+      "title": "Delicious Avangarda",
+      "description": "The Head Chef of Hotel Avangarda invites you on a culinary journey through three exceptional venues – from an elegant restaurant and an entertainment-filled club to a charming riverside bar. Each offers unique flavors and an atmosphere perfectly suited to celebrating special moments together.",
+      "seeMenu": "See Menu",
+      "seeMore": "See more",
+      "places": {
+        "dzika-roza": {
+          "name": "Dzika Róża Restaurant",
+          "description": "An elegant restaurant serving modern Polish and international cuisine.",
+          "badge": "Premium",
+          "features": [
+            "Unique taste of dishes",
+            "Stylish interior",
+            "Cozy atmosphere",
+            "Well-equipped bar"
+          ]
+        },
+        "klub-coola": {
+          "name": "Club Coola",
+          "description": "The hotel’s family entertainment center with a bar, bowling alley, and playroom.",
+          "features": [
+            "Italian pizza",
+            "Craft burgers",
+            "Delicious cakes",
+            "Signature drinks"
+          ]
+        },
+        "bar-przystan": {
+          "name": "Przystań Avangarda",
+          "description": "Atmospheric bar by the Narew River with simple cuisine in holiday style.",
+          "badge": "By the river",
+          "features": [
+            "Terrace under sails",
+            "Fresh fish",
+            "Beach bar",
+            "View of the Narew"
+          ]
+        }
+      }
+    },
+    "dzikaRoza": {
+      "title": "Dzika Róża Restaurant",
+      "description": "Welcome to Dzika Róża Restaurant – a place where Polish cuisine tradition gains a modern face. Our signature menu combines classic flavors with innovative presentation, while stylish interior and cozy atmosphere make every visit an exceptional culinary experience.",
+      "seeMenu": "See Menu",
+      "menuUnavailable": "Menu unavailable",
+      "reserveTable": "Reserve a table",
+      "openingHours": "Opening hours",
+      "openingTime": "Mon-Sun: 12:00 – 22:00",
+      "reservations": "Reservations",
+      "phone": "Tel: 29 752 50 34",
+      "email": "info@hotelavangarda.pl",
+      "guestOpinions": "Guest Reviews",
+      "testimonialDescription": "Discover our guests' opinions about culinary experiences at Dzika Róża Restaurant",
+      "imageAlt": "Dzika Róża Restaurant - elegant interior",
+      "logoAlt": "Dzika Róża Restaurant Logo",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Ela",
+          "location": "Warsaw",
+          "rating": 5,
+          "text": "Dzika Róża Restaurant is a true gem! The pork cutlet was perfectly prepared, and the service was extremely professional. The restaurant's atmosphere is elegant, yet cozy. We will definitely return for another dinner.",
+          "date": "November 2024"
+        },
+        {
+          "id": 2,
+          "name": "Marek",
+          "location": "Ciechanów",
+          "rating": 5,
+          "text": "We were here for a family celebration and everything was perfect. The seasonal menu delighted us with flavors, and the homemade desserts are true works of art. I recommend it to anyone looking for exceptional culinary experiences.",
+          "date": "October 2024"
+        }
+      ]
+    }
+  },
+  "gastroClub": {
+    "title": "Klub Coola",
+    "logoAlt": "Klub Coola Logo",
+    "description": "Klub Coola is a place full of flavor and good energy. In a relaxed, friendly atmosphere, you can enjoy aromatic wood-fired pizza, juicy handcrafted burgers, and delicious cakes from our hotel patisserie. At the bar, we serve signature drinks, classic cocktails, and refreshing beverages to perfectly complement moments shared with friends. It’s a space where taste and entertainment come together in perfect harmony.",
+    "menuButton": "View Menu",
+    "menuUnavailable": "Menu unavailable",
+    "reserveButton": "Reserve a table",
+    "openingHours": "Opening hours",
+    "openingHoursDetails": {
+      "weekdays": "Mon – Fri: 4:00 PM – 10:00 PM",
+      "weekend": "Sat - Sun: 10:00 AM – 10:00 PM"
+    },
+    "reservations": "Reservations",
+    "phone": "Tel: 29 752 50 34 (hotel reception)",
+    "email": "info@hotelavangarda.pl",
+    "imageAlt": "Klub Coola - interior",
+    "guestOpinionsTitle": "Guest Reviews",
+    "guestOpinionsSubtitle": "Discover our guests' opinions about unforgettable evenings at Klub Coola",
+    "testimonials": [
+      {
+        "id": "testimonial-1",
+        "text": "Fantastic place to meet with friends! The burgers are delicious, and the drinks are very well prepared. The atmosphere is perfect for long conversations.",
+        "name": "Tomasz K.",
+        "location": "Warsaw",
+        "rating": 5,
+        "date": "October 2023"
+      },
+      {
+        "id": "testimonial-2",
+        "text": "Coola is a real gem! The pizza from the oven is exquisite, and the service is very friendly. Perfect place for a relaxing evening.",
+        "name": "Anna W.",
+        "location": "Łódź",
+        "rating": 5,
+        "date": "September 2023"
+      }
+    ]
+  },
+  "gastroPort": {
+    "title": "Przystań Avangarda",
+    "logoAlt": "Bar Przystań Logo",
+    "description": "Przystań Avangarda brings the flavors of summer to the Narew River – from fresh fish and crisp salads to dishes inspired by the season. Our bar serves refreshing drinks, vibrant cocktails, and aromatic coffee, ideal for unhurried afternoons. With its cozy riverside setting, every meal becomes a moment of pure relaxation with stunning river views.",
+    "menuButton": "View Menu",
+    "menuUnavailable": "Menu unavailable",
+    "reserveButton": "Reserve a table",
+    "openingHours": "Opening hours",
+    "openingHoursDetails": {
+      "seasonMayJuneSep": "May, June and September",
+      "seasonMayJuneSepHours": "Sat-Sun: 2:00 PM – 8:00 PM",
+      "seasonJulAug": "July and August",
+      "seasonJulAugHours": "daily 12:00 PM - 9:00 PM"
+    },
+    "reservations": "Reservations",
+    "phone": "Tel: 29 752 50 34 (hotel reception)",
+    "email": "info@hotelavangarda.pl",
+    "imageAlt": "Bar Przystań - river view",
+    "guestOpinionsTitle": "Guest Reviews",
+    "guestOpinionsSubtitle": "Discover our guests' opinions about unforgettable moments at Przystań Avangarda",
+    "testimonials": [
+      {
+        "id": "testimonial-1",
+        "text": "Bar Przystań is a magical place! Fresh fish straight from the Narew, beautiful river views, and unforgettable atmosphere. I especially recommend the grilled pike-perch - it's a true feast for the palate. Perfect place for a romantic dinner.",
+        "name": "Michał Kowalczyk",
+        "location": "Augustów",
+        "rating": 5,
+        "date": "August 2024"
+      },
+      {
+        "id": "testimonial-2",
+        "text": "We spent a wonderful evening here with the family. The terrace by the river, fresh air, and delicious grilled dishes made us feel like we were on vacation. Very friendly service, and the children loved watching the boats on the river.",
+        "name": "Agnieszka Nowak",
+        "location": "Suwałki",
+        "rating": 5,
+        "date": "July 2024"
+      }
+    ]
+  },
+  "entertainmentIntro": {
+    "hotelFull": {
+      "title": "A Hotel with Countless Possibilities",
+      "imageAlt": "Hotel full of possibilities - active recreation",
+      "description": "At Hotel Avangarda, there’s no time for boredom – something is happening here all year round! Families and children can enjoy Klub Coola, our family entertainment center with a playroom, bowling alley, and plenty of attractions. For those seeking relaxation, we offer a wellness zone with a pool, jacuzzi, salt cave, two saunas, and a full range of massages and beauty treatments. Active guests can experience kayaking on the picturesque Narew River, beach volleyball matches, or rent bicycles and Nordic walking poles. On weekend evenings, the hotel comes alive with dance parties, live concerts, and atmospheric tasting dinners.",
+      "features": {
+        "klubCoola": {
+          "title": "Club Coola",
+          "description": "Non-stop fun!"
+        },
+        "pool": {
+          "title": "Swimming Pool",
+          "description": "8-person jacuzzi and 2 saunas"
+        },
+        "spa": {
+          "title": "Avangarda SPA",
+          "description": "Signature treatments and rituals"
+        },
+        "weekends": {
+          "title": "Attractive Weekends",
+          "description": "No time for boredom here",
+          "features": {
+            "seasonal": {
+              "title": "Seasonal Attractions",
+              "description": "Four seasons of fun"
+            },
+            "localEvents": {
+              "title": "Local Events",
+              "description": "Folklore of Mazovia and Kurpie"
+            },
+            "nature": {
+              "title": "Mushroom & Fishing Trips",
+              "description": "Clean rivers and beautiful forests"
+            }
+          },
+          "galleryTitle": "Welcome",
+          "gallery": {
+            "alt1": "Fort no.5 - interior",
+            "alt2": "Fort no.5 - barbecue area",
+            "alt3": "Fort no.5 - exterior view",
+            "alt4": "Fort no.5 - historic interior"
+          }
+        },
+        "galleryTitle": "Welcome",
+        "gallery": {
+          "alt1": "Fort no.5 - interior",
+          "alt2": "Fort no.5 - barbecue area", 
+          "alt3": "Fort no.5 - exterior view",
+          "alt4": "Fort no.5 - historic interior"
+        },
+        "location": {
+          "title": "At the Junction of Mazovia and Kurpie",
+          "description": "Area full of folklore"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Kayak trips on the Narew River",
+        "alt2": "Walks in the area",
+        "alt3": "Nordic Walking",
+        "alt4": "Beach volleyball"
+      }
+    },
+    "klubCoola": {
+      "title": "Club Coola - Heart of Family Entertainment",
+      "imageAlt": "Club Coola - family entertainment center",
+      "description": "Step into a space where joy and entertainment last all day long! Discover a bowling alley, vibrant playroom, gaming zone, and a comfortable lounge perfect for sharing moments together. Our bar tempts with Italian pizzas, artisanal burgers, and both classic and signature cocktails. Sweet lovers will delight in freshly brewed coffee and authentic homemade cakes from our hotel patisserie.",
+      "features": {
+        "bowling": {
+          "title": "Bowling",
+          "description": "Two bowling lanes"
+        },
+        "billiard": {
+          "title": "Billiards",
+          "description": "Competition in good style"
+        },
+        "games": {
+          "title": "Game Zone",
+          "description": "Foosball, air hockey, and darts"
+        },
+        "playroom": {
+          "title": "Playroom",
+          "description": "70 m2 of good fun"
+        },
+        "bar": {
+          "title": "Bar",
+          "description": "Drinks and snacks"
+        },
+        "lounge": {
+          "title": "Comfortable Lounges",
+          "description": "Rest in club style"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Darts at Club Coola",
+        "alt2": "Air hockey at Club Coola",
+        "alt3": "Billiards at Club Coola",
+        "alt4": "Bar at Club Coola"
+      }
+    },
+    "spaSection": {
+      "title": "Experience the Luxury of Total Serenity",
+      "imageAlt": "Attractions for children - playground",
+      "description": "In the Wellness Zone of Hotel Avangarda, you will discover an exclusive world of relaxation. Immerse yourself in the extraordinary atmosphere of our SPA, where the warmth of the jacuzzi, soothing saunas, and the therapeutic microclimate of the salt cave let you forget about everyday life. For complete rejuvenation, we have created signature rituals that provide deep relaxation and sensory harmony. You are also invited to enjoy a wide selection of massages and facial and body treatments performed by our experienced therapists. Avangarda SPA is a place designed for moments just for you – where time slows down and inner balance is restored.",
+      "features": {
+        "massages": {
+          "title": "Massages",
+          "description": "Relaxation and tranquility"
+        },
+        "treatments": {
+          "title": "Beauty Treatments",
+          "description": "World-class cosmetic brands"
+        },
+        "pool": {
+          "title": "Recreation Pool",
+          "description": "Water fun all year round"
+        },
+        "jacuzzi": {
+          "title": "Jacuzzi",
+          "description": "Soothing warmth of water"
+        },
+        "saunas": {
+          "title": "Two Saunas",
+          "description": "Finnish and Infrared"
+        },
+        "saltCave": {
+          "title": "Salt Cave",
+          "description": "Therapeutic microclimate"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Children's playground",
+        "alt2": "Educational trail",
+        "alt3": "Children's paddling pool",
+        "alt4": "Children's game room"
+      }
+    },
+    "activeRest": {
+      "title": "Active Leisure",
+      "imageAlt": "Active recreation",
+      "description": "At Hotel Avangarda, active leisure is pure pleasure – for both young and old! Kayaking along the Narew River is a wonderful way to relax as a family while surrounded by nature. Active guests can also enjoy cycling, Nordic walking, and beach volleyball, perfect for sunny days. For fitness enthusiasts, a modern gym equipped with professional Matrix Fitness machines is available all year round.",
+      "features": {
+        "kayaking": {
+          "title": "Kayaking Trips",
+          "description": "Discover the beauty of Narew"
+        },
+        "pedalBoats": {
+          "title": "Pedal Boats",
+          "description": "Family relaxation on water"
+        },
+        "volleyball": {
+          "title": "Beach Volleyball",
+          "description": "Sports competition on sand"
+        },
+        "bikes": {
+          "title": "Bicycles",
+          "description": "Explore the area actively"
+        },
+        "nordicWalking": {
+          "title": "Nordic Walking",
+          "description": "Step by step towards health"
+        },
+        "gym": {
+          "title": "Gym",
+          "description": "Professional Matrix Fitness equipment"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Active recreation",
+        "alt2": "Active recreation",
+        "alt3": "Active recreation",
+        "alt4": "Active recreation"
+      }
+    },
+    "weekends": {
+      "title": "Weekends Full of Fun",
+      "imageAlt": "Weekends full of attractions - Fort no.5",
+      "description": "Weekends at Hotel Avangarda are filled with energy, flavor, and unforgettable experiences! Enjoy evenings with live music, vibrant dance parties, and atmospheric tasting dinners. Seasonally, we invite you to attractions such as Santa’s Village and the Pumpkin Farm. Located at the crossroads of Mazovia and Kurpie, our hotel also offers the chance to experience the most colorful Polish folklore in the surrounding area.",
+      "features": {
+        "liveMusic": {
+          "title": "Live Music",
+          "description": "Local musicians full of passion"
+        },
+        "danceParties": {
+          "title": "Dance Parties",
+          "description": "Atmosphere of the best fun"
+        },
+        "tastingDinners": {
+          "title": "Tasting Dinners",
+          "description": "Good cuisine is our specialty!"
+        },
+        "seasonalAttractions": {
+          "title": "Seasonal Attractions",
+          "description": "Four seasons of fun"
+        },
+        "localEvents": {
+          "title": "Local Events",
+          "description": "Folklore of Mazovia and Kurpie"
+        },
+        "nature": {
+          "title": "Mushroom and Fishing Trips",
+          "description": "Clean rivers and beautiful forests"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Fort no.5 - interior",
+        "alt2": "Fort no.5 - barbecue area",
+        "alt3": "Fort no.5 - exterior view",
+        "alt4": "Fort no.5 - historic interior"
+      }
+    }
+  },
+  "spaIntro": {
+    "spa": {
+      "title": "Avangarda SPA",
+      "imageAlt": "Spa Avangarda - wellness treatments",
+      "description": "Welcome to our exceptional SPA zone – a place designed with your complete comfort and rejuvenation in mind. Here, silence, soothing aromas, and the touch of professional treatments allow you to escape everyday life. We offer a wide selection of massages, facial and body treatments with world-renowned cosmetics, as well as signature rituals created exclusively for this space. Our team of experienced therapists ensures every detail is cared for, making your time in the SPA a true retreat for both body and mind.",
+      "downloadMenusTitle": "Download treatment menus:",
+      "downloadButtons": {
+        "massagesRituals": "Massages & rituals",
+        "faceTreatments": "Face treatments",
+        "bodyTreatments": "Body treatments",
+        "kidsSpa": "Kids SPA"
+      },
+      "reserveVisitButton": "Book an appointment",
+      "authorTreatmentsTitle": "Our signature treatments"
+    },
+    "pool": {
+      "title": "Swimming Pool",
+      "imageAlt": "Hotel Avangarda Swimming Pool",
+      "description1": "Welcome to the pool area at Hotel Avangarda – here you’ll find a leisure pool, a children’s paddling pool, an 8-person jacuzzi, and two soothing saunas – Finnish and Infrared – along with a comfortable relaxation zone featuring a heated lounger, foot baths for pre-sauna rituals, and an ice fountain for cooling the body with refreshing ice flakes. In this space, water, warmth, and silence create the perfect harmony of relaxation.",
+      "description2": "The pool is available exclusively for hotel guests. If you're not staying at our hotel but would like to use the pool, check out our Family Sunday and DAY SPA packages.",
+      "downloadPackagesTitle": "Download package information:",
+      "downloadButtons": {
+        "familySunday": "Family Sunday",
+        "daySpa": "Day Spa"
+      },
+      "galleryTitle": "Welcome",
+      "galleryImages": {
+        "poolKids": "Pool with hydromassage",
+        "poolRelax": "Relaxation area by the pool",
+        "poolView": "Pool view from above",
+        "poolLighting": "Pool lighting"
+      }
+    },
+    "saltCave": {
+      "title": "Salt Cave",
+      "imageAlt": "Avangarda Salt Cave",
+      "description1": "Our salt cave is a natural therapeutic environment that creates a unique microclimate rich in negative ions and trace elements such as iodine, potassium, calcium, magnesium, bromine, and selenium – present here at concentrations several times higher than by the sea.",
+      "description2": "In our graduation tower, we use brine from Zabłocie, drawn for over 120 years from the ‘KORONA’ well in the Zabłocie-Solanka health resort, sourced from deep deposits of iodine-bromine therapeutic waters.",
+      "description3": "Sessions in the salt cave support the treatment of respiratory diseases, hypertension, hypothyroidism, and cardiovascular conditions. They strengthen the immune system, reduce stress and fatigue, and aid the regeneration of the nervous system – also in children.",
+      "gallery": {
+        "alt1": "Salt cave interior",
+        "alt2": "Himalayan salt in the cave",
+        "alt3": "Cave lighting"
+      }
+    },
+    "gym": {
+      "title": "Gym & Fitness",
+      "imageAlt": "Matrix Avangarda Gym",
+      "description": "Our modern gym, equipped with professional Matrix machines, is the perfect place for a workout at any time of day. We offer a wide range of cardio and strength-training equipment suitable for both beginners and advanced users. You’ll find treadmills, bikes, cross-trainers, as well as strength machines and free weights. The space is air-conditioned, well-lit, and designed to ensure a comfortable training experience.",
+      "gallery": {
+        "alt": "Matrix Avangarda Gym",
+        "alt1": "Matrix cardio equipment",
+        "alt2": "Strength zone",
+        "alt3": "Free weights", 
+        "alt4": "Gym overview"
+      }
+    },
+    "testimonials": {
+      "title": "Guest Reviews",
+      "subtitle": "Discover our guests' opinions about relaxing moments spent at Avangarda SPA",
+      "reviews": [
+        {
+          "id": "testimonial-1",
+          "text": "The Spa at Hotel Avangarda is a true paradise for body and soul! The relaxation massage was amazing, and the salt cave helped me regenerate after a stressful week. Very professional and friendly staff. I'll definitely be back!",
+          "name": "Marta",
+          "location": "Białystok",
+          "rating": 5,
+          "date": "May 2024"
+        },
+        {
+          "id": "testimonial-2",
+          "text": "We spent a wellness weekend with my wife and it was fantastic! Face treatments, massages, and relaxation in the spa zone. Everything at the highest level. I especially recommend the couples package - romantic and relaxing.",
+          "name": "Krzysztof",
+          "location": "Suwałki",
+          "rating": 5,
+          "date": "August 2024"
+        }
+      ]
+    }
+  },
+  "forKidsIntro": {
+    "kidsFriendly": {
+      "title": "Family-Friendly Hotel",
+      "imageAlt": "Hotel full of possibilities - active recreation",
+      "description": "Plan a family weekend, holiday, or vacation in a place that truly cares for the needs of the whole family. We’ve created a real paradise for children – with a playroom, bowling alley, swimming pool, and daily activities that guarantee smiles every day. Family packages, comfortable rooms, and practical amenities make staying with kids a pure pleasure. Add to that delicious and healthy menus to satisfy even the pickiest eaters, and you’ll find that every member of the family feels special with us!",
+      "features": {
+        "familyPackages": {
+          "title": "Family Packages",
+          "description": "Plenty of attractions included in the price"
+        },
+        "familyRooms": {
+          "title": "Rooms for the Whole Family",
+          "description": "Comfortable rooms for small and big guests."
+        },
+        "roomAmenities": {
+          "title": "Room Amenities",
+          "description": "Available upon request"
+        },
+        "healthyKitchen": {
+          "title": "Healthy Cuisine",
+          "description": "Delicious for little gourmets"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Kayak trips on the Narew River",
+        "alt2": "Walks in the area",
+        "alt3": "Nordic Walking",
+        "alt4": "Beach volleyball"
+      }
+    },
+    "fourPlayZones": {
+      "title": "Four Zones of Children’s Fun",
+      "imageAlt": "Club Coola - family entertainment center",
+      "description": "At Hotel Avangarda, the fun never ends – we’ve created magical spaces where children feel as if they’ve stepped into a fairy tale! In the colorful playroom, little ones can enjoy a ball pit and an interactive magic carpet that transforms the floor into a world of games and adventures. Our family-friendly bowling alley, equipped with features for the youngest players, is a great way to share joy and a bit of healthy competition. Outdoors, children will find a playground with swings, a sandbox, and toys – the perfect spot for carefree moments. And in summer, the highlight is Avangarda Marina, with its sandy playground, swings, and inflatable castle – offering endless possibilities for outdoor fun!",
+      "features": {
+        "playRoom": {
+          "title": "Playroom",
+          "description": "Monkey jungle and magic carpet"
+        },
+        "bowling": {
+          "title": "Bowling Alley",
+          "description": "Family entertainment center"
+        },
+        "playground": {
+          "title": "Playground",
+          "description": "Fun in the shade of a large maple"
+        },
+        "marina": {
+          "title": "Avangarda Marina",
+          "description": "Beach, sand, and fun"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Darts at Club Coola",
+        "alt2": "Air hockey at Club Coola",
+        "alt3": "Billiards at Club Coola",
+        "alt4": "Bar at Club Coola"
+      }
+    },
+    "kidsSpa": {
+      "title": "Wellness & SPA for Children",
+      "imageAlt": "Attractions for children - playground",
+      "description": "In our Wellness & SPA zone, we care for the wellbeing of the youngest guests – because children deserve special attention. Our shallow pool (120 cm) and safe paddling area are the perfect setting for first water adventures. Within our Kids SPA, we offer gentle massages and treatments tailored to children’s needs. For local families, we’ve created the special Family Sunday package, combining relaxation, water fun, and a family lunch in a warm, welcoming atmosphere. It’s the perfect way to share quality time and ensure wellbeing for the whole family!",
+      "downloadTitle": "Download information about offers:",
+      "downloadButtons": {
+        "familySunday": "Family Sunday",
+        "kidsSpa": "Kids SPA"
+      },
+      "features": {
+        "paddling": {
+          "title": "Children's Paddling Pool",
+          "description": "Safe water play"
+        },
+        "shallowPool": {
+          "title": "Shallow Pool",
+          "description": "Perfect for first swimming"
+        },
+        "kidsSpaServices": {
+          "title": "Kids SPA",
+          "description": "Little spa, big fun"
+        },
+        "familySunday": {
+          "title": "Family Sunday",
+          "description": "Day full of attractions"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Children's playground",
+        "alt2": "Educational trail",
+        "alt3": "Children's paddling pool",
+        "alt4": "Children's game room"
+      }
+    },
+    "seasonalAttractions": {
+      "title": "Seasonal Attractions for Children",
+      "imageAlt": "Active recreation - pool and relaxation",
+      "description": "At Hotel Avangarda, every season brings new adventures for the youngest guests! In winter, children can step into the region’s largest magical Santa’s Village, filled with lights, surprises, and festive animations. In autumn, we invite you to the colorful Pumpkin Farm, offering pumpkin-themed decorations, outdoor games, and creative workshops. On colder days, kids can let off steam in our huge inflatable playroom, bursting with energy and fun. And in summer? It’s time for holidays full of attractions, animations, and outdoor activities! These seasonal attractions are also available as organized workshops for schools and kindergartens.",
+      "downloadTitle": "Download information about attractions:",
+      "downloadButton": "Seasonal Attractions",
+      "features": {
+        "santaVillage": {
+          "title": "Santa's Village",
+          "description": "Christmas magic come to life"
+        },
+        "pumpkinFarm": {
+          "title": "Pumpkin Farm",
+          "description": "Autumn full of fun"
+        },
+        "inflatables": {
+          "title": "Huge Hall with Inflatables",
+          "description": "Jump, play, and laugh!"
+        },
+        "summerVacation": {
+          "title": "Vacation Full of Attractions",
+          "description": "Summer full of adventures"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Pool with hydromassage",
+        "alt2": "Relaxation area by the pool",
+        "alt3": "Pool view from above",
+        "alt4": "Pool lighting"
+      }
+    },
+    "kidsParty": {
+      "title": "Children's Birthday Parties",
+      "imageAlt": "Weekends full of attractions - Fort no.5",
+      "description": "At Hotel Avangarda, we make children’s birthday dreams come true! We organize unforgettable parties all year round – in the colorful playroom at Klub Coola for younger children or with bowling fun for teenagers. From spring to autumn, birthdays can also be celebrated outdoors – by the fire at Dymna Polana or in the special kids’ zone at Avangarda Marina. Every party is filled with laughter and creative fun, thanks to a wide range of age-appropriate animations. We serve delicious snacks and sweet treats for the little ones, while parents can relax in a comfortable lounge with refreshments. Celebrate your child’s special day with us!",
+      "downloadTitle": "Download information about birthday parties:",
+      "downloadButton": "Children's Birthday Parties",
+      "features": {
+        "clubCoola": {
+          "title": "Club Coola",
+          "description": "Comfortable and delicious"
+        },
+        "fireplace": {
+          "title": "Smoky Clearing",
+          "description": "Family time by the fireplace"
+        },
+        "marina": {
+          "title": "Avangarda Marina",
+          "description": "Birthday on the beach"
+        },
+        "animations": {
+          "title": "Animations",
+          "description": "Adapted to interests"
+        }
+      },
+      "galleryTitle": "Welcome",
+      "gallery": {
+        "alt1": "Coola Club - colorful playroom",
+        "alt2": "Fire Meadow - barbecue area",
+        "alt3": "Avangarda Marina - exterior view",
+        "alt4": "Animations - kids playing"
+      }
+    }
+  },
+  "spa": {
+    "title": "Spa & Wellness",
+    "description": "Welcome to our exclusive spa, where body and mind harmony is our priority. We offer comprehensive wellness, relaxing, and beautifying treatments that have been carefully selected to provide our guests with the highest level of relaxation and regeneration. Our spa is an oasis of peace where you can escape from everyday stress and immerse yourself in an atmosphere of luxury and relaxation.",
+    "description2": "We invite you to our modern Wellness area. For all guests, we have prepared a recreational pool, paddling pool, and jacuzzi. Adults have two saunas at their disposal - Finnish and Infrared - and a relaxation room with a heated lounger, footbaths for soaking before saunas, and an ice well to cool the body with ice flakes.",
+    "main": {
+      "title": "Avangarda SPA",
+      "description": "Discover a haven of tranquility at the luxurious Avangarda SPA – a place where body and mind regain harmony. Here, time slows down and every moment embraces the senses. Soothing massages, signature rituals, and a wealth of rejuvenating treatments will make you feel exceptional from the very first touch.",
+      "wellnessTitle": "Wellness",
+      "wellnessDescription": "The Wellness Zone at Hotel Avangarda is a family-friendly space for relaxation. Our indoor leisure pool with a paddling area for children invites the whole family to enjoy time together. You’ll also find a soothing 8-person jacuzzi and two saunas, perfect for easing the body and clearing the mind.",
+      "wellnessDescription2": "A session in the salt cave will soothe your mind, restore your energy, and strengthen your immunity, while our modern gym allows you to stay active no matter the weather.",
+      "wellnessDescription3": "The perfect place to stay active and enjoy healthy moments with your loved ones.",
+      "learnMore": "Learn more"
+    },
+    "wellnessTitle": "Wellness & Spa",
+    "wellnessSubtitle": "Comprehensive treatments for body and soul",
+    "wellnessDescription": "Our wellness zone offers a wide selection of treatments that will help you take care of your body and mind. Our experienced therapists use the highest quality cosmetics and techniques to provide you with unforgettable experiences and visible effects.",
+    "downloadCatalog": "Download treatment catalog",
+    "saltRoomTitle": "Salt Room",
+    "saltRoomSubtitle": "Salt therapy for health and relaxation",
+    "saltRoomDescription": "Our salt room is a unique place where you can experience the beneficial properties of Himalayan salt. The microclimate in the salt room supports the treatment of many respiratory ailments, strengthens immunity, and has a relaxing effect on the entire body.",
+    "saltRoomBenefits": {
+      "respiratory": {
+        "title": "Respiratory support",
+        "description": "helps in the treatment of asthma, allergies, and other respiratory ailments"
+      },
+      "immunity": {
+        "title": "Strengthening immunity",
+        "description": "regular sessions in the salt room strengthen the body's natural immunity"
+      },
+      "stress": {
+        "title": "Relaxation and stress reduction",
+        "description": "the atmosphere of the salt room promotes deep relaxation and tension reduction"
+      }
+    },
+    "saltRoomPrices": {
+      "individual": {
+        "title": "Individual session",
+        "price": "60 PLN / 45 min"
+      },
+      "family": {
+        "title": "Family session (up to 4 people)",
+        "price": "160 PLN / 45 min"
+      },
+      "fivepack": {
+        "title": "5-session pass",
+        "price": "250 PLN"
+      }
+    },
+    "beautyTitle": "Beauty Salon",
+    "beautySubtitle": "Professional hand and nail care",
+    "beautyDescription": "Our manicure salon offers comprehensive hand and nail care. We use the highest quality products and the latest techniques to provide you with the perfect manicure that will last for a long time.",
+    "beautyServices": {
+      "classic": {
+        "title": "Classic manicure",
+        "description": "Traditional manicure with classic polish",
+        "price": "90 PLN"
+      },
+      "hybrid": {
+        "title": "Hybrid manicure",
+        "description": "Long-lasting manicure using hybrid polish",
+        "price": "120 PLN"
+      },
+      "japanese": {
+        "title": "Japanese manicure",
+        "description": "Nourishing treatment strengthening natural nails",
+        "price": "110 PLN"
+      },
+      "extension": {
+        "title": "Nail extension",
+        "description": "Professional nail extension using gel method",
+        "price": "from 180 PLN"
+      }
+    },
+    "bookAppointment": "Book an appointment",
+    "seeGallery": "See our work",
+    "hoursTitle": "Opening hours and pricing",
+    "priceNote": "* Prices may vary depending on the selected treatment. Detailed price list available at the spa reception.",
+    "phoneReservation": "Phone reservation",
+    "onlineReservation": "Online reservation",
+    "treatments": {
+      "massage": {
+        "name": "Relaxing massages",
+        "description": "A wide range of massages that will help you relax and unwind.",
+        "priceRange": "150 - 350 PLN",
+        "duration": "30 - 90 min"
+      },
+      "face": {
+        "name": "Facial treatments",
+        "description": "Professional care treatments for every skin type.",
+        "priceRange": "180 - 450 PLN",
+        "duration": "45 - 75 min"
+      },
+      "body": {
+        "name": "Body treatments",
+        "description": "Nourishing and rejuvenating treatments for your entire body.",
+        "priceRange": "200 - 480 PLN",
+        "duration": "60 - 90 min"
+      },
+      "seasonal": {
+        "name": "Seasonal treatments",
+        "description": "Special treatments that change with the seasons to address specific needs.",
+        "priceRange": "220 - 500 PLN",
+        "duration": "60 - 120 min"
+      },
+      "rituals": {
+        "name": "Spa rituals",
+        "description": "Comprehensive rituals for body and mind, inspired by traditions from around the world.",
+        "priceRange": "280 - 600 PLN",
+        "duration": "90 - 120 min"
+      }
+    },
+    "services": {
+      "hotStones": {
+        "name": "Hot Stone Massage",
+        "description": "Deeply relaxing massage using hot basalt stones.",
+        "price": "from 220 PLN",
+        "duration": "60 min"
+      },
+      "rejuvenation": {
+        "name": "Luxury rejuvenating treatment",
+        "description": "Intensively regenerating treatment using stem cells.",
+        "price": "from 380 PLN",
+        "duration": "75 min"
+      },
+      "chocolate": {
+        "name": "Chocolate ritual",
+        "description": "Nourishing ritual using natural chocolate and shea butter.",
+        "price": "from 320 PLN",
+        "duration": "90 min"
+      }
+    },
+    "hours": {
+      "title": {
+        "spa": "Pool & Spa Area",
+        "saltRoom": "Salt Room",
+        "manicure": "Manicure Salon"
+      },
+      "weekdaysLabel": "Monday - Friday",
+      "weekendsLabel": "Saturday - Sunday",
+      "spa": {
+        "weekdays": "10:00 - 21:00",
+        "weekends": "09:00 - 22:00"
+      },
+      "saltRoom": {
+        "weekdays": "11:00 - 20:00",
+        "weekends": "10:00 - 21:00"
+      },
+      "manicure": {
+        "weekdays": "10:00 - 19:00",
+        "weekends": "09:00 - 18:00"
+      },
+      "prices": {
+        "spa": "from 80 PLN / entry",
+        "saltRoom": "from 60 PLN / session",
+        "manicure": "from 90 PLN / treatment"
+      }
+    },
+    "poolTitle": "Swimming Pool",
+    "poolSubtitle": "Relax and Rejuvenate",
+    "poolDescription": "Our luxurious swimming pool offers a perfect retreat for relaxation and recreation. Immerse yourself in the crystal-clear waters and enjoy a refreshing swim in a tranquil environment designed for your comfort and pleasure.",
+    "poolFeatures": {
+      "temperature": {
+        "title": "Temperature Control",
+        "description": "Maintained at the perfect temperature year-round for your comfort."
+      },
+      "facilities": {
+        "title": "Premium Facilities",
+        "description": "Comfortable loungers, fresh towels, and changing rooms available."
+      },
+      "access": {
+        "title": "Easy Access",
+        "description": "Complimentary for hotel guests, with day passes available for visitors."
+      }
+    },
+    "poolPrices": {
+      "adult": {
+        "title": "Adult Pass",
+        "price": "50 PLN / 2h"
+      },
+      "child": {
+        "title": "Child Pass",
+        "price": "30 PLN / 2h"
+      },
+      "family": {
+        "title": "Family Pass",
+        "price": "120 PLN / 2h"
+      }
+    },
+    "kidsPoolTitle": "Kids Swimming Area",
+    "kidsPoolDescription": "We've created a special swimming area just for our younger guests. Our kids' pool provides a safe and fun environment where children can splash and play under careful supervision.",
+    "kidsPoolFeatures": {
+      "safety": {
+        "title": "Safety First",
+        "description": "Shallow depth and non-slip surfaces designed with children's safety in mind."
+      },
+      "fun": {
+        "title": "Fun Elements",
+        "description": "Playful water features and toys to keep children entertained."
+      },
+      "supervision": {
+        "title": "Supervision",
+        "description": "Trained staff on hand, though parental supervision is still required."
+      }
+    },
+    "bookPoolSession": "Book Pool Session"
+  },
+  "events": {
+    "title": "Family celebrations with a unique touch",
+    "description": "Host an unforgettable wedding, communion, or family celebration in the elegant interiors of Hotel Avangarda. Spacious halls, exquisite menus, professional service, and a wealth of additional amenities create the perfect setting to celebrate life’s most important moments right here. We have also designed two unique outdoor venues – Fort No. 4 and Przystań Avangarda on the Narew River – ideal for open-air celebrations. A highlight of our offer is the extensive infrastructure for children: a colorful playroom, outdoor playground, bowling alley, swimming pool, inflatable castles and slides, as well as creative animation programs. With so much to enjoy, children are never bored – and parents can relax and celebrate too!",
+    "bookDate": "Book a date",
+    "downloadOffer": "Download offer",
+    "venuesTitle": "Our spaces",
+    "venuesDescription": "We offer a variety of spaces that can be tailored to the character of your event. Whether you’re planning an intimate gathering or a grand wedding, we’ll ensure the perfect setting and the comfort of your guests.",
+    "checkAvailability": "Check availability",
+    "availableDates": "Available dates",
+    "availabilityDescription": "Below you will find a calendar with available dates for organizing a wedding or party. Green dates indicate available dates. Select a date to check details or book a date.",
+    "selectedDate": "Selected date",
+    "dateAvailable": "This date is available! Contact us to discuss details.",
+    "reserveDate": "Book a date",
+    "inquireDetails": "Ask about details",
+    "galleryTitle": "Gallery",
+    "downloadOfferText": "Download our detailed wedding offer, which includes full menu, price packages and all available options and additional services.",
+    "downloadWeddingOffer": "Download wedding offer",
+    "downloadOfferForm": {
+      "title": "Download wedding offer",
+      "description": "Fill out a short form to receive a complete wedding offer with menu and price list.",
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "download": "Download offer"
+    },
+    "venues": {
+      "salaBankietowa": {
+        "name": "Banquet Hall",
+        "description": "The spacious banquet hall is the perfect venue for weddings and larger celebrations. Its glamorous décor – featuring dazzling crystal chandeliers, illuminated ceilings, and cascading mirrors – creates an elegant setting for life’s most important moments. Direct access to the green labyrinth with its stylish sundial offers the opportunity to host a wedding ceremony surrounded by nature, as well as a charming space for relaxation and unforgettable outdoor photos.",
+        "size": "680m²",
+        "features": {
+          "danceFloor": "Representative entrance",
+          "stage": "Relaxation zone with comfortable sofas",
+          "soundSystem": "Excellent acoustics",
+          "airConditioning": "Zone air conditioning",
+          "lighting": "Professional lighting",
+          "lockerRooms": "Separate cloakrooms and spacious bathrooms"
+        }
+      },
+      "salaKominkowa": {
+        "name": "Fireplace Hall",
+        "description": "Representative, stylishly furnished hall with an open fireplace - ideal for intimate parties and meetings in a luxurious atmosphere. Perfect for quiet evenings, romantic dinners and celebrations in an intimate style. This is a place that fosters closeness, conversations and joint celebration of important moments.",
+        "size": "45m²",
+        "features": {
+          "intimateSpace": "Intimate family parties",
+          "cozyAtmosphere": "Stylish interior",
+          "fireplace": "Open fireplace",
+          "airConditioning": "Air conditioning",
+          "terrace": "Terrace with comfortable sofas",
+          "dedicatedBathroom": "Dedicated bathroom"
+        }
+      },
+      "salaSosnowa": {
+        "name": "Pine Hall",
+        "description": "Bright, stylishly arranged hall with wooden accents that combines simple elegance with natural charm. It will work perfectly for medium-sized parties, family celebrations or meetings in an intimate group, offering a warm and harmonious atmosphere. The sliding wall system ensures the adaptation of the hall size to the character of the party and the number of guests, and an additional space for guest integration is a spacious, furnished terrace.",
+        "size": "125m²",
+        "features": {
+          "familyEvents": "Ideal for family parties",
+          "flexibleLayout": "Possibility of free arrangement",
+          "lighting": "Natural lighting",
+          "airConditioning": "Air conditioning",
+          "openBuffet": "Modern buffets",
+          "terrace": "Furnished terrace"
+        }
+      },
+      "fortNo4": {
+        "name": "Fort No. 4",
+        "description": "Unique outdoor infrastructure surrounded by greenery. This is the ideal place for a summer family party, birthday, or wedding reception. It is also an excellent choice for those following the latest trends in organizing a wedding party in slow wedding style. This is a place where you can celebrate family relationships and love in a unique, relaxed atmosphere - without rigid framework, pressure of traditions, experiencing relaxation and authenticity.",
+        "size": "350m² (150m² covered)",
+        "features": {
+          "outdoorSpace": "Family parties outdoors",
+          "slowWeddings": "Slow style weddings",
+          "dayAfter": "Wedding receptions like no other",
+          "roofedArea": "Covered outdoor space",
+          "naturalSurroundings": "Natural surroundings",
+          "relaxedAtmosphere": "Unique atmosphere"
+        }
+      },
+      "port": {
+        "name": "Przystań Avangarda",
+        "description": "Located on the very bank of the Narew River, Avangarda Marina is a place created for relaxation among nature. Water, greenery, sand and a unique, holiday climate make every moment here unforgettable. The marina with its rich infrastructure offers many possibilities both for active recreation, free recreation and unique family evenings on the terrace under sails.",
+        "size": "200m²",
+        "features": {
+          "mediterraneanStyle": "Mediterranean style parties",
+          "terrace": "Terrace under sails with a view of the Narew",
+          "wedding": "Wedding ceremonies by the riverbank",
+          "beachbar": "Beach bar with colorful drinks",
+          "beachBeds": "Beach beds and baskets for relaxation",
+          "childrenPlayground": "Attractions for children"
+        }
+      },
+      "openGrill": {
+        "name": "Dymna Polana",
+        "description": "Dymna Polana is an intimate, secluded space nestled among the trees above Fort No. 4. It’s a place that encourages open conversations, relaxed family gatherings, and where the warmth of the fire brings generations together. The clearing features two covered gazebos for comfort in any weather, a large fire pit, and wooden log seating – natural, atmospheric, and inviting. The spacious, fenced grassy area also provides a perfect playground for children.",
+        "size": "150m²",
+        "features": {
+          "familyMeetings": "Family meetings by the fire",
+          "bachelorParty": "Bachelor and bachelorette parties",
+          "roofedArea": "Two covered gazebos",
+          "rentArea": "Possibility of renting the area only",
+          "sunbeds": "Sunbeds and hammocks for relaxation",
+          "childrenPlayground": "Space for children's games"
+        }
+      }
+    },
+    "venueInfo": {
+      "maxGuests": "Maximum number of guests",
+      "area": "Area",
+      "amenities": "This is unique",
+      "seeGallery": "See gallery",
+      "people": "people"
+    },
+    "offers": {
+      "wedding": {
+        "title": "Wedding offer",
+        "description": "Wedding packages, menus and additional services",
+        "downloadLink": "Download PDF offer",
+        "features": [
+          "Wedding menu with a selection of dishes",
+          "Wedding cake and sweets",
+          "Decoration of the hall and tables",
+          "Professional service",
+          "Additional attractions"
+        ]
+      },
+      "firstCommunion": {
+        "title": "First Communion",
+        "description": "Offers for celebrating First Communion and children's parties",
+        "downloadLink": "Download PDF offer",
+        "features": [
+          "Special menu for children",
+          "Professional animation",
+          "Hall decoration",
+          "Birthday cakes",
+          "Access to children's amenities"
+        ]
+      }
+    },
+    "gallery": {
+      "salaBankietowa": {
+        "alt": "Elegant Banquet Hall with round tables",
+        "title": "Banquet Hall"
+      },
+      "salaKominkowa": {
+        "alt": "Intimate Fireplace Hall with cozy atmosphere",
+        "title": "Fireplace Hall"
+      },
+      "salaSosnowa": {
+        "alt": "Stylish Pine Hall with wooden elements",
+        "title": "Pine Hall"
+      },
+      "fortNo4": {
+        "alt": "Fort No. 4 - outdoor space",
+        "title": "Fort No. 4"
+      },
+      "buffet": {
+        "alt": "Buffet with appetizers",
+        "title": "Exquisite Menu"
+      },
+      "dessertTable": {
+        "alt": "Wedding cake",
+        "title": "Sweet Table"
+      }
+    }
+  },
+  "eventsByCategory": {
+    "downloadOffer": "DOWNLOAD OFFER",
+    "whatMakesUsSpecial": "What makes us special:",
+    "eventTypes": {
+      "wesela": {
+        "title": "Your perfect wedding celebration",
+        "subtitle": "Unforgettable Moments in a Unique Setting",
+        "description": "Just an hour from Warsaw, Hotel Avangarda is where dreams of an unforgettable wedding come true. An impressive banquet hall, exquisite cuisine, and professional service combine to create the perfect recipe for your dream celebration. We host everything from elegant glamour-style receptions to stylish outdoor weddings and intimate family wedding dinners. With our experience, passion, and knowledge of the latest trends, we ensure your special day will truly be unforgettable.",
+        "features": [
+          "Care of an experienced wedding coordinator",
+          "Comfortable hotel at guests' disposal",
+          "Banquet hall for 300 people",
+          "Stylish outdoor weddings",
+          "Intimate wedding dinners",
+          "Excellent cuisine",
+          "Recommended decorators, musicians and cake makers",
+          "Rich offer of attractions for children"
+        ]
+      },
+      "komunie": {
+        "title": "Communions – family celebrations straight out of childhood dreams",
+        "subtitle": "Celebrating important moments in life",
+        "description": "Celebrate unforgettable family occasions with us – from birthdays and christenings to important anniversaries. Alongside exquisite cuisine, Hotel Avangarda offers a complete service for organizing family gatherings, providing your guests with access to a comfortable hotel featuring a swimming pool, bowling alley, children’s playroom, and convenient parking. Together with our team of experienced chefs and professional service staff, we take care of every detail to create truly special family moments.",
+        "features": [
+          "Halls for 20-150 people",
+          "Excellent cuisine",
+          "Rich offer of attractions for children",
+          "Photo wall for family pictures",
+          "Sweet buffet with chocolate fountain",
+          "Recommended decorators and cake makers"
+        ]
+      },
+      "uroczystosci-rodzinne": {
+        "title": "Exceptional family celebrations",
+        "subtitle": "Celebrate with family in extraordinary atmosphere",
+        "description": "Organize unforgettable family celebrations with us – birthdays, baptisms or important anniversaries. Hotel Avangarda, in addition to excellent gastronomy, provides comprehensive service for organizing family parties, providing your guests with a comfortable hotel with swimming pool, bowling alley, children's playroom and parking. Together with a team of experienced chefs, professional waitstaff, with attention to every detail - we create exceptional family moments!",
+        "features": [
+          "Care of an experienced coordinator",
+          "Halls for 20-150 people",
+          "Excellent cuisine",
+          "Rich offer of attractions for children",
+          "Recommended decorators and cake makers",
+          "Musical accompaniment and additional attractions"
+        ]
+      },
+      "przyjecia-plenerowe": {
+        "title": "Stylish outdoor celebrations",
+        "subtitle": "Celebration under the stars",
+        "description": "Take advantage of the natural surroundings and unique facilities of Hotel Avangarda to host your outdoor celebration with us. Choose from three distinctive locations: the beautiful stone-and-wood Fort No. 4, the cozy firelit Dymna Polana, or the riverside Avangarda Marina, picturesquely set on the Narew. In a relaxed atmosphere – no heels or ties, close to nature yet with full comfort – we create unforgettable outdoor family celebrations.",
+        "features": [
+          "Three extraordinary locations",
+          "Outdoor spaces for 30-120 people",
+          "Charm of nature and hotel-quality comfort",
+          "Care of an experienced event coordinator",
+          "Individually composed menu",
+          "Recommended decorators and cake makers",
+          "Musical accompaniment and additional attractions",
+          "Rich offer of attractions for children"
+        ]
+      }
+    }
+  },
+  "business": {
+    "title": "Boutique-Style Conferences",
+    "subtitle": "Comfort. Style. Opportunity.",
+    "introDescription1": "At Hotel Avangarda, you and your business come first. We listen to your needs, offer creative solutions, and ensure that your team leaves stronger, inspired, and full of energy to take on new challenges.",
+    "introDescription2": "If you’re looking for an exclusive boutique hotel for your conference – you’ve come to the right place! Here, you won’t be just one of many; with us, you can be the only one. We’ll design a tailored integration program or an evening event scenario just for you, following a day of productive work.",
+    "introDescription3": "Discover our capabilities, designed to provide comprehensive business stays – from accommodation and conferences to full-day team-building and a rich selection of unforgettable evening experiences.",
+    "learnMore": "LEARN MORE",
+    "entertainment": {
+      "title": "Team Building",
+      "subtitle": "& Integration",
+      "description1": "Turn an ordinary company meeting into an unforgettable experience! Team-building at Hotel Avangarda combines great fun, relationship-building, and relaxation in an exceptional setting. Our events are designed to make every participant feel part of the team – regardless of position or age.",
+      "description2": "We offer a wide range of integration and team-building activities – from team games and creative or culinary workshops to extraordinary themed evenings. An integral part of our offer also includes CSR initiatives, enabling participants to actively engage in social and ecological projects.",
+      "description3": "Original ideas are our specialty – the only limit is your imagination…",
+      "spacesTitle": "Our spaces",
+      "spacesDescription": "Our spaces are designed with comfort and functionality in mind. We offer various options that can be adapted to the individual needs of each event.",
+      "downloadOffer": "DOWNLOAD OFFER",
+      "spaces": {
+        "club": {
+          "title": "Club Coola",
+          "badge": "Entertainment & Relax",
+          "description": "After an intensive day of work, we invite you to Club Coola – a space created for informal meetings, integration and good fun. Bowling, billiards and darts create a relaxed atmosphere where it's easier to network freely and celebrate successes together.",
+          "features": {
+            "bowling": "Bowling",
+            "bowlingDesc": "2 lanes to play",
+            "billiard": "Billiards",
+            "billiardDesc": "Game zone",
+            "sport": "Sports",
+            "sportDesc": "on big screen",
+            "exclusivity": "Exclusivity",
+            "exclusivityDesc": "ask about possibility",
+            "bar": "Bar",
+            "barDesc": "Wide selection of drinks",
+            "music": "Music",
+            "musicDesc": "DJ or concerts"
+          }
+        },
+        "outdoor": {
+          "title": "Outdoor",
+          "badge": "Recreation",
+          "description": "Take care of the balance between work and regeneration thanks to activities in nature. We offer a wide range of outdoor recreation forms – perfect as a break in an intensive day or an element of team building. The proximity of the river, greenery and movement is a proven way to refresh the mind and positive energy in the team.",
+          "features": {
+            "treasure": "Lost Treasure of Avangarda",
+            "treasureDesc": "Our flagship field game",
+            "shooting": "Shooting range trips",
+            "shootingDesc": "Team competition",
+            "paintball": "Paintball",
+            "paintballDesc": "Let out your anger",
+            "quads": "Quads",
+            "quadsDesc": "Adrenaline rush",
+            "nordic": "Nordic Walking",
+            "nordicDesc": "Charming Lower Narew area",
+            "csr": "CSR",
+            "csrDesc": "Because it's worth helping"
+          }
+        },
+        "fort": {
+          "title": "Fort No. 4",
+          "badge": "Integration & BBQ",
+          "description": "Fort No. 4 is a unique outdoor venue where history intertwines with modernity, creating the perfect setting for team integration in an informal atmosphere. We offer a variety of themed dinners – from an American BBQ Party and an evening in an Italian Trattoria to a traditional Polish feast. Whatever theme you choose, we guarantee plenty of attractions and an unforgettable ambience, ensuring that every event at Fort No. 4 becomes a truly memorable experience for the whole team.",
+          "features": {
+            "availability": "Availability",
+            "availabilityDesc": "May-September",
+            "amphitheatre": "Stone amphitheatre",
+            "amphitheatreDesc": "Space for unique photos",
+            "cooking": "Culinary shows",
+            "cookingDesc": "Live cooking station",
+            "covered": "Covered space",
+            "coveredDesc": "Solution for bad weather",
+            "animations": "Engaging animations",
+            "animationsDesc": "Themed parties",
+            "music": "Music",
+            "musicDesc": "DJ or live music"
+          }
+        },
+        "dymna": {
+          "title": "Dymna Polana",
+          "description1": "Located in a quiet environment of trees, situated above Fort No.4, Dymna Polana is a place that allows you to break away from daily routine and move meetings to a new, more natural level.",
+          "description2": "The campfire along with a huge fireplace encourages open conversations, free exchange of ideas and real integration, and the warmth of fire connects people more effectively than many conference tables. The clearing is equipped with covered gazebos, ensuring comfort regardless of weather, and wooden stumps for sitting – natural, atmospheric and comfortable.",
+          "features": {
+            "availability": "Availability",
+            "availabilityDesc": "May - September",
+            "fireplace": "Campfire",
+            "fireplaceDesc": "Meetings in relaxed atmosphere",
+            "gazebos": "Covered gazebos",
+            "gazebosDesc": "Comfort regardless of weather",
+            "loungers": "Loungers and hammocks",
+            "loungersDesc": "For complete relaxation",
+            "nature": "Natural environment",
+            "natureDesc": "Nature within reach"
+          }
+        },
+        "przystan": {
+          "title": "Przystań Avangarda - where time flows slower...",
+          "description": "Located right on the bank of the Narew River, Przystań Avangarda is a place created for relaxation in nature. Water, greenery, silence and a unique, holiday atmosphere make every moment here unforgettable. The marina with its rich infrastructure offers many possibilities for both active time spending, casual recreation and unique evenings on the terrace under sails.",
+          "mediterraneanButton": "Mediterranean dinner",
+          "features": {
+            "availability": "Availability",
+            "availabilityDesc": "May - September",
+            "kayaking": "Kayak trips",
+            "kayakingDesc": "under lifeguard supervision",
+            "tournament": "Beach sports tournament",
+            "tournamentDesc": "Volleyball & badminton",
+            "beaching": "Beaching by the Narew",
+            "beachingDesc": "Beach beds and baskets",
+            "dinners": "Dinners",
+            "dinnersDesc": "In Mediterranean style",
+            "music": "Music",
+            "musicDesc": "DJ or live"
+          }
+        }
+      }
+    },
+    "description": "We offer modern and fully equipped conference spaces that will meet the expectations of even the most demanding business clients. Our conference rooms are perfect for trainings, conferences, board meetings, and corporate events. We provide the highest quality service, modern audiovisual equipment, and flexible space arrangement options.",
+    "mainTitle": "Conferences & Events",
+    "mainDescription": "Our boutique hotel, nestled in a quiet, green corner of Mazovia just an hour from Warsaw, offers exclusive rental opportunities and is the perfect venue for business events – from intimate board meetings to large conferences, exhibitions, trade fairs, and industry gatherings. We build lasting partnerships with our corporate clients, providing a highly personalized approach, full dedication, and the readiness to meet even the most demanding projects.",
+    "facilities": {
+      "rooms": "8 conference rooms",
+      "roomsDescription": "Conference rooms (over 1000 m² / for 600 people)",
+      "attractions": "Key Entertainment",
+      "attractionsDescription": "Bowling, kayaks, pool, Spa",
+      "outdoorDining": "Outdoor dining",
+      "outdoorDiningDescription": "Fort No. 4, Avangarda Przystań, Dymna Polana"
+    },
+    "spa": {
+      "title": "Business SPA",
+      "leftTitle": "SPA Services for Companies",
+      "leftDescription": "At our Hotel, we perfectly understand how important the balance between work and relaxation is, which is why we have prepared a special offer of SPA services for business. Get acquainted with our SPA workshop offerings for companies, which will be an attractive enhancement to standard conferences, reward your best employees by gifting them with a SPA voucher, or take advantage of our proposal to organize a Business Day SPA for your company, where you can strengthen team relationships in a relaxing atmosphere.",
+      "description": "The SPA zone at Hotel Avangarda is a space designed for relaxation and calming down after a day full of challenges. With business guests' needs in mind, we have prepared quick regeneration after an intensive day of work – express treatments that not only relax, but also support concentration, improve well-being and help maintain high efficiency.",
+      "description2": "Our qualified therapists will offer a carefully selected range of massages and rituals, tailored to individual needs, to ensure maximum effect in optimal time.",
+      "downloadOffer": "Download offer",
+      "services": {
+        "massages": {
+          "title": "Massages",
+          "subtitle": "Relaxation and regeneration"
+        },
+        "faceTreatments": {
+          "title": "Face treatments",
+          "subtitle": "World-class cosmetic brands"
+        },
+        "bodyTreatments": {
+          "title": "Body treatments",
+          "subtitle": "Care from head to toe"
+        },
+        "workshops": {
+          "title": "SPA Workshops",
+          "subtitle": "Have fun and learn beautifully!"
+        },
+        "vouchers": {
+          "title": "SPA Vouchers",
+          "subtitle": "Express your gratitude"
+        },
+        "daySpaBusiness": {
+          "title": "Business Day SPA",
+          "subtitle": "A different way to integrate"
+        }
+      }
+    },
+    "downloadOffer": "Download business offer",
+    "checkAvailability": "Check availability",
+    "roomsTitle": "Our conference rooms",
+    "roomsDescription": "We offer a variety of conference spaces that can be adapted to your needs. Whether you're planning a small board meeting or a large conference, we'll find the perfect solution.",
+    "arrangementTitle": "Arrangement gallery",
+    "arrangementDescription": "Our conference rooms can be arranged in many ways to adapt them to the nature of your event. Below are the most popular layouts and their capacity for the selected room.",
+    "downloadPlans": "Download arrangement plans",
+    "availabilityTitle": "Check availability",
+    "availabilityDescription": "Below you'll find a calendar with available dates for selected conference room. Green dates indicate available dates. Select a date to check details or make a reservation.",
+    "selectedDate": "Selected date",
+    "roomAvailable": "The room is available on this date!",
+    "reserveRoom": "Reserve this room",
+    "inquireDetails": "Inquire about details",
+    "downloadForm": {
+      "title": "Download business offer",
+      "description": "Fill out a short form to receive a complete business offer with pricing and available arrangements.",
+      "fullName": "Full name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "download": "Download offer"
+    },
+    "rooms": {
+      "grand": {
+        "name": "Grand Hall",
+        "size": "680m²",
+        "description": "Our largest conference room with an area of 680m² is an ideal place for large conferences, congresses, galas, and corporate events. The room can be arranged in many ways and divided into 3 smaller spaces (340 m² each).",
+        "features": {
+          "audioVisual": "State-of-the-art audiovisual system",
+          "wifi": "High-speed WiFi (1 Gb/s)",
+          "screens": "4 projection screens 4K",
+          "soundSystem": "Bose sound system",
+          "divisible": "Can be divided into 2 smaller rooms",
+          "climate": "Air conditioning with individual control",
+          "lighting": "LED lighting with adjustable intensity",
+          "accessible": "Wheelchair accessible",
+          "terrace": "Direct access to terrace",
+          "reception": "Dedicated reception desk"
+        }
+      },
+      "executive": {
+        "name": "Exec Room",
+        "size": "120m²",
+        "description": "An elegant conference room (Kominkowa) designed for board meetings, client presentations, and smaller trainings. Equipped with the latest technologies and comfortable furniture.",
+        "features": {
+          "touchScreen": "85-inch interactive touch screen",
+          "wifi": "High-speed WiFi (1 Gb/s)",
+          "videoConference": "Video conferencing system",
+          "soundSystem": "Bose sound system",
+          "climate": "Air conditioning",
+          "lighting": "LED lighting",
+          "acoustic": "Premium acoustic insulation",
+          "chairs": "Ergonomic chairs"
+        }
+      },
+      "business": {
+        "name": "Business Center",
+        "size": "90m²",
+        "description": "A functional conference room perfect for trainings, workshops, and business meetings. Bright and spacious, with access to the terrace, making it possible to organize coffee breaks outdoors.",
+        "features": {
+          "screen": "75-inch 4K screen",
+          "wifi": "High-speed WiFi (1 Gb/s)",
+          "videoConference": "Video conferencing system",
+          "soundSystem": "Sound system",
+          "climate": "Air conditioning",
+          "naturalLight": "Natural daylight",
+          "terrace": "Terrace access"
+        }
+      },
+      "vip": {
+        "name": "VIP Room",
+        "size": "20m²",
+        "description": "An intimate and luxurious space designed for high-level meetings and exclusive business discussions. Premium finishes and state-of-the-art technology ensure a perfect environment for important decision-making.",
+        "features": {
+          "touchScreen": "65-inch 4K interactive display",
+          "wifi": "Dedicated high-speed WiFi (1 Gb/s)",
+          "videoConference": "Advanced video conferencing system",
+          "premium": "Premium furniture and finishes",
+          "privacy": "Enhanced sound insulation for privacy",
+          "catering": "Dedicated catering service",
+          "climate": "Individual climate control"
+        }
+      }
+    },
+    "arrangements": {
+      "icons": {
+        "theater": "theater",
+        "classroom": "classroom",
+        "boardroom": "boardroom",
+        "banquet": "banquet",
+        "ushape": "u-shape"
+      },
+      "theater": {
+        "description": "Theater layout, ideal for presentations and lectures"
+      },
+      "classroom": {
+        "description": "Classroom layout with tables, ideal for trainings"
+      },
+      "boardroom": {
+        "description": "Single large table layout, ideal for board meetings"
+      },
+      "banquet": {
+        "description": "Banquet layout with round tables"
+      },
+      "ushape": {
+        "description": "U-shaped layout, ideal for discussions"
+      },
+      "layoutTitle": "Capacity in different layouts:",
+      "people": "people"
+    },
+    "roomInfo": {
+      "screens": "Screens",
+      "screensInfo": "4K Ultra HD",
+      "wifi": "WiFi",
+      "wifiInfo": "1 Gb/s",
+      "audio": "Audio",
+      "audioInfo": "Bose system",
+      "capacity": "Capacity",
+      "capacityInfo": "up to",
+      "lighting": "Lighting",
+      "lightingInfo": "Adjustable LED",
+      "catering": "Catering",
+      "cateringInfo": "Available",
+      "equipment": "Equipment and amenities:"
+    },
+    "packages": {
+      "title": "Conference packages",
+      "basic": {
+        "name": "Basic package",
+        "description": "Room, AV equipment, water, coffee break",
+        "price": "from 120 PLN / person"
+      },
+      "standard": {
+        "name": "Business package",
+        "description": "Room, AV equipment, 2 coffee breaks, lunch",
+        "price": "from 180 PLN / person"
+      },
+      "premium": {
+        "name": "Premium package",
+        "description": "Room, AV equipment, all-day catering, technical support",
+        "price": "from 250 PLN / person"
+      }
+    },
+    "rentals": {
+      "title": "Hourly rental",
+      "grand": {
+        "price": "from 1200 PLN / hour"
+      },
+      "executive": {
+        "price": "from 600 PLN / hour"
+      },
+      "business": {
+        "price": "from 400 PLN / hour"
+      },
+      "vip": {
+        "price": "from 350 PLN / hour"
+      },
+      "note": "* Prices may vary depending on the season and additional services. We offer attractive discounts for full-day rentals."
+    },
+    "banquets": {
+      "title": "Evenings Full of Flavor",
+      "description1": "Undoubtedly, one of our greatest strengths is our cuisine – highly praised by our guests – offering dishes prepared with the utmost care, full of flavor, and perfectly tailored to the character of each occasion.",
+      "description2": "Our complete evening arrangements – from music to themed dinner scenarios – will ensure your event remains memorable for all participants, leaving only positive impressions and strengthening team bonds.",
+      "downloadOffer": "Download offer",
+      "offerUnavailable": "Offer unavailable",
+      "features": {
+        "businessDinners": {
+          "title": "Business dinners",
+          "description": "Elegant Ambience"
+        },
+        "banquets": {
+          "title": "Banquets",
+          "description": "Grand and Refined"
+        },
+        "galas": {
+          "title": "Ceremonial galas",
+          "description": "Celebrate in Exceptional Style"
+        },
+        "themedEvenings": {
+          "title": "Themed evenings",
+          "description": "Build good memories"
+        },
+        "culinaryShows": {
+          "title": "Culinary shows",
+          "description": "Workshops and live cooking stations"
+        },
+        "music": {
+          "title": "Music",
+          "description": "DJ or live music"
+        }
+      }
+    },
+    "selectRooms": {
+      "title": "Choose a conference room",
+      "description": "Each hall offers unique possibilities tailored to different types of events. Select a hall to view its equipment, capacity, and available layouts.",
+      "roomDetails": "Room details",
+      "capacities": {
+        "theater": "Theater",
+        "classroom": "Classroom",
+        "boardroom": "Boardroom",
+        "banquet": "Banquet",
+        "ushape": "U-shape",
+        "people": "people"
+      },
+      "additionalEquipment": "Additional equipment:",
+      "additionalEquipmentDescription": "dry erase/magnetic flipchart with complete set of sheets and markers, notepads, pencils.",
+      "roomDescription": "Room description",
+      "askAboutRoom": "ASK ABOUT ROOM",
+      "popularBadge": "Popular",
+      "up": "up to",
+      "imageAlt": "Hall view",
+      "equipmentTitle": "Standard equipment",
+      "badges": {
+        "exhibitionSpace": "Exhibition space",
+        "prestigious": "Prestigious",
+        "greenConferences": "Green conferences"
+      },
+      "equipment": {
+        "internet": "Internet",
+        "screen": "Screen",
+        "projector": "Multimedia projector",
+        "sound": "Conference sound system",
+        "microphone": "Wireless microphone",
+        "slideSwitcher": "Slide switcher"
+      },
+      "rooms": {
+        "bankietowa-a": {
+          "name": "Banquet Hall A",
+          "description": "Spacious and elegant conference room with modern equipment. Perfect for large business meetings, conferences and presentations. The room ensures comfort and professional conditions for all participants."
+        },
+        "bankietowa-b": {
+          "name": "Banquet Hall B",
+          "description": "Representative conference room of high standard. Excellent for board meetings, product presentations and business events requiring elegant conditions."
+        },
+        "bankietowa-ab": {
+          "name": "Banquet Hall A+B",
+          "description": "The largest of our conference rooms created by combining halls A and B. Perfect for large conferences, corporate meetings and events requiring large space."
+        },
+        "foyer-sali-bankietowej": {
+          "name": "Banquet Hall Foyer",
+          "description": "Spacious foyer area perfect for exhibitions, participant registration, coffee breaks and networking during business events."
+        },
+        "sosnowa-ab": {
+          "name": "Pine Hall A+B",
+          "description": "Comfortable conference room in natural style with wooden elements. Perfect for medium business meetings and workshops in intimate atmosphere."
+        },
+        "sosnowa-a": {
+          "name": "Pine Hall A",
+          "description": "Intimate conference room with warm atmosphere. Excellent for small team meetings, workshops and training for groups up to 30 people."
+        },
+        "sosnowa-b": {
+          "name": "Pine Hall B",
+          "description": "Cozy conference room with natural decor. Perfect for small working groups, brainstorming sessions and project meetings."
+        },
+        "kominkowa": {
+          "name": "Fireplace Hall",
+          "description": "Exclusive conference room with fireplace creating unique atmosphere. Excellent for board meetings, business negotiations and VIP events."
+        },
+        "sala-vip": {
+          "name": "VIP Room",
+          "description": "The most exclusive of our conference rooms. Designed for the most important business meetings, negotiations and events requiring the highest standard."
+        },
+        "konferencyjna-ab": {
+          "name": "Conference Hall A+B",
+          "description": "Universal conference room created by combining two smaller rooms. Excellent for conferences, training and medium-sized business meetings."
+        },
+        "konferencyjna-a": {
+          "name": "Conference Hall A",
+          "description": "Modern conference room with full audiovisual equipment. Perfect for presentations, team meetings and business training."
+        },
+        "konferencyjna-b": {
+          "name": "Conference Hall B",
+          "description": "Functional conference room with possibility of different seating arrangements. Excellent for workshops, project meetings and training sessions."
+        },
+        "fort-no-4": {
+          "name": "Fort No. 4",
+          "description": "Unique conference room in historic fort with unusual atmosphere. Perfect for creative sessions, corporate events and meetings in exceptional historical setting."
+        }
+      }
+    },
+    "trustedCompanies": {
+      "title": "Our Trusted Partners",
+      "description": "We are proud of the confidence shown to us by leading companies. With extensive experience in hosting business events, we have become the preferred choice for discerning clients.",
+      "bottomText": "Join the group of satisfied clients who chose Hotel Avangarda as the venue for their most important business events.",
+      "logoAlt": "Company logo"
+    }
+  },
+  "entertainment": {
+    "title": "ENTERTAINMENT",
+    "description": "Discover a wide range of attractions and activities that will make your stay full of unforgettable experiences. At Avangarda, everyone will find something for themselves."
+  },
+  "weddings": {
+    "title": "From intimate gatherings to grand family celebrations",
+    "description": "Celebrate unforgettable family moments with us – whether it’s a grand occasion requiring a special setting or an intimate gathering filled with warmth. At Hotel Avangarda, you’ll enjoy not only outstanding cuisine but also comprehensive event services, with access to a comfortable hotel with pool, bowling alley, children’s playroom, and convenient parking. Guided by our event coordinator, supported by experienced chefs and professional service staff, we take care of every detail to create lasting family memories together.",
+    "learnMore": "Learn more"
+  },
+  "components": {
+    "details": "Details",
+    "disableDraftMode": "Disable draft mode",
+    "mainBuilding": "Main Building",
+    "externalBuilding": "External Building",
+    "filterByCategory": "Filter by category"
+  },
+  "alts": {
+    "weddingDessertTable": "Wedding dessert table"
+  },
+  "testimonials": [
+    {
+      "id": 1,
+     "name": "Ania",
+      "location": "Warsaw",
+      "rating": 5,
+      "text": "Amazing place! Very helpful staff, clean and comfortable rooms. The SPA is a real oasis of peace. We'll definitely be back!",
+      "platform": "TripAdvisor"
+    },
+    {
+      "id": 2,
+      "name": "Michał",
+      "location": "Wyszków",
+      "rating": 5,
+      "text": "The hotel exceeded our expectations. The restaurant serves excellent meals, and the location is ideal for relaxing away from the city bustle.",
+      "platform": "Booking.com"
+    },
+    {
+      "id": 3,
+       "name": "Katarzyna",
+      "location": "Ostrołęka",
+      "rating": 5,
+      "text": "We organized our wedding here and everything was perfect. Service at the highest level, excellent food, guests were delighted!",
+      "platform": "Google"
+    }
+  ],
+  "footer": {
+    "description": "True Avangarda in the heart of picturesque Różan. Elegance, hospitality and wealth of attractions create a space full of unforgettable experiences. Perfect for relaxation, business meetings and family moments.",
+    "contact": "Contact",
+    "location": "Location",
+    "events": "Events",
+    "conferences": "Conferences",
+    "findUs": "Find us",
+    "quickNavigation": "Quick navigation",
+    "mapAlt": "Hotel Avangarda location map",
+    "address": {
+      "street": "ul. Królowej Bony 3",
+      "city": "06-230, Różan",
+      "country": "Poland"
+    },
+    "copyright": "Copyright © 2025 Hotel Avangarda. All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "childProtection": "Child Protection Standard"
+  }
+}

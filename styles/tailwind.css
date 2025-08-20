@@ -1,0 +1,221 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --radius-4xl: 2rem;
+  --color-primary: #404042;
+  --color-primary-foreground: #fafafa;
+  --color-secondary: #e31c79;
+  --color-avangarda: #e31c79;
+}
+
+@keyframes move-x {
+  0% {
+    transform: translateX(var(--move-x-from));
+  }
+  100% {
+    transform: translateX(var(--move-x-to));
+  }
+}
+
+/* Custom mobile menu animations for Tailwind 4 compatibility */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Define custom utilities for fonts */
+@utility font-raleway {
+  font-family: var(--font-raleway);
+}
+
+@utility font-alata {
+  font-family: var(--font-alata);
+}
+
+@utility font-geist-sans {
+  font-family: var(--font-geist-sans);
+}
+
+@utility font-geist-mono {
+  font-family: var(--font-geist-mono);
+}
+
+/* Custom title utility */
+@utility title-light {
+  @apply text-primary text-4xl sm:text-4xl md:text-5xl xl:text-6xl font-alata font-semibold tracking-wider mb-4 md:mb-6;
+}
+
+@utility title-dark {
+  @apply text-white text-4xl sm:text-4xl md:text-5xl xl:text-6xl font-alata font-semibold tracking-wider mb-4 md:mb-6;
+}
+
+@utility subtitle-light {
+  @apply  text-primary text-4xl mb-12 text-center font-semibold tracking-wider; 
+}
+
+@utility subtitle-dark {
+  @apply text-white text-4xl mb-12 text-center font-semibold tracking-wider;
+}
+
+@utility main-paragraph-light {
+  @apply text-lg text-primary mb-8 leading-relaxed;
+}
+
+@utility main-paragraph-dark {
+  @apply text-lg text-white mb-8 leading-relaxed;
+}
+
+
+
+
+
+@layer base {
+  body {
+    @apply bg-white text-black font-raleway;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-alata;
+  }
+
+  /* Add these styles to hide scrollbar but keep functionality */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Custom Scrollbar Styles */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #f42388;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d01e74;
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #f42388 transparent;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Mobile menu animation utilities */
+  .animate-slide-in-right {
+    animation: slideInFromRight 0.5s ease-out forwards;
+  }
+
+  .animate-slide-out-right {
+    animation: slideOutToRight 0.5s ease-in forwards;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+}
+
+
+/* Disable hover effects on touch devices to prevent double-tap issues */
+@media (hover: none) and (pointer: coarse) {
+  .hover\:bg-white\/10:hover {
+    background-color: transparent;
+  }
+
+  .hover\:text-avangarda:hover {
+    color: inherit;
+  }
+
+  .hover\:bg-avangarda\/90:hover {
+    background-color: inherit;
+  }
+
+  .hover\:scale-110:hover {
+    transform: none;
+  }
+
+  .hover\:rotate-90:hover {
+    transform: none;
+  }
+
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 0;
+  }
+}
+
+/* Ensure active states work properly on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .active\:scale-95:active {
+    transform: scale(0.95);
+  }
+
+  .active\:bg-white\/20:active {
+    background-color: rgb(255 255 255 / 0.2);
+  }
+
+  .active\:text-avangarda:active {
+    color: var(--avangarda);
+  }
+}
+

@@ -1,0 +1,1910 @@
+{
+  "nav": {
+    "rooms": "POKOJE",
+    "offers": "PAKIETY",
+    "hotel": "HOTEL",
+    "dining": "RESTAURACJE",
+    "spa": "WELLNESS & SPA",
+    "events": "UROCZYSTOŚCI",
+    "business": "BIZNES",
+    "entertainment": "ATRAKCJE",
+    "kids": "DLA DZIECI",
+    "gallery": "GALERIA",
+    "book": "REZERWUJ",
+    "menu": "Menu",
+    "phone": "+48 29 752 50 34",
+    "subscribe": "Zapisz się",
+    "rights": "Wszelkie prawa zastrzeżone",
+    "privacy": "Polityka prywatności"
+  },
+  "ctaGeneric": {
+    "title": "Zarezerwuj swój pobyt już dziś!",
+    "description": "Odkryj Hotel Avangarda – miejsce, gdzie komfort spotyka się z relaksem, a atrakcje czekają na każdym kroku. Niezależnie, czy marzysz o chwili wytchnienia, rodzinnej przygodzie, czy romantycznym czasie we dwoje – tutaj każdy znajdzie coś dla siebie.",
+    "bookNow": "ZAREZERWUJ"
+  },
+  "about": {
+    "title": "Hotel Avangarda",
+    "description": "Hotel Avangarda znajduje się na obrzeżach urokliwego Różana nad Narwią, około 100 km od Warszawy. Starannie zaprojektowana infrastruktura wraz\n z naturalnym, zielonym otoczeniem oferuje harmonijne połączenie spokoju, komfortu i bliskości lokalnych atrakcji. To miejsce, w którym tradycja spotyka nowoczesność, tworząc wyjątkową przestrzeń do wypoczynku, pracy i odkrywania okolicy. ",
+    "address": "ul. Przykładowa 1, 07-300 Różan",
+    "phone": "+48 29 7525034",
+    "email": "recepcja@avangarda.pl",
+    "hours": "Recepcja czynna całą dobę",
+    "directions": {
+      "car": "Łatwy dojazd drogą krajową nr 61. Bezpłatny parking na miejscu.",
+      "public": "Regularne połączenia autobusowe z Warszawy i Ostrołęki. Przystanek znajduje się 200m od hotelu."
+    },
+    "googleMaps": "Otwórz w Google Maps"
+  },
+  "hotelIntro": {
+    "learnMore": "Dowiedz się więcej",
+    "whatMakesUsDifferent": "Co nas wyróżnia",
+    "location": "Lokalizacja",
+    "features": {
+      "uniqueLocation": {
+        "title": "Wyjątkowa lokalizacja",
+        "description": "Zaciszna, zielona okolica nad rzeką – idealna dla tych, którzy cenią spokój i bliskość natury."
+      },
+      "wellness": {
+        "title": "Wellness i SPA",
+        "description": "Nowoczesna strefa relaksu z basenem, saunami, jacuzzi oraz bogatą ofertą zabiegów pielęgnacyjnych."
+      },
+      "cuisine": {
+        "title": "Autorska kuchnia",
+        "description": "Prawdziwy smak potraw, naturalność inspirowana lokalnymi tradycjami, sezonowość, elegancja podania"
+      },
+      "familyBusiness": {
+        "title": "Przestrzeń dla rodzin i biznesu",
+        "description": "Stylowe wnętrza i profesjonalna obsługa – doskonałe warunki do organizacji wesel, uroczystości i spotkań firmowych."
+      },
+      "hospitality": {
+        "title": "Jesteśmy tu dla Ciebie",
+        "description": "Każdy Gość jest dla nas ważny – stawiamy na serdeczną atmosferę, komfort i dbałość o detale."
+      }
+    }
+  },
+  "offers": {
+    "title": "Poznaj nasze pakiety \n i oferty specjalne",
+    "description": "Pozwól sobie na chwile relaksu lub aktywny wypoczynek w wyjątkowym stylu. Wybierz pakiet dopasowany do swoich potrzeb i odkryj pełnię możliwości, jakie oferuje Hotel Avangarda.",
+    "details": "Szczegóły",
+    "from": "już od",
+    "availability": "Dostępne pakiety zmieniają się sezonowo. Sprawdź aktualne oferty poniżej lub skontaktuj się z recepcją, aby uzyskać najnowsze informacje.",
+    "browseTitle": "Dostępne oferty i pakiety",
+    "imageAlt": "Zdjęcie ilustrujące nasze oferty specjalne",
+    "knowMore": "Dowiedz się więcej"
+  },
+  "restaurants": {
+    "title": "Restauracje i bary",
+    "description": "Trzy wyjątkowe miejsca, trzy różne smaki. W Dzikiej Róży tradycja spotyka nowoczesność, zachwycając Gości wykwintnymi daniami. Klub Coola to włoska pizza, burgery i ciasta w hotelowej cukierni. A w letniej Przystani Avangarda króluje świeża ryba i wakacyjny klimat. Wszędzie dostępne jest też menu dla dzieci.",
+    "details": "Szczegóły"
+  },
+  "diningDetails": {
+    "ctaTitle": "Zarezerwuj stolik już dziś",
+    "ctaDescription": "Doświadcz wyjątkowej kuchni i atmosfery. Zadzwoń, aby zarezerwować stolik lub pobierz nasze menu, aby poznać nasze pyszne dania.",
+    "callToBook": "Zadzwoń, aby zarezerwować",
+    "downloadMenu": "Pobierz menu"
+  },
+  "fortDetails": {
+    "title": "FORT No.4",
+    "description": "W sezonie letnim zapraszamy do Fortu – wyjątkowego miejsca na świeżym powietrzu, gdzie czeka na Was klimatyczne grillowisko. Poczuj smak lata, delektując się grillowanymi specjałami w otoczeniu natury i wyjątkowej atmosfery!"
+  },
+  "portDetails": {
+    "title": "Port",
+    "description": "Latem zapraszamy również do Portu, malowniczo położonego nad rzeką Narew. To idealne miejsce, by zrelaksować się na słońcu, napić się aromatycznej kawy i delektować się pysznym jedzeniem z widokiem na wodę. Idealny sposób na letni odpoczynek!.",
+    "button": "Dowiedz się więcej"
+  },
+  "rooms": {
+    "title": "Nasze pokoje",
+    "description": "Nasz hotel mieści się w dwóch budynkach i oferuje 42 komfortowe pokoje, w tym pokoje jednoosobowe i dwuosobowe, studia rodzinne oraz apartamenty. Budynek główny posiada windę, a niektóre pokoje posiadają balkon z widokiem na ogród lub rzekę Narew. W budynku zewnętrznym dostępne są przestronne pokoje dla dwóch, trzech \n i pięciu osób.",
+    "mainDescription": "Oferujemy szeroki wybór komfortowych pokoi i apartamentów, dopasowanych do potrzeb każdego gościa – od przytulnych wnętrz dla par po przestronne apartamenty idealne na rodzinny wypoczynek.",
+    "everyRoomHas": "Każdy pokój jest wyposażony w:",
+    "chooseRoom": "Wybierz swój pokój",
+    "bookNow": "Rezerwuj teraz",
+    "amenitiesTitle": "Udogodnienia w pokoju",
+    "whatsIncluded": {
+      "title": "Co jest wliczone",
+      "breakfast": "Śniadanie",
+      "poolSaunaJacuzzi": "Basen, sauny, jacuzzi",
+      "saltCave": "Grota solna",
+      "gym": "Siłownia",
+      "playroom": "Sala zabaw dla dzieci",
+      "dailyHousekeeping": "Codzienne sprzątanie pokoju",
+      "parking": "Parking"
+    },
+    "roomAmenities": {
+      "wifi": "Bezpłatne Wi-Fi",
+      "ac": "Klimatyzacja"
+    },
+    "single": {
+      "name": "Pokój jednoosobowy",
+      "description": "Klimatyzowany pokój z jednym podwójnym łóżkiem dla lepszego komfortu snu, znajdujący się na drugim piętrze hotelu. W pokoju znajdują się skosy. Pokój nie posiada balkonu.",
+      "price": "od 280 zł / noc",
+      "capacity": "1-2 osoby",
+      "size": "17m²",
+      "beds": "1 x łóżko pojedyncze"
+    },
+    "standard": {
+      "name": "Pokój dwuosobowy",
+      "description": "Klimatyzowany pokój z dwoma pojedynczymi łóżkami, znajdujący się na pierwszym piętrze hotelu. Wybór dziecka w wieku 0-3 lata nie zawiera noclegu na dodatkowym łóżku. Niektóre pokoje posiadają balkon.",
+      "price": "od 380 zł / noc",
+      "capacity": "1-2 osoby",
+      "size": "21m²",
+      "beds": "2 x łóżko pojedyncze"
+    },
+    "standardPremium": {
+      "name": "Pokój dwuosobowy premium",
+      "description": "Przestronny, klimatyzowany pokój rodzinny ze złączonymi lub rozłączonymi łóżkami oraz sofą (pow. spania 140x200 cm). Wybór dziecka w wieku 0-3 lata nie zawiera noclegu na dodatkowym łóżku lub sofie. Pokój znajduje się na pierwszym piętrze hotelu. Niektóre pokoje posiadają balkon. Niektóre pokoje posiadają dodatkowe ułatwienia dla osób z niepełnosprawnościami.",
+      "price": "od 480 zł / noc",
+      "capacity": "1-4 osoby",
+      "size": "31m²",
+      "beds": "1 x łóżko podwójne lub 2 x łóżko pojedyncze + 1 x rozkładana podwójna sofa"
+    },
+    "family": {
+      "name": "Pokój rodzinne studio",
+      "description": "Klimatyzowany pokój rodzinny z sypialnią, w której znajdują się dwa pojedyncze łóżka, oraz salonem z rozkładana kanapa (pow. spania 140x200 cm) Wybór dziecka w wieku 0-3 lat nie zawiera noclegu na dodatkowym łóżku lub sofie. W pokoju znajdują się skosy. Pokój nie posiada balkonu. Pokój znajduje się na drugim piętrze hotelu.",
+      "price": "od 620 zł / noc",
+      "capacity": "1-4 osoby",
+      "size": "37m²",
+      "beds": "2 x łóżko pojedyncze + 1 x rozkładana podwójna kanapa"
+    },
+    "apartment": {
+      "name": "Apartament",
+      "description": "Klimatyzowany luksusowy pokój z salonem i oddzielną sypialnią z dużym podwójnym łóżkiem (pow. spania 220x200 cm). W sypialni znajdują się skosy. Pokój posiada umeblowany taras o powierzchni 15 m2, z widokiem na zalesioną okolicę doliny dolnej Narwi. Pokój znajduje się na drugim piętrze hotelu.",
+      "price": "od 620 zł / noc",
+      "capacity": "1-2 osoby",
+      "size": "77m²",
+      "beds": "1 x łóżko king-size"
+    },
+    "externalSingle": {
+      "name": "Pokój jednoosobowy",
+      "description": "Klimatyzowany pokój z jednym pojedynczym łóżkiem, znajdujący się na pierwszym lub drugim piętrze hotelu. W pokoju znajdują się skosy. Pokój nie posiada balkonu. Pokój znajduje się w osobnym budynku w odległości 100m od Hotelu. Zameldowanie oraz wymeldowanie odbywa się w budynku głównym Hotelu. Posiłki wchodzące w skład wykupionej oferty serwowane są w budynku głównym Hotelu. Atrakcje dostępne są w budynku głównym Hotelu. W budynku zewnętrznym nie ma windy, dojście do pokoju odbywa się schodami. Pokój z widokiem na zabytkową drogę carską.",
+      "price": "od 220 zł / noc",
+      "capacity": "1 osoba",
+      "size": "16m²",
+      "beds": "1 x łóżko pojedyncze"
+    },
+    "externalDouble": {
+      "name": "Pokój dwuosobowy",
+      "description": "Klimatyzowany pokój z dwoma pojedynczymi łóżkami, znajdujący się na pierwszym lub drugim piętrze hotelu. Wybór dziecka w wieku 0-3 lata nie zawiera noclegu na dodatkowym łóżku. Pokój nie posiada balkonu. W pokoju znajdują się skosy. Pokój znajduje się w osobnym budynku w odległości 100m od Hotelu. Zameldowanie oraz wymeldowanie odbywa się w budynku głównym Hotelu. Posiłki wchodzące w skład wykupionej oferty serwowane są w budynku głównym Hotelu. Atrakcje dostępne są w budynku głównym Hotelu. W budynku zewnętrznym nie ma windy, dojście do pokoju odbywa się schodami. Część pokoi z widokiem na zabytkową drogę carską.",
+      "price": "od 320 zł / noc",
+      "capacity": "1-2 osoby",
+      "size": "18-25m²",
+      "beds": "2 x łóżko pojedyncze"
+    },
+    "externalTriple": {
+      "name": "Pokój 3-osobowy",
+      "description": "Klimatyzowany pokój z trzema pojedynczymi łóżkami, znajdujący się na pierwszym lub drugim piętrze hotelu. Wybór dziecka w wieku 0-3 lata nie zawiera noclegu na dodatkowym łóżku. W pokoju znajdują się skosy. Pokój nie posiada balkonu. Pokój znajduje się w osobnym budynku w odległości 100m od Hotelu. Zameldowanie oraz wymeldowanie odbywa się w budynku głównym Hotelu. Posiłki wchodzące w skład wykupionej oferty serwowane są w budynku głównym Hotelu. Atrakcje dostępne są w budynku głównym Hotelu. W budynku zewnętrznym nie ma windy, dojście do pokoju odbywa się schodami. Część pokoi z widokiem na zabytkową drogę carską.",
+      "price": "od 440 zł / noc",
+      "capacity": "1-3 osoby",
+      "size": "23-45m²",
+      "beds": "3 x łóżko pojedyncze"
+    },
+    "externalFamily": {
+      "name": "Pokój rodzinne studio",
+      "description": "Klimatyzowany pokój rodzinny z dwiema sypialniami: w jednej znajdują się dwa pojedyncze łóżka, w drugiej – trzy.  Wybór dziecka w wieku 0-3 lata nie zawiera noclegu na dodatkowym łóżku. W pokoju mogą znajdować się skosy. Pokój nie posiada balkonu. Pokój znajduje się na pierwszym lub drugim piętrze hotelu. Pokój znajduje się w osobnym budynku w odległości 100m od Hotelu. Zameldowanie oraz wymeldowanie odbywa się w budynku głównym Hotelu. Posiłki wchodzące w skład wykupionej oferty serwowane są w budynku głównym Hotelu. Atrakcje dostępne są w budynku głównym Hotelu. W budynku zewnętrznym nie ma windy, dojście do pokoju odbywa się schodami.",
+      "price": "od 560 zł / noc",
+      "capacity": "1-5 osób",
+      "size": "38m²",
+      "beds": "5 x łóżko pojedyncze"
+    },
+    "features": {
+      "bathroom": "Łazienka z prysznicem",
+      "towels": "Ręczniki",
+      "toiletries": "Zestaw kosmetyków",
+      "hairdryer": "Suszarka do włosów",
+      "bathrobe": "Szlafrok (dostępny w recepcji na życzenie)",
+      "teaCoffee": "Zestaw do parzenia kawy i herbaty",
+      "fridge": "Chłodziarka",
+      "tvChannels": "TV z kanałami naziemnymi i satelitarnymi",
+      "airConditioning": "Klimatyzacja",
+      "freeWifi": "Bezpłatny internet",
+      "familyBeds": "Łóżka rodzinne",
+      "largeBathroom": "Duża łazienka",
+      "fridgeMicrowave": "Lodówka z mikrofalą",
+      "loungeArea": "Część wypoczynkowa",
+      "kingSizeBed": "Łóżko typu king-size",
+      "sofaBed": "Rozkładana sofa",
+      "kitchenette": "Aneks kuchenny",
+      "diningArea": "Jadalnia",
+      "luxuryBathroom": "Luksusowa łazienka",
+      "balcony": "Balkon",
+      "smartTV": "Smart TV",
+      "coffeeMachine": "Ekspres do kawy",
+      "bathroomWithTub": "Łazienka z prysznicem i wanną",
+      "twoTVs": "2 x TV z internetem i kanałami naziemnymi i satelitarnymi"
+    }
+  },
+  "gastro": {
+    "tags": {
+      "traditional": "Tradycyjne",
+      "polish": "Polskie",
+      "local": "Lokalne składniki",
+      "seasonal": "Sezonowe",
+      "fresh": "Świeże",
+      "changing": "Zmieniające się",
+      "sweet": "Słodkie",
+      "homemade": "Domowe",
+      "artistic": "Artystyczne",
+      "kids": "Dla dzieci",
+      "fun": "Zabawne",
+      "healthy": "Zdrowe"
+    },
+    "specialties": {
+      "polish": {
+        "name": "Tradycyjne dania polskie",
+        "description": "Nasze menu oferuje klasyczne polskie dania przygotowane według tradycyjnych receptur z najwyższej jakości lokalnych składników. Każde danie to podróż przez bogatą historię polskiej kuchni.",
+        "price": "39-89 zł"
+      },
+      "seasonal": {
+        "name": "Menu sezonowe",
+        "description": "Nasze sezonowe menu zmienia się zgodnie z porami roku, wykorzystując najświeższe składniki dostępne w danym sezonie. Dzięki temu nasze dania zawsze zachwycają świeżością i intensywnością smaków.",
+        "price": "42-95 zł"
+      },
+      "desserts": {
+        "name": "Wyjątkowe desery",
+        "description": "Nasza cukiernia słynie z wyjątkowych deserów, które są prawdziwym dziełem sztuki. Każdy deser to połączenie doskonałego smaku, tekstury i estetyki.",
+        "price": "22-38 zł"
+      },
+      "kids": {
+        "name": "Dla dzieci",
+        "description": "Dla naszych najmłodszych gości przygotowaliśmy specjalne menu. Zdrowe i smaczne dania, które dzieci uwielbiają, przygotowane z najwyższej jakości składników.",
+        "price": "22-38 zł"
+      }
+    },
+    "tabs": {
+      "traditional": "Tradycyjne",
+      "seasonal": "Sezonowe",
+      "kids": "Dla dzieci",
+      "desserts": "Desery"
+    },
+    "intro": {
+      "title": "Pyszna Avangarda",
+      "description": "Szef Kuchni Hotelu Avangarda zaprasza w kulinarną podróż do trzech wyjątkowych miejsc - od eleganckiej restauracji, przez rozrywkowy klub, po klimatyczny bar nad rzeką. Każde z nich zapewnia niepowtarzalne doznania kulinarne i atmosferę idealną do celebrowania wspólnych chwil.",
+      "seeMenu": "Zobacz Menu",
+      "seeMore": "Zobacz więcej",
+      "places": {
+        "dzika-roza": {
+          "name": "Restauracja Dzika Róża",
+          "description": "Elegancka restauracja z nowoczesną kuchnią polską i międzynarodową.",
+          "badge": "Premium",
+          "features": [
+            "Niepowtarzalny smak potraw",
+            "Stylowe wnętrze",
+            "Przytulna atmosfera",
+            "Bogato wyposażony bar"
+          ]
+        },
+        "klub-coola": {
+          "name": "Klub Coola",
+          "description": "Hotelowe centrum rodzinnej rozrywki\n z barem, kręgielnią i salą zabaw.",
+          "badge": "Rozrywka",
+          "features": [
+            "Włoska pizza",
+            "Rzemieślnicze burgery",
+            "Pyszne ciasta",
+            "Autorskie drinki"
+          ]
+        },
+        "bar-przystan": {
+          "name": "Przystań Avangarda",
+          "description": "Klimatyczny bar nad Narwią z prostą kuchnią w wakacyjnym stylu.",
+          "badge": "Nad rzeką",
+          "features": [
+            "Taras pod żaglami",
+            "Świeże ryby",
+            "Beach bar",
+            "Widok na Narew"
+          ]
+        }
+      }
+    },
+    "dzikaRoza": {
+      "title": "Restauracja Dzika Róża",
+      "description": "Zapraszamy do Restauracji Dzika Róża – miejsca, gdzie tradycja polskiej kuchni zyskuje nowoczesne oblicze. Autorskie menu łączy klasyczne smaki z nowatorską formą podania, a stylowe wnętrze\n i przytulna atmosfera sprawiają, że każda wizyta staje się wyjątkowym doświadczeniem kulinarnym.",
+      "seeMenu": "Zobacz Menu",
+      "menuUnavailable": "Menu niedostępne",
+      "reserveTable": "Zarezerwuj stolik",
+      "openingHours": "Godziny otwarcia",
+      "openingTime": "Pon-Ndz: 12:00 – 22:00",
+      "reservations": "Rezerwacje",
+      "phone": "Tel: 29 752 50 34",
+      "email": "info@hotelavangarda.pl",
+      "guestOpinions": "Opinie Gości",
+      "testimonialDescription": "Poznaj opinie naszych gości o doświadczeniach kulinarnych w Restauracji Dzika Róża",
+      "imageAlt": "Restauracja Dzika Róża - eleganckie wnętrze",
+      "logoAlt": "Logo Restauracji Dzika Róża",
+      "testimonials": [
+        {
+          "id": 1,
+          "name": "Ela",
+          "location": "Warszawa",
+          "rating": 5,
+          "text": "Restauracja Dzika Róża to prawdziwa perła! Kotlet schabowy był idealnie przygotowany, a obsługa niezwykle profesjonalna. Atmosfera restauracji jest elegancka, ale jednocześnie przytulna. Zdecydowanie wrócimy na kolejną kolację.",
+          "date": "Listopad 2024"
+        },
+        {
+          "id": 2,
+          "name": "Marek",
+          "location": "Ciechanów",
+          "rating": 5,
+          "text": "Byliśmy tu na uroczystości rodzinnej i wszystko było perfekcyjne. Menu sezonowe zachwyciło nas smakami, a desery domowe to prawdziwe dzieła sztuki. Polecam każdemu, kto szuka wyjątkowych doznań kulinarnych.",
+          "date": "Październik 2024"
+        }
+      ]
+    }
+  },
+  "gastroClub": {
+    "title": "Klub Coola",
+    "logoAlt": "Logo Klub Coola",
+    "description": "Klub Coola to miejsce pełne smaku i dobrej energii. W swobodnej, przyjaznej atmosferze czekają na Ciebie aromatyczna pizza prosto\n z pieca, soczyste rzemieślnicze burgery i pyszne ciasta z hotelowej cukierni. W barze serwujemy autorskie drinki, klasyczne koktajle\n i orzeźwiające napoje, które doskonale uzupełniają wspólne chwile\n z przyjaciółmi. To przestrzeń, w której smak i rozrywka tworzą idealny duet.",
+    "menuButton": "Zobacz Menu",
+    "menuUnavailable": "Menu niedostępne",
+    "reserveButton": "Zarezerwuj stolik",
+    "openingHours": "Godziny otwarcia",
+    "openingHoursDetails": {
+      "weekdays": "Pon – Pią: 16:00 – 22:00",
+      "weekend": "Sob - Ndz: 10:00 – 22:00"
+    },
+    "reservations": "Rezerwacje",
+    "phone": "Tel: 29 752 50 34 (recepcja hotelu)",
+    "email": "info@hotelavangarda.pl",
+    "imageAlt": "Klub Coola - wnętrze",
+    "guestOpinionsTitle": "Opinie Gości",
+    "guestOpinionsSubtitle": "Poznaj opinie naszych gości o niezapomnianych wieczorach w Klubie Coola",
+    "testimonials": [
+      {
+        "id": "testimonial-1",
+        "text": "Fantastyczne miejsce na spotkanie z przyjaciółmi! Burgery są przepyszne, a napoje bardzo dobrze przygotowane. Atmosfera sprzyja długim rozmowom.",
+        "name": "Tomasz K.",
+        "location": "Warszawa",
+        "rating": 5,
+        "date": "Październik 2023"
+      },
+      {
+        "id": "testimonial-2",
+        "text": "Coola to prawdziwa perełka! Pizza z pieca jest wyśmienita, a obsługa bardzo miła. Idealne miejsce na relaksujący wieczór.",
+        "name": "Anna W.",
+        "location": "Łódź",
+        "rating": 5,
+        "date": "Wrzesień 2023"
+      }
+    ]
+  },
+  "gastroPort": {
+    "title": "Przystań Avangarda",
+    "logoAlt": "Logo Bar Przystań",
+    "description": "Przystań Avangarda to smak lata nad samą Narwią – świeże ryby, lekkie sałatki i dania inspirowane sezonem. W naszym barze czekają orzeźwiające drinki, kolorowe koktajle i aromatyczna kawa idealna\n na leniwe popołudnie. Kameralny, nadwodny klimat sprawia, że każdy posiłek zamienia się w chwilę relaksu z widokiem na rzekę.",
+    "menuButton": "Zobacz Menu",
+    "menuUnavailable": "Menu niedostępne",
+    "reserveButton": "Zarezerwuj stolik",
+    "openingHours": "Godziny otwarcia",
+    "openingHoursDetails": {
+      "seasonMayJuneSep": "Maj, czerwiec i wrzesień",
+      "seasonMayJuneSepHours": "Sob-Ndz: 14:00 – 20:00",
+      "seasonJulAug": "Lipiec i sierpień",
+      "seasonJulAugHours": "codziennie 12:00 - 21:00"
+    },
+    "reservations": "Rezerwacje",
+    "phone": "Tel: 29 752 50 34 (recepcja hotelu)",
+    "email": "info@hotelavangarda.pl",
+    "imageAlt": "Bar Przystań - widok na rzekę",
+    "guestOpinionsTitle": "Opinie Gości",
+    "guestOpinionsSubtitle": "Poznaj opinie naszych gości o niezapomnianych chwilach spędzonych w Przystań Avangarda",
+    "testimonials": [
+      {
+        "id": "testimonial-1",
+        "text": "Bar Przystań to magiczne miejsce! Świeże ryby prosto z Narwi, piękny widok na rzekę i niezapomniana atmosfera. Szczególnie polecam grillowane sandacze - to prawdziwa uczta dla podniebienia. Idealne miejsce na romantyczną kolację.",
+        "name": "Michał Kowalczyk",
+        "location": "Augustów",
+        "rating": 5,
+        "date": "Sierpień 2024"
+      },
+      {
+        "id": "testimonial-2",
+        "text": "Spędziliśmy tu cudowny wieczór z rodziną. Taras nad rzeką, świeże powietrze i pyszne dania z grilla sprawiły, że poczuliśmy się jak na wakacjach. Obsługa bardzo miła, a dzieci uwielbiały obserwować łódki\n na rzece.",
+        "name": "Agnieszka Nowak",
+        "location": "Suwałki",
+        "rating": 5,
+        "date": "Lipiec 2024"
+      }
+    ]
+  },
+  "entertainmentIntro": {
+    "hotelFull": {
+      "title": "Hotel pełen możliwości",
+      "imageAlt": "Hotel pełen możliwości - aktywny wypoczynek",
+      "description": "W Hotelu Avangarda nie ma czasu na nudę – tu coś się dzieje przez cały rok! Na najmłodszych i całe rodziny czeka Klub Coola, czyli rodzinne centrum rozrywki z salą zabaw, kręgielnią i mnóstwem atrakcji. Dla szukających relaksu przygotowaliśmy strefę wellness\n z basenem, jacuzzi, grotą solną i dwiema saunami oraz pełną paletę masaży i zabiegów pielęgnacyjnych. Miłośnikom aktywnego wypoczynku polecamy spływy malowniczą Narwią, mecze siatkówki plażowej, wypożyczenie rowerów czy kijów nordic walking.\n W weekendowe wieczory hotel tętni życiem! Organizujemy wtedy wyjątkowe imprezy taneczne, wieczorne koncerty czy klimatyczne kolacje degustacyjne.",
+      "features": {
+        "klubCoola": {
+          "title": "Klub Coola",
+          "description": "Zabawa non stop!"
+        },
+        "pool": {
+          "title": "Basen",
+          "description": "8-osobowe jacuzzi i 2 sauny"
+        },
+        "spa": {
+          "title": "Avangarda SPA",
+          "description": "Autorskie zabiegi i rytuały"
+        },
+        "weekends": {
+          "title": "Atrakcyjne weekendy",
+          "description": "Tu nie ma czasu na nudę",
+          "features": {
+            "seasonal": {
+              "title": "Atrakcje sezonowe",
+              "description": "Cztery sezony zabawy"
+            },
+            "localEvents": {
+              "title": "Wydarzenia lokalne",
+              "description": "Folklor Mazowsza i Kurpi"
+            },
+            "nature": {
+              "title": "Na grzyby, na ryby…",
+              "description": "Czyste rzeki i piękne lasy"
+            }
+          },
+          "galleryTitle": "Zapraszamy",
+          "gallery": {
+            "alt1": "Fort no.5 - wnętrze",
+            "alt2": "Fort no.5 - miejsce grillowe", 
+            "alt3": "Fort no.5 - zewnętrzny widok",
+            "alt4": "Fort no.5 - historyczne wnętrze"
+          }
+        },
+        "location": {
+          "title": "Na styku Mazowsza i Kurpi",
+          "description": "Okolica pełna folkloru"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Spływy kajakowe po Narwi",
+        "alt2": "Spacery po okolicy",
+        "alt3": "Nordic Walking",
+        "alt4": "Siatkówka plażowa"
+      }
+    },
+    "klubCoola": {
+      "title": "Klub Coola - serce rodzinnej rozrywki",
+      "imageAlt": "Klub Coola - centrum rodzinnej rozrywki",
+      "description": "Zapraszamy do miejsca, gdzie śmiech i dobra zabawa trwają non stop! Znajdziesz tu kręgielnię, kolorową salę zabaw, strefę gier oraz wygodne miejsce do wspólnego spędzania czasu. Na gości czeka również bar serwujący włoskie pizze, rzemieślnicze burgery oraz klasyczne\n i autorskie drinki. Miłośnikom słodkości polecamy pyszne kawy\n i prawdziwe, domowe ciasta z hotelowej cukierni.",
+      "features": {
+        "bowling": {
+          "title": "Kręgle",
+          "description": "Dwa tory do gry"
+        },
+        "billiard": {
+          "title": "Bilard",
+          "description": "Rywalizacja w dobrym stylu"
+        },
+        "games": {
+          "title": "Strefa gier",
+          "description": "Piłkarzyki, cymbergaj i rzutki"
+        },
+        "playroom": {
+          "title": "Sala zabaw",
+          "description": "70 m2 dobrej zabawy"
+        },
+        "bar": {
+          "title": "Bar",
+          "description": "Napoje i przekąski"
+        },
+        "lounge": {
+          "title": "Wygodne loże",
+          "description": "Odpoczynek w klubowym wydaniu"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Rzutki w Klubie Coola",
+        "alt2": "Cymbergaj w Klubie Coola",
+        "alt3": "Bilard w Klubie Coola",
+        "alt4": "Bar w Klubie Coola"
+      }
+    },
+    "spaSection": {
+      "title": "Poczuj luksus pełnego wyciszenia",
+      "imageAlt": "Atrakcje dla dzieci - plac zabaw",
+      "description": "W strefie Wellness Hotelu Avangarda odkryjesz wyjątkowy, ekskluzywny świat relaksu. Zanurz się w niezwykłej atmosferze naszego SPA, gdzie ciepło jacuzzi, kojące sauny i leczniczy mikroklimat groty solnej pozwolą Ci zapomnieć o codzienności. Dla prawdziwego odprężenia przygotowaliśmy autorskie rytuały, które zapewnią głęboki relaks i ukojenie zmysłów. Zapraszamy również do skorzystania z szerokiego wyboru masaży oraz zabiegów na twarz i ciało, wykonywanych przez doświadczone terapeutki. Avangarda SPA to miejsce stworzone z myślą o chwili tylko dla Ciebie – tutaj czas zwalnia, a Ty odzyskujesz wewnętrzną harmonię.",
+      "features": {
+        "massages": {
+          "title": "Masaże",
+          "description": "Relaks i wyciszenie"
+        },
+        "treatments": {
+          "title": "Zabiegi pielęgnacyjne",
+          "description": "Światowe marki kosmetyków"
+        },
+        "pool": {
+          "title": "Basen rekreacyjny",
+          "description": "Wodne szaleństwo przez cały rok"
+        },
+        "jacuzzi": {
+          "title": "Jacuzzi",
+          "description": "Kojące ciepło wody"
+        },
+        "saunas": {
+          "title": "Dwie sauny",
+          "description": "Fińska i Infrared"
+        },
+        "saltCave": {
+          "title": "Grota solna",
+          "description": "Leczniczy mikroklimat"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Plac zabaw dla dzieci",
+        "alt2": "Ścieżka edukacyjna",
+        "alt3": "Brodzik dla dzieci",
+        "alt4": "Pokój gier dla dzieci"
+      }
+    },
+    "activeRest": {
+      "title": "Aktywny wypoczynek",
+      "imageAlt": "Aktywny wypoczynek",
+      "description": "W Hotelu Avangarda aktywny wypoczynek to czysta przyjemność\n – dla małych i dużych! Spływy kajakowe po Narwi to świetny sposób\n na rodzinny relaks wśród natury. Na aktywnych Gości czekają rowery, kije nordic walking oraz siatkówka plażowa, która dostarcza mnóstwo frajdy w słoneczne dni. Dla miłośników treningu o każdej porze roku dostępna jest również nowoczesna siłownia ze profesjonalnym sprzętem marki Matrix Fitness.",
+      "features": {
+        "kayaking": {
+          "title": "Spływy kajakowe",
+          "description": "Odkryj piękno Narwi"
+        },
+        "pedalBoats": {
+          "title": "Rowerki wodne",
+          "description": "Rodzinny relaks na wodzie"
+        },
+        "volleyball": {
+          "title": "Siatkówka plażowa",
+          "description": "Sportowa rywalizacja na piasku"
+        },
+        "bikes": {
+          "title": "Rowery",
+          "description": "Odkrywaj okolicę aktywnie"
+        },
+        "nordicWalking": {
+          "title": "Nordic walking",
+          "description": "Krok za krokiem idź po zdrowie"
+        },
+        "gym": {
+          "title": "Siłownia",
+          "description": "Profesjonalny sprzęt Matrix Fitness"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Fort no.5 - wnętrze",
+        "alt2": "Fort no.5 - miejsce grillowe", 
+        "alt3": "Fort no.5 - zewnętrzny widok",
+        "alt4": "Fort no.5 - historyczne wnętrze"
+      }
+    },
+    "weekends": {
+      "title": "Weekendy pełne atrakcji",
+      "imageAlt": "Weekendy pełne atrakcji - Fort no.5",
+      "description": "Weekendy w Hotelu Avangarda to czas pełen energii, smaków\n i niezapomnianych wrażeń! Czekają na Ciebie wieczory z muzyką\n na żywo, wyjątkowe imprezy taneczne czy klimatyczne kolacje degustacyjne. Sezonowo zapraszamy na takie atrakcje, jak Miasteczko Świętego Mikołaja czy Farma Dyniowa. Nasz hotel leży na styku Mazowsza i Kurpi, dzięki czemu w najbliższej okolicy możesz doświadczyć najbardziej barwnego polskiego folkloru.",
+      "features": {
+        "liveMusic": {
+          "title": "Muzyka na żywo",
+          "description": "Lokalni muzycy pełni pasji"
+        },
+        "danceParties": {
+          "title": "Imprezy taneczne",
+          "description": "Klimat najlepszej zabawy"
+        },
+        "tastingDinners": {
+          "title": "Kolacje degustacyjne",
+          "description": "Dobra kuchnia to nasza specjalność!"
+        },
+        "seasonalAttractions": {
+          "title": "Atrakcje sezonowe",
+          "description": "Cztery sezony zabawy"
+        },
+        "localEvents": {
+          "title": "Wydarzenia lokalne",
+          "description": "Folklor Mazowsza i Kurpi"
+        },
+        "nature": {
+          "title": "Na grzyby, na ryby…",
+          "description": "Czyste rzeki i piękne lasy"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Fort no.5 - wnętrze",
+        "alt2": "Fort no.5 - miejsce grillowe",
+        "alt3": "Fort no.5 - zewnętrzny widok",
+        "alt4": "Fort no.5 - historyczne wnętrze"
+      }
+    }
+  },
+  "spaIntro": {
+    "spa": {
+      "title": "Avangarda SPA",
+      "imageAlt": "Spa Avangarda - zabiegi wellness",
+      "description": "Zapraszamy do wyjątkowej strefy SPA - miejsca stworzonego z myślą\n o pełnym komforcie i regeneracji naszych Gości. To przestrzeń, w której cisza, aromaty i dotyk profesjonalnych zabiegów pozwolą oderwać się od codzienności. Oferujemy szeroki wybór masaży, zabiegów na twarz\n i ciało wykonywanych na kosmetykach światowych marek, a także autorskie rytuały stworzone z myślą o tym miejscu. Nasz zespół doświadczonych terapeutów zadba o każdy szczegół, tak, by chwile spędzone w strefie Spa były prawdziwym odprężeniem dla ciała\n i umysłu.",
+      "downloadMenusTitle": "Pobierz menu zabiegów:",
+      "downloadButtons": {
+        "massagesRituals": "Masaże i rytuały",
+        "faceTreatments": "Zabiegi na twarz",
+        "bodyTreatments": "Zabiegi na ciało",
+        "kidsSpa": "Kids SPA"
+      },
+      "reserveVisitButton": "Zarezerwuj wizytę",
+      "authorTreatmentsTitle": "Nasze autorskie zabiegi"
+    },
+    "pool": {
+      "title": "Basen",
+      "imageAlt": "Basen Hotel Avangarda",
+      "description1": "Zapraszamy do strefy basenowej Hotelu Avangarda – znajdziesz tu basen rekreacyjny, brodzik dla dzieci, 8 osobowe jacuzzi, dwie kojące sauny – fińską i Infrared – oraz komfortową strefę relaksu z podgrzewaną leżanką, brodzikami do moczenia stóp przed saunowaniem oraz studnią lodową, dzięki której można ochłodzić ciało płatkami lodu . Tu woda, ciepło i cisza tworzą doskonałą harmonię wypoczynku.",
+      "description2": "Basen dostępny jest wyłącznie dla Gości hotelowych. Jeżeli nie nocujesz w naszym hotelu, a chcesz skorzystać z basenu zapoznaj się\n z pakietami Familijna Niedziela i DAY SPA.",
+      "downloadPackagesTitle": "Pobierz informacje o pakietach:",
+      "downloadButtons": {
+        "familySunday": "Familijna Niedziela",
+        "daySpa": "Day Spa"
+      },
+      "galleryTitle": "Zapraszamy",
+      "galleryImages": {
+        "poolKids": "Basen z hydromasażem",
+        "poolRelax": "Strefa relaksu przy basenie",
+        "poolView": "Widok na basen z góry",
+        "poolLighting": "Oświetlenie basenu"
+      }
+    },
+    "saltCave": {
+      "title": "Grota Solna",
+      "imageAlt": "Grota solna Avangarda",
+      "description1": "Nasza grota solna to naturalne środowisko terapeutyczne, które tworzy unikalny mikroklimat bogaty w jony ujemne oraz mikroelementy takie jak jod, potas, wapń, magnez, brom i selen – występujące tu w stężeniu kilkukrotnie wyższym niż nad morzem.",
+      "description2": "W tężni używamy solanki z Zabłocia wydobywanej od ponad 120 lat\n z odwiertu \"KORONA\" w uzdrowisku Zabłocie-Solanka z głęboko położonych złóż wód leczniczych jodowo-bromowych.",
+      "description3": "Seanse w grocie wspomagają leczenie chorób dróg oddechowych, nadciśnienia, niedoczynności tarczycy oraz dolegliwości sercowo-naczyniowych. Wzmacniają odporność, redukują stres, zmęczenie\n i wspierają regenerację układu nerwowego – także u dzieci.",
+      "gallery": {
+        "alt1": "Wnętrze groty solnej",
+        "alt2": "Sól himalajska w grocie", 
+        "alt3": "Oświetlenie w grocie"
+      }
+    },
+    "gym": {
+      "title": "Siłownia & Fitness",
+      "imageAlt": "Siłownia Matrix Avangarda",
+      "description": "Nowoczesna siłownia wyposażona w profesjonalny sprzęt marki Matrix to idealne miejsce na trening o każdej porze dnia. Oferujemy szeroki wybór urządzeń cardio i siłowych, dostosowanych do potrzeb zarówno początkujących, jak i zaawansowanych użytkowników. Znajdziesz tu m.in. bieżnie, rowery, orbitreki, a także maszyny do treningu siłowego\n i wolne ciężary. Przestrzeń jest klimatyzowana, dobrze oświetlona\n i sprzyja komfortowemu treningowi.",
+      "gallery": {
+        "alt": "Siłownia Matrix Avangarda",
+        "alt1": "Sprzęt cardio Matrix",
+        "alt2": "Strefa siłowa", 
+        "alt3": "Wolne ciężary",
+        "alt4": "Panorama siłowni"
+      }
+    },
+    "testimonials": {
+      "title": "Opinie Gości",
+      "subtitle": "Poznaj opinie naszych gości o relaksujących chwilach spędzonych w Avangarda SPA",
+      "reviews": [
+        {
+          "id": "testimonial-1",
+          "text": "Spa w Hotel Avangarda to prawdziwy raj dla ciała i duszy! Masaż relaksacyjny był niesamowity, a grota solna pomogła mi się zregenerować po stresującym tygodniu. Personel bardzo profesjonalny i miły. Zdecydowanie wrócę!",
+          "name": "Marta",
+          "location": "Białystok",
+          "rating": 5,
+          "date": "Maj 2024"
+        },
+        {
+          "id": "testimonial-2",
+          "text": "Spędziliśmy weekend wellness z żoną i było fantastycznie! Zabiegi na twarz, masaże i relaks w strefie spa. Wszystko na najwyższym poziomie. Szczególnie polecam pakiet dla par - romantycznie i relaksująco.",
+          "name": "Krzysztof",
+          "location": "Suwałki",
+          "rating": 5,
+          "date": "Sierpień 2024"
+        }
+      ]
+    }
+  },
+  "forKidsIntro": {
+    "kidsFriendly": {
+      "title": "Hotel przyjazny dzieciom",
+      "imageAlt": "Hotel pełen możliwości - aktywny wypoczynek",
+      "description": "Zaplanuj rodzinny weekend, święta czy wakacje w miejscu, które naprawdę dba o potrzeby całej rodziny. Stworzyliśmy tu prawdziwy raj dla najmłodszych – z salą zabaw, kręgielnią, basenem i animacjami, które gwarantują uśmiech każdego dnia. Rodzinne pakiety, komfortowe pokoje i praktyczne udogodnienia sprawiają, że pobyt z dziećmi staje się czystą przyjemnością. Do tego pyszne i zdrowe menu, które zadowoli nawet małych niejadków. U nas każdy członek rodziny czuje się wyjątkowo!",
+      "features": {
+        "familyPackages": {
+          "title": "Rodzinne pakiety",
+          "description": "Mnogość atrakcji w cenie"
+        },
+        "familyRooms": {
+          "title": "Pokoje dla całej rodziny",
+          "description": "Wygodne pokoje dla małych i dużych gości."
+        },
+        "roomAmenities": {
+          "title": "Udogodnienia w pokojach",
+          "description": "Dostępne na życzenie"
+        },
+        "healthyKitchen": {
+          "title": "Zdrowa kuchnia",
+          "description": "Pysznie dla małych smakoszy"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Spływy kajakowe po Narwi",
+        "alt2": "Spacery po okolicy",
+        "alt3": "Nordic Walking",
+        "alt4": "Siatkówka plażowa"
+      }
+    },
+    "fourPlayZones": {
+      "title": "Cztery strefy dziecięcej zabawy",
+      "imageAlt": "Klub Coola - centrum rodzinnej rozrywki",
+      "description": "W Hotelu Avangarda zabawa nie ma końca – stworzyliśmy wyjątkowe przestrzenie, w których dzieci czują się jak w bajce! W kolorowej sali zabaw czeka na nie strefa z kulkami i interaktywny magiczny dywan, który zamienia podłogę w świat pełen gier i przygód. Nasza rodzinna kręgielnia z ułatwieniami dla najmłodszych to świetna okazja do wspólnej zabawy i zdrowej rywalizacji. Na zewnątrz maluchy znajdą plac zabaw z huśtawkami, piaskownicą i zabawkami – idealną przestrzeń na beztroskie chwile. A latem prawdziwą atrakcją jest Przystań Avangarda, z piaskowym placem zabaw, huśtawkami\n i dmuchanym zamkiem – tu możliwości zabawy na świeżym powietrzu są nieograniczone!",
+      "features": {
+        "playRoom": {
+          "title": "Sala zabaw",
+          "description": "Małpi gaj i magiczny dywan"
+        },
+        "bowling": {
+          "title": "Kręgielnia",
+          "description": "Rodzinna kręgielnia z ułatwieniami dla dzieci"
+        },
+        "playground": {
+          "title": "Plac zabaw",
+          "description": "Zabawa w cieniu wielkiego klonu"
+        },
+        "marina": {
+          "title": "Przystań Avangarda",
+          "description": "Plaża, piasek i zabawa"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Rzutki w Klubie Coola",
+        "alt2": "Cymbergaj w Klubie Coola",
+        "alt3": "Bilard w Klubie Coola",
+        "alt4": "Bar w Klubie Coola"
+      }
+    },
+    "kidsSpa": {
+      "title": "Wellness & SPA\n dla dzieci",
+      "imageAlt": "Atrakcje dla dzieci - plac zabaw",
+      "description": "W naszej strefie Wellness & SPA dbamy o dobre samopoczucie najmłodszych – bo dzieci zasługują na wyjątkową troskę. Nasz płytki basen (120 cm) i bezpieczny brodzik to idealne miejsce na pierwsze wodne przygody. W ramach Kids SPA oferujemy delikatne masażyki\n i zabiegi dopasowane do dziecięcych potrzeb. Dla lokalnych rodzin przygotowaliśmy specjalną ofertę Familijna Niedziela, łączącą wypoczynek, wodne szaleństwo i rodzinny obiad z rodzinną atmosferą. To doskonały sposób na wspólne chwile i dobre samopoczucie całej rodziny!",
+      "downloadTitle": "Pobierz informacje o ofertach:",
+      "downloadButtons": {
+        "familySunday": "Familijna Niedziela",
+        "kidsSpa": "Kids SPA"
+      },
+      "features": {
+        "paddling": {
+          "title": "Brodzik dla dzieci",
+          "description": "Bezpieczna zabawa w wodzie"
+        },
+        "shallowPool": {
+          "title": "Płytki basen",
+          "description": "Idealny na pierwsze pływanie"
+        },
+        "kidsSpaServices": {
+          "title": "Kids SPA",
+          "description": "Małe spa, wielka frajda"
+        },
+        "familySunday": {
+          "title": "Familijna niedziela",
+          "description": "Dzień pełen atrakcji"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Plac zabaw dla dzieci",
+        "alt2": "Ścieżka edukacyjna",
+        "alt3": "Brodzik dla dzieci",
+        "alt4": "Pokój gier dla dzieci"
+      }
+    },
+    "seasonalAttractions": {
+      "title": "Sezonowe atrakcje dla dzieci",
+      "imageAlt": "Aktywny wypoczynek - basen i relaks",
+      "description": "W Hotelu Avangarda każda pora roku przynosi nowe przygody\n dla najmłodszych! Zimą dzieci przenoszą się do największego\n w regionie, magicznego Miasteczka Świętego Mikołaja, pełnego światełek, niespodzianek i świątecznych animacji. Jesienią zapraszamy na kolorową Farmę Dyniową, gdzie czekają dyniowe dekoracje, zabawy na świeżym powietrzu i kreatywne warsztaty. W chłodniejsze dni maluchy mogą wyszaleć się w naszej ogromnej sali z dmuchańcami, która dostarcza mnóstwo energii i radości. A latem? Czas na wakacje pełne atrakcji, animacji i zabaw na świeżym powietrzu! Atrakcje sezonowe są również dostępne jako zorganizowane warsztaty dla szkół i przedszkoli.",
+      "downloadTitle": "Pobierz informacje o atrakcjach:",
+      "downloadButton": "Atrakcje sezonowe",
+      "features": {
+        "santaVillage": {
+          "title": "Miasteczko Świętego Mikołaja",
+          "description": "Magia Świąt na żywo"
+        },
+        "pumpkinFarm": {
+          "title": "Farma dyniowa",
+          "description": "Jesień pełna zabawy"
+        },
+        "inflatables": {
+          "title": "Ogromna sala z dmuchańcami",
+          "description": "Skacz, baw się i śmiej !"
+        },
+        "summerVacation": {
+          "title": "Wakacje pełne atrakcji",
+          "description": "Lato pełne przygód"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Basen z hydromasażem",
+        "alt2": "Strefa relaksu przy basenie",
+        "alt3": "Widok na basen z góry",
+        "alt4": "Oświetlenie basenu"
+      }
+    },
+    "kidsParty": {
+      "title": "Urodzinki dla dzieci",
+      "imageAlt": "Weekendy pełne atrakcji - Fort no.5",
+      "description": "W Hotelu Avangarda spełniamy dziecięce marzenia o wyjątkowych urodzinach! Organizujemy niezapomniane przyjęcia przez cały rok\n w kolorowej sali zabaw w Klubie Coola z salą zabaw dla młodszych dzieci lub kręglami dla nastolatków. Od wiosny do jesieni organizujemy urodzinki także w plenerze - na Dymnej Polanie przy ognisku\n lub w specjalnej dziecięcej strefie na Przystani Avangarda. Każda impreza to moc śmiechu i kreatywnej zabawy dzięki bogatej ofercie animacji dopasowanej do wieku dzieci. Serwujemy pyszne przekąski\n i słodkości dla najmłodszych, a dla rodziców przygotowujemy komfortową strefę z poczęstunkiem. Zorganizuj z nami urodziny\n dla swojej pociechy!",
+      "downloadTitle": "Pobierz informacje o urodzinkach:",
+      "downloadButton": "Dziecięce urodzinki",
+      "features": {
+        "clubCoola": {
+          "title": "Klub Coola",
+          "description": "Komfortowo i pysznie"
+        },
+        "fireplace": {
+          "title": "Dymna Polana",
+          "description": "Rodzinnie przy ognisku"
+        },
+        "marina": {
+          "title": "Przystań Avangarda",
+          "description": "Urodziny na plaży"
+        },
+        "animations": {
+          "title": "Animacje",
+          "description": "Dostosowane do zainteresowań"
+        }
+      },
+      "galleryTitle": "Zapraszamy",
+      "gallery": {
+        "alt1": "Klub Coola - kolorowa sala zabaw",
+        "alt2": "Dymna Polana - miejsce grillowe", 
+        "alt3": "Przystań Avangarda - zewnętrzny widok",
+        "alt4": "Animacje - zabawa dla dzieci"
+      }
+    }
+  },
+  "spa": {
+    "title": "Wellness & Spa",
+    "description": "Witamy w naszym ekskluzywnym spa, gdzie harmonia ciała i umysłu jest naszym priorytetem. Oferujemy kompleksowe zabiegi wellness, relaksacyjne i upiększające, które zostały starannie dobrane, aby zapewnić naszym gościom najwyższy poziom odprężenia i regeneracji. Nasze spa to oaza spokoju, gdzie możesz uciec od codziennego stresu i zanurzyć się w atmosferze luksusu i relaksu.",
+    "description2": "Zapraszamy do nowoczesnej strefy Wellness. Dla wszystkich Gości przygotowaliśmy basen rekreacyjny, brodzik oraz jacuzzi. Dorośli mają do dyspozycji dwie sauny – fińską i Infrared oraz pokój relaksu z podgrzewaną leżanką, brodzikami do moczenia stóp przed saunowaniem oraz studnią lodową, dzięki której można ochłodzić ciało płatkami lodu.",
+    "main": {
+      "title": "Avangarda SPA",
+      "description": "Poznaj oazę spokoju w luksusowej strefie Avangarda SPA – miejscu, gdzie ciało i umysł odzyskują harmonię. Tutaj czas zwalnia, a każda chwila otula zmysły. Kojące masaże, autorskie rytuały i bogactwo zabiegów pielęgnacyjnych, sprawią, że poczujesz się wyjątkowo od pierwszego dotyku.",
+      "wellnessTitle": "Wellness",
+      "wellnessDescription": "Strefa Wellness w Hotelu Avangarda to rodzinna przestrzeń relaksu. Kryty basen rekreacyjny z brodzikiem dla najmłodszych zaprasza całe rodziny do wspólnej zabawy. Znajdziesz tu również 8 osobowe relaksujące jacuzzi i dwie sauny, które pomogą rozluźnić ciało i oczyścić umysł.",
+      "wellnessDescription2": "Seans w grocie solnej doskonale wyciszy, zregeneruje i wzmocni Twoją odporność, a nowoczesna siłownia umożliwi Ci aktywny trening niezależnie od pogody.",
+      "wellnessDescription3": "To idealne miejsce, by zadbać o kondycję i zdrowo spędzić czas \n z najbliższymi.",
+      "learnMore": "Dowiedz się więcej"
+    },
+    "wellnessTitle": "Nasze Spa",
+    "wellnessSubtitle": "Kompleksowe zabiegi dla ciała i duszy",
+    "wellnessDescription": "Nasza strefa Spa oferuje szeroki wybór zabiegów, które pomogą Ci zadbać o ciało i umysł. Nasi doświadczeni terapeuci wykorzystują najwyższej jakości kosmetyki i techniki, aby zapewnić Ci niezapomniane doświadczenia i widoczne efekty.",
+    "downloadCatalog": "Pobierz katalog zabiegów",
+    "saltRoomTitle": "Grota Solna",
+    "saltRoomSubtitle": "Terapia solna dla zdrowia i relaksu",
+    "saltRoomDescription": "Nasza grota solna to wyjątkowe miejsce, gdzie możesz doświadczyć dobroczynnych właściwości soli himalajskiej. Mikroklimat panujący w grocie solnej wspomaga leczenie wielu dolegliwości układu oddechowego, wzmacnia odporność i działa relaksująco na cały organizm.",
+    "saltRoomBenefits": {
+      "respiratory": {
+        "title": "Wspomaganie układu oddechowego",
+        "description": "pomaga w leczeniu astmy, alergii i innych dolegliwości dróg oddechowych"
+      },
+      "immunity": {
+        "title": "Wzmocnienie odporności",
+        "description": "regularne sesje w grocie solnej wzmacniają naturalną odporność organizmu"
+      },
+      "stress": {
+        "title": "Relaks i redukcja stresu",
+        "description": "atmosfera groty solnej sprzyja głębokiemu odprężeniu i redukcji napięcia"
+      }
+    },
+    "saltRoomPrices": {
+      "individual": {
+        "title": "Sesja indywidualna",
+        "price": "60 zł / 45 min"
+      },
+      "family": {
+        "title": "Sesja rodzinna (do 4 osób)",
+        "price": "160 zł / 45 min"
+      },
+      "fivepack": {
+        "title": "Karnet 5 wejść",
+        "price": "250 zł"
+      }
+    },
+    "beautyTitle": "Salon Wizażu",
+    "beautySubtitle": "Profesjonalna pielęgnacja dłoni i paznokci",
+    "beautyDescription": "Nasz salon manicure oferuje kompleksową pielęgnację dłoni i paznokci. Wykorzystujemy najwyższej jakości produkty i najnowsze techniki, aby zapewnić Ci perfekcyjny manicure, który utrzyma się przez długi czas.",
+    "beautyServices": {
+      "classic": {
+        "title": "Manicure klasyczny",
+        "description": "Tradycyjny manicure z malowaniem paznokci lakierem klasycznym",
+        "price": "90 zł"
+      },
+      "hybrid": {
+        "title": "Manicure hybrydowy",
+        "description": "Trwały manicure z użyciem lakieru hybrydowego",
+        "price": "120 zł"
+      },
+      "japanese": {
+        "title": "Manicure japoński",
+        "description": "Odżywczy zabieg wzmacniający naturalne paznokcie",
+        "price": "110 zł"
+      },
+      "extension": {
+        "title": "Przedłużanie paznokci",
+        "description": "Profesjonalne przedłużanie paznokci metodą żelową",
+        "price": "od 180 zł"
+      }
+    },
+    "bookAppointment": "Umów wizytę",
+    "seeGallery": "Zobacz nasze realizacje",
+    "hoursTitle": "Godziny otwarcia i cennik",
+    "priceNote": "* Ceny mogą się różnić w zależności od wybranego zabiegu. Szczegółowy cennik dostępny w recepcji spa.",
+    "phoneReservation": "Rezerwacja telefoniczna",
+    "onlineReservation": "Rezerwacja online",
+    "treatments": {
+      "massage": {
+        "name": "Masaże relaksacyjne",
+        "description": "Szeroka gama masaży, które pomogą Ci się zrelaksować i odprężyć.",
+        "priceRange": "150 - 350 zł",
+        "duration": "30 - 90 min"
+      },
+      "face": {
+        "name": "Zabiegi na twarz",
+        "description": "Profesjonalne zabiegi pielęgnacyjne dla każdego rodzaju skóry.",
+        "priceRange": "180 - 450 zł",
+        "duration": "45 - 75 min"
+      },
+      "body": {
+        "name": "Zabiegi na ciało",
+        "description": "Odżywcze i odmładzające zabiegi dla całego ciała.",
+        "priceRange": "200 - 480 zł",
+        "duration": "60 - 90 min"
+      },
+      "seasonal": {
+        "name": "Zabiegi sezonowe",
+        "description": "Specjalne zabiegi zmieniające się wraz z porami roku, dostosowane do specyficznych potrzeb.",
+        "priceRange": "220 - 500 zł",
+        "duration": "60 - 120 min"
+      },
+      "rituals": {
+        "name": "Rytuały spa",
+        "description": "Kompleksowe rytuały dla ciała i umysłu, inspirowane tradycjami z całego świata.",
+        "priceRange": "280 - 600 zł",
+        "duration": "90 - 120 min"
+      }
+    },
+    "services": {
+      "hotStones": {
+        "name": "Masaż Avangarda",
+        "description": "Autorski masaż całego ciała szyty na miarę Twoich potrzeb. Dedykowany osobom, które potrzebują ukojenia i szukają doświadczenia głębokiego relaksu i odprężenia. Kojący zmysły aromat oleju indywidualnie dobierany przed masażem\n do Twojego samopoczucia i upodobania pozwoli\n na chwilę błogiego zapomnienia.",
+        "price": "240 zł",
+        "duration": "60 min"
+      },
+      "rejuvenation": {
+        "name": "Luksus w Różanie",
+        "description": "Kompleksowy rytuał łączący pielęgnację i głęboki relaks. Rozpoczyna go aromatyczny peeling całego ciała, który wygładzi skórę. Następnie wykonany zostanie masaż na rozgrzanym masełku, który intensywnie nawilży i rozluźni mięśnie. Rytuał wieńczy kojący masaż twarzy, szyi i dekoltu, przywracając cerze świeżość i blask.",
+        "price": "450 zł",
+        "duration": "90 min"
+      },
+      "chocolate": {
+        "name": "Rytuał Doliny Narwi",
+        "description": "Rytuał pielęgnacyjny na ciało, łączący w sobie odżywczy masaż z subtelnym peelingiem. Wykonywany na aromatycznej masce peelingującej, która przywróci skórze gładkość i świeżość\n w krótkim czasie.",
+        "price": "270 zł",
+        "duration": "60 min"
+      }
+    },
+    "hours": {
+      "title": {
+        "spa": "Basen & Strefa Spa",
+        "saltRoom": "Grota Solna",
+        "manicure": "Salon Manicure"
+      },
+      "weekdaysLabel": "Poniedziałek - Piątek",
+      "weekendsLabel": "Sobota - Niedziela",
+      "spa": {
+        "weekdays": "10:00 - 21:00",
+        "weekends": "09:00 - 22:00"
+      },
+      "saltRoom": {
+        "weekdays": "11:00 - 20:00",
+        "weekends": "10:00 - 21:00"
+      },
+      "manicure": {
+        "weekdays": "10:00 - 19:00",
+        "weekends": "09:00 - 18:00"
+      },
+      "prices": {
+        "spa": "od 80 zł / wejście",
+        "saltRoom": "od 60 zł / sesja",
+        "manicure": "od 90 zł / zabieg"
+      }
+    },
+    "poolTitle": "Basen",
+    "poolSubtitle": "Relaks i regeneracja",
+    "poolDescription": "Nasz luksusowy basen oferuje doskonałe miejsce do relaksu i wypoczynku. Zanurz się w krystalicznie czystej wodzie i ciesz się orzeźwiającą kąpielą w spokojnym otoczeniu zaprojektowanym z myślą o Twoim komforcie.",
+    "poolFeatures": {
+      "temperature": {
+        "title": "Kontrola temperatury",
+        "description": "Utrzymywana na idealnym poziomie przez cały rok dla Twojego komfortu."
+      },
+      "facilities": {
+        "title": "Wysokiej klasy udogodnienia",
+        "description": "Wygodne leżaki, świeże ręczniki i przebieralnie do dyspozycji gości."
+      },
+      "access": {
+        "title": "Łatwy dostęp",
+        "description": "Bezpłatny dla gości hotelowych, z możliwością zakupu biletów dziennych dla odwiedzających."
+      }
+    },
+    "poolPrices": {
+      "adult": {
+        "title": "Bilet dla dorosłych",
+        "price": "50 PLN / 2h"
+      },
+      "child": {
+        "title": "Bilet dla dzieci",
+        "price": "30 PLN / 2h"
+      },
+      "family": {
+        "title": "Bilet rodzinny",
+        "price": "120 PLN / 2h"
+      }
+    },
+    "kidsPoolTitle": "Strefa dla dzieci",
+    "kidsPoolDescription": "Stworzyliśmy specjalną strefę basenową dla naszych najmłodszych gości. Nasz brodzik zapewnia bezpieczne i zabawne środowisko, w którym dzieci mogą pluskać się i bawić pod czujnym okiem opiekunów.",
+    "kidsPoolFeatures": {
+      "safety": {
+        "title": "Bezpieczeństwo",
+        "description": "Płytka głębokość i antypoślizgowe powierzchnie zaprojektowane z myślą o bezpieczeństwie dzieci."
+      },
+      "fun": {
+        "title": "Elementy zabawy",
+        "description": "Zabawne wodne atrakcje i zabawki, które zapewniają dzieciom rozrywkę."
+      },
+      "supervision": {
+        "title": "Nadzór",
+        "description": "Przeszkolony personel na miejscu, choć nadal wymagany jest nadzór rodzicielski."
+      }
+    },
+    "bookPoolSession": "Zarezerwuj wizytę na basenie"
+  },
+  "events": {
+    "title": "Rodzinne uroczystości\n w niezwykłej oprawie",
+    "description": "Zorganizuj niezapomniane wesele, komunię lub rodzinne przyjęcie\n w eleganckich wnętrzach Hotelu Avangarda. Przestronne sale, wykwintne menu oraz profesjonalna obsługa i bogactwo usług dodatkowych tworzą idealne warunki do świętowania najważniejszych chwil w życiu właśnie tutaj. Stworzyliśmy także dwa niepowtarzalne miejsca do organizowania przyjęć w plenerze – Fort No. 4 oraz Przystań Avangarda nad Narwią. Naszym atutem jest także bogata infrastruktura dla dzieci – kolorowa sala zabaw, zewnętrzny plac zabaw, kręgielnia, basen, własne dmuchane zamki i zjeżdżalnie i kreatywne programy animacji. Wszystko to sprawia, że u nas dzieci się nie nudzą, a rodzice mają czas na zabawę !",
+    "bookDate": "Zarezerwuj termin",
+    "downloadOffer": "Pobierz ofertę",
+    "venuesTitle": "Nasze przestrzenie",
+    "venuesDescription": "Oferujemy różnorodne przestrzenie, które dopasujemy do charakteru Twojego wydarzenia. Niezależnie od tego, czy planujesz kameralne przyjęcie czy wystawne wesele – zadbamy\n o odpowiednią oprawę i komfort Twoich Gości.",
+    "checkAvailability": "Sprawdź dostępność",
+    "availableDates": "Dostępne terminy",
+    "availabilityDescription": "Poniżej znajdziesz kalendarz z dostępnymi terminami na organizację wesela lub przyjęcia. Zielone daty oznaczają dostępne terminy. Wybierz datę, aby sprawdzić szczegóły lub zarezerwować termin.",
+    "selectedDate": "Wybrany termin",
+    "dateAvailable": "Ten termin jest dostępny! Skontaktuj się z nami, aby omówić szczegóły.",
+    "reserveDate": "Zarezerwuj termin",
+    "inquireDetails": "Zapytaj o szczegóły",
+    "galleryTitle": "Galeria",
+    "downloadOfferText": "Pobierz naszą szczegółową ofertę weselną, która zawiera pełne menu, pakiety cenowe oraz wszystkie dostępne opcje i usługi dodatkowe.",
+    "downloadWeddingOffer": "Pobierz ofertę weselną",
+    "downloadOfferForm": {
+      "title": "Pobierz ofertę weselną",
+      "description": "Wypełnij krótki formularz, aby otrzymać pełną ofertę weselną wraz z menu i cennikiem.",
+      "fullName": "Imię i nazwisko",
+      "email": "Email",
+      "phone": "Telefon",
+      "download": "Pobierz ofertę"
+    },
+    "venues": {
+      "salaBankietowa": {
+        "name": "Sala Bankietowa",
+        "description": "Przestronna sala bankietowa to idealne miejsce do organizacji wesel\n i większych przyjęć. Wystrój w stylu Glamour z imponującymi kryształowym żyrandolami, podświetlanymi sufitami i kaskadą luster tworzy pełną elegancji oprawę do celebrowania najważniejszych chwil\n w życiu. Wyjście wprost do zielonego labiryntu ze stylowym zegarem słonecznym stwarza możliwość organizacji ceremonii zaślubin wśród zieleni, to również idealne miejsce do relaksu i pięknych zdjęć plenerowych.",
+        "size": "680m²",
+        "features": {
+          "danceFloor": "Reprezentacyjne wejście",
+          "stage": "Strefa relaksu z wygodnymi kanapami",
+          "soundSystem": "Doskonała akustyka",
+          "airConditioning": "Klimatyzacja strefowa",
+          "lighting": "Profesjonalne oświetlenie",
+          "lockerRooms": "Oddzielne szatnie i przestronne łazienki"
+        }
+      },
+      "salaKominkowa": {
+        "name": "Sala Kominkowa",
+        "description": "Reprezentacyjna, stylowo urządzona sala z otwartym kominkiem – idealna na kameralne przyjęcia i spotkania w atmosferze luksusu. Doskonała na spokojne wieczory, romantyczne kolacje i uroczystości\n w kameralnym stylu. To miejsce, które sprzyja bliskości, rozmowom\n i wspólnemu celebrowaniu ważnych chwil.",
+        "size": "45m²",
+        "features": {
+          "intimateSpace": "Kameralne przyjęcia rodzinne",
+          "cozyAtmosphere": "Stylowe wnętrze",
+          "fireplace": "Otwarty kominek",
+          "airConditioning": "Klimatyzacja",
+          "terrace": "Taras z wygodnymi kanapami",
+          "dedicatedBathroom": "Dedykowana łazienka"
+        }
+      },
+      "salaSosnowa": {
+        "name": "Sala Sosnowa",
+        "description": "Jasna, stylowo zaaranżowana sala z drewnianymi akcentami, która łączy prostą elegancję z naturalnym urokiem. Doskonale sprawdzi się na średniej wielkości przyjęcia, uroczystości rodzinne czy spotkania\n w kameralnym gronie, oferując ciepłą i harmonijną atmosferę. System ścian przesuwnych zapewnia dostosowanie wielkości sali do charakteru przyjęcia i liczby gości, a dodatkową przestrzeń do integracji gości stanowi przestronny, umeblowany taras. ",
+        "size": "125m²",
+        "features": {
+          "familyEvents": "Idealna na rodzinne przyjęcia",
+          "flexibleLayout": "Moliwość swobodnej aranżacji",
+          "lighting": "Naturalne oświetlenie",
+          "airConditioning": "Klimatyzacja",
+          "openBuffet": "Nowoczesne bufety",
+          "terrace": "Umeblowany taras"
+        }
+      },
+      "fortNo4": {
+        "name": "Fort No. 4",
+        "description": "Wyjątkowa infrastruktura plenerowa otoczona zielenią. To idealne miejsce na letnie rodzinne przyjęcie, urodziny, czy poprawiny. To również doskonały wybór dla podążających za najnowszymi trendami organizacji przyjęcia weselnego w stylu slow wedding. To miejsce, gdzie można celebrować rodzinne relacje i miłość w niepowtarzalnej, swobodnej atmosferze – bez sztywnych ram, presji tradycji, doświadczając relaksu\n i autentyczności.",
+        "size": "350m² (150m² zadaszone)",
+        "features": {
+          "outdoorSpace": "Rodzinne przyjęcia w plenerze",
+          "slowWeddings": "Wesela w stylu slow",
+          "dayAfter": "Poprawiny inne niż wszystkie",
+          "roofedArea": "Zadaszona plenerowa przestrzeń",
+          "naturalSurroundings": "Naturalne otoczenie",
+          "relaxedAtmosphere": "Wyjątkowa atmosfera"
+        }
+      },
+      "port": {
+        "name": "Przystań Avangarda",
+        "description": "Położona nad samym brzegiem Narwi Przystań Avangarda to miejsce stworzone do relaksu wśród natury. Woda, zieleń, piasek i wyjątkowy, wakacyjny klimat sprawiają, że każda chwila tu staje się niezapomniana. Przystań ze swoją bogatą infrastrukturą oferuje wiele możliwości zarówno do aktywnego spędzenia czasu, swobodnej rekreacji\n jak i wyjątkowych rodzinnych wieczorów na tarasie pod żaglami.",
+        "size": "200m²",
+        "features": {
+          "mediterraneanStyle": "Przyjęcia w śródziemnomorskim stylu",
+          "terrace": "Taras pod żaglami z widokiem na Narew",
+          "wedding": "Zaślubiny nad brzegiem rzeki",
+          "beachbar": "Beach bar z kolorowymi drinkami",
+          "beachBeds": "Łóżka i kosze plażowe dla relaksu",
+          "childrenPlayground": "Atrakcje dla dzieci"
+        }
+      },
+      "openGrill": {
+        "name": "Dymna Polana",
+        "description": "Dymna Polana to kameralna, zamknięta przestrzeń, położona\n w zacisznym otoczeniu drzew, zlokalizowana nad Fortem No. 4.\n To miejsce sprzyja otwartym rozmowom, swobodnej rodzinnej integracji, a ciepło ognia łączy pokolenia. Na Polanie znajdują się dwie zadaszone altany, zapewniające komfort niezależnie od pogody, ogromne palenisko oraz drewniane pnie do siedzenia – naturalne, klimatyczne i wygodne. Duży, ogrodzony trawiasty teren jest doskonałe miejsce zabaw dla dzieci.",
+        "size": "150m²",
+        "features": {
+          "familyMeetings": "Rodzinne spotkania przy ognisku",
+          "bachelorParty": "Wieczory kawalerskie i panieńskie",
+          "roofedArea": "Dwie zadaszone altany",
+          "rentArea": "Możliwość wynajęcia samego terenu",
+          "sunbeds": "Leżaki i hamaki dla relaksu",
+          "childrenPlayground": "Przestrzeń na dziecięce zabawy"
+        }
+      }
+    },
+    "venueInfo": {
+      "maxGuests": "Maksymalna liczba gości",
+      "area": "Powierzchnia",
+      "amenities": "To jest wyjątkowe",
+      "seeGallery": "Zobacz galerię",
+      "people": "osób"
+    },
+    "packages": {
+      "title": "Pakiety weselne",
+      "classic": {
+        "name": "Pakiet Klasyczny",
+        "description": "Menu 3-daniowe, napoje, dekoracje",
+        "price": "od 500 zł / os."
+      },
+      "premium": {
+        "name": "Pakiet Premium",
+        "description": "Menu 4-daniowe, open bar, dekoracje",
+        "price": "od 750 zł / os."
+      },
+      "luxury": {
+        "name": "Pakiet Luksusowy",
+        "description": "Menu 5-daniowe, open bar premium, dekoracje",
+        "price": "od 1,000 zł / os."
+      }
+    },
+    "services": {
+      "title": "Dodatkowe usługi",
+      "music": "DJ lub zespół muzyczny",
+      "photo": "Fotograf i kamerzysta",
+      "flowers": "Dekoracje kwiatowe",
+      "kids": "Animacje dla dzieci",
+      "fireworks": "Pokaz fajerwerków"
+    },
+    "gallery": {
+      "salaBankietowa": {
+        "alt": "Elegancka Sala Bankietowa z okrągłymi stołami",
+        "title": "Sala Bankietowa"
+      },
+      "salaKominkowa": {
+        "alt": "Kameralna Sala Kominkowa z przytulną atmosferą",
+        "title": "Sala Kominkowa"
+      },
+      "salaSosnowa": {
+        "alt": "Stylowa Sala Sosnowa z drewnianymi elementami",
+        "title": "Sala Sosnowa"
+      },
+      "fortNo4": {
+        "alt": "Fort No. 4 - przestrzeń na świeżym powietrzu",
+        "title": "Fort No. 4"
+      },
+      "buffet": {
+        "alt": "Bufet z przekąskami",
+        "title": "Wyśmienite Menu"
+      },
+      "dessertTable": {
+        "alt": "Tort weselny",
+        "title": "Słodki Stół"
+      }
+    }
+  },
+  "eventsByCategory": {
+    "downloadOffer": "POBIERZ OFERTĘ",
+    "whatMakesUsSpecial": "Co nas wyróżnia:",
+    "eventTypes": {
+      "wesela": {
+        "title": "Twoje wymarzone przyjęcie weselne",
+        "subtitle": "Niezapomniane chwile w wyjątkowej scenerii",
+        "description": "Hotel Avangarda położony zaledwie godzinę drogi od Warszawy,\n to miejsce, w którym spełniają się marzenia o niezapomnianym przyjęciu weselnym. Imponująca sala bankietowa, doskonała kuchnia\n i profesjonalna obsługa to idealne połączenie, aby stworzyć wesele marzeń. Organizujemy zarówno eleganckie przyjęcia weselne w stylu glamour, jak i stylowe wesela w plenerze czy rodzinne kameralne obiady weselne. Nasze doświadczenie, pasja i znajomość najnowszych trendów sprawią, że Twój wielki dzień będzie naprawdę niezapomniany.",
+        "features": [
+          "Opieka doświadczonego koordynatora weselnego",
+          "Komfortowy hotel do dyspozycji gości",
+          "Sala bankietowa dla 300 osób",
+          "Stylowe wesela w plenerze",
+          "Kameralne obiady weselne",
+          "Doskonała kuchnia",
+          "Rekomenowani dekoratorzy, muzycy i twórcy tortów",
+          "Bogata oferta atrakcji dla dzieci"
+        ]
+      },
+      "komunie": {
+        "title": "Komunie - rodzinne przyjęcia, jak z dziecięcych snów",
+        "subtitle": "Świętowanie ważnych momentów w życiu",
+        "description": "Pierwsza Komunia Święta to szczególny moment w życiu dziecka i jego najbliższych. Tak podniosłe wydarzenie zasługuje na odpowiednią oprawę. W Hotelu Avangarda zadbamy o pełną ciepła atmosferę tego wyjątkowego dnia. Oferujemy eleganckie sale, dopracowane menu\n i mnóstwo dziecięcych atrakcji – wszystko po to, by wspólne świętowanie pozostało w pamięci na długie lata.",
+        "features": [
+          "Sale na 20-150 osób",
+          "Doskonała kuchnia",
+          "Bogata oferta atrakcji dla dzieci",
+          "Ścianka do rodzinnych zdjęć",
+          "SŁodki bufet z fontanną czekoladową",
+          "Rekomendowani dekoratorzy i twórcy tortów"
+        ]
+      },
+      "uroczystosci-rodzinne": {
+        "title": "Wyjątkowe uroczystości rodzinne",
+        "subtitle": "Świętuj z rodziną w wyjątkowej atmosferze",
+        "description": "Zorganizuj z nami niezapomniane rodzinne uroczystości – urodziny, chrzciny czy ważne jubileusze. Hotel Avangarda poza doskonałą gastronomią, zapewnia kompleksową usługę organizacji rodzinnych przyjęć, oddając do dyspozycji Państwa gości komfortowy hotel\n z basenem, kręgielnią, salą zabaw dla dzieci i parkingiem.\n Wraz z zespołem doświadczonych kucharzy, profesjonalną obsługą kelnerską, z dbałością o każdy szczegół - tworzymy wyjątkowe rodzinne chwile!",
+        "features": [
+          "Opieka doświadczonego koordynatora",
+          "Sale na 20-150 osób",
+          "Doskonała kuchnia",
+          "Bogata oferta atrakcji dla dzieci",
+          "Rekomendowani dekoratorzy i twórcy tortów",
+          "Oprawa muzyczna i atrakcje dodatkowe"
+        ]
+      },
+      "przyjecia-plenerowe": {
+        "title": "Stylowe przyjęcia plenerowe",
+        "subtitle": "Celebracja pod gwiazdami",
+        "description": "Skorzystaj z uroków naturalnego otoczenia i wyjątkowej infrastruktury Hotelu Avangarda i zorganizuj z nami przyjęcie w plenerze. Do wyboru mamy trzy lokalizacje: piękny, kamienno- drewniany Fort No. 4, ognisko Dymna Polana oraz Przystań Avangarda, malowniczo położoną nad Narwią. W swobodnej atmosferze, bez szpilek i krawatów, blisko natury, ale w pełni komfortowo - tworzymy niezapomniane rodzinne przyjęcia plenerowe.",
+        "features": [
+          "Trzy niezwykłe lokalizacje",
+          "Miejsca w plenerze na 30-120 osób",
+          "Urok natury i komfort hotelowej jakości",
+          "Opieka doświadczonego koordynatora wydarzenia",
+          "Indywidualnie skomponowane menu",
+          "Rekomendowani dekoratorzy i twórcy tortów",
+          "Oprawa muzyczna i atrakcje dodatkowe",
+          "Bogata oferta atrakcji dla dzieci"
+        ]
+      }
+    }
+  },
+  "business": {
+    "title": "Konferencje w butikowym stylu",
+    "subtitle": "Komfort. Design. Możliwości.",
+    "introDescription1": "W Hotelu Avangarda to Ty i Twój biznes jesteście najważniejsi. Tutaj wsłuchamy się w Twoje potrzeby, zaproponujemy nieszablonowe rozwiązania i sprawimy, że Twoi pracownicy wyjadą wzmocnieni i pełni energii do działania.",
+    "introDescription2": "Jeżeli na swoją konferencję szukasz butikowego hotelu na wyłączność – świetnie trafiłeś! Tu nie będziesz jednym z wielu, u nas możesz być jednym jedynym i to dla Ciebie przygotujemy program integracji czy scenariusz wieczornej imprezy po dniu pełnym intensywnej pracy.",
+    "introDescription3": "Poznaj nasze możliwości, stworzone z myślą o kompletnej obsłudze pobytów biznesowych – od noclegów, poprzez konferencje, całodzienne integracje aż po bogatą ofertę niezapomnianych wieczorów.",
+    "learnMore": "DOWIEDZ SIĘ WIĘCEJ",
+    "entertainment": {
+      "title": "Integracje",
+      "subtitle": "i Team Building",
+      "description1": "Zamień zwykłe spotkanie firmowe w niezapomnianą przygodę! Integracje w Hotelu Avangarda to połączenie świetnej zabawy, budowania relacji i relaksu w wyjątkowym otoczeniu. Nasze wydarzenia są tworzone z myślą o tym, by każdy uczestnik poczuł się częścią zespołu – niezależnie od stanowiska czy wieku.",
+      "description2": "Oferujemy szeroki wachlarz aktywności integracyjnych i team buildingowych od gier zespołowych przez warsztaty kreatywne czy kulinarne, aż po niezwykłe wieczory tematyczne. Integralną częścią naszej oferty są również działania w obszarze CSR, które pozwalają uczestnikom realnie zaangażować się w inicjatywy społeczne\n i ekologiczne.",
+      "description3": "Nieszablonowe pomysły to nasza specjalność, ogranicza nas tylko Państwa wyobraźnia…",
+      "spacesTitle": "Nasze przestrzenie",
+      "spacesDescription": "Nasze przestrzenie są zaprojektowane z myślą o komforcie i funkcjonalności.\n Oferujemy różnorodne opcje, które można dostosować do indywidualnych potrzeb każdego wydarzenia.",
+      "downloadOffer": "POBIERZ OFERTĘ",
+      "spaces": {
+        "club": {
+          "title": "Klub Coola",
+          "badge": "Rozrywka & Relaks",
+          "description": "Po dniu intensywnej pracy zapraszamy do Klubu Coola – przestrzeni stworzonej z myślą o nieformalnych spotkaniach, integracji i dobrej zabawie. Kręgle, bilard i rzutki sprzyjają luźnej atmosferze, w której łatwiej o swobodny networking i wspólne świętowanie sukcesów.",
+          "features": {
+            "bowling": "Kręgle",
+            "bowlingDesc": "2 tory do gry",
+            "billiard": "Bilard",
+            "billiardDesc": "Strefa gier",
+            "sport": "Sport",
+            "sportDesc": "na dużym ekranie",
+            "exclusivity": "Wyłączność",
+            "exclusivityDesc": "zapytaj o możliwość",
+            "bar": "Bar",
+            "barDesc": "Szeroki wybór drinków",
+            "music": "Muzyka",
+            "musicDesc": "DJ lub koncerty"
+          }
+        },
+        "outdoor": {
+          "title": "Outdoor",
+          "badge": "Rekreacja",
+          "description": "Zadbaj o równowagę między pracą a regeneracją dzięki aktywnościom na łonie natury. Proponujemy szeroki wachlarz form rekreacji na świeżym powietrzu – idealnych jako przerywnik w intensywnym dniu lub element budowania zespołu. Bliskość rzeki, zieleń i ruch to sprawdzony sposób\n na odświeżenie umysłu i pozytywną energię w zespole.",
+          "features": {
+            "treasure": "Zaginiony Skarb Avangardów",
+            "treasureDesc": "Nasza flagowa gra terenowa",
+            "shooting": "Wyjazdy na strzelnicę",
+            "shootingDesc": "Rywalizacja w zespole",
+            "paintball": "Paintball",
+            "paintballDesc": "Wyrzuć z siebie złość",
+            "quads": "Quady",
+            "quadsDesc": "Zastrzyk adrenaliny",
+            "nordic": "Nordic Walking",
+            "nordicDesc": "Urocza okolica Dolnej Narwi",
+            "csr": "CSR",
+            "csrDesc": "Bo warto pomagać"
+          }
+        },
+        "fort": {
+          "title": "Fort No. 4",
+          "badge": "Integracja & BBQ",
+          "description": "Fort No. 4 to unikalna infrastruktura plenerowa, gdzie historia splata się\n z nowoczesnością, tworząc idealne warunki do integracji zespołowej\n w nieformalnej atmosferze. Proponujemy różne tematy przewodnie kolacji od American BBQ Party, przez wieczór we włoskiej Trattorii po tradycyjną polską biesiadę. Niezależnie od wybranego motywu kolacji, gwarantujemy moc atrakcji i niepowtarzalną atmosferę, które sprawią,\n że każde wydarzenie w Forcie No. 4 stanie się niezapomnianym doświadczeniem dla całego zespołu.",
+          "features": {
+            "availability": "Dostępność",
+            "availabilityDesc": "maj-wrzesień",
+            "amphitheatre": "Kamienny amfiteatr",
+            "amphitheatreDesc": "Przestrzeń dla wyjątkowych zdjęć",
+            "cooking": "Pokazy kulinarne",
+            "cookingDesc": "Stacja live cooking",
+            "covered": "Zadaszona przestrzeń",
+            "coveredDesc": "Patent na niepogodę",
+            "animations": "Wciągające animacje",
+            "animationsDesc": "Tematyczne imprezy",
+            "music": "Muzyka",
+            "musicDesc": "DJ lub muzyka na żywo"
+          }
+        },
+        "dymna": {
+          "title": "Dymna Polana",
+          "description1": "Położona w zacisznym otoczeniu drzew, zlokalizowana nad Fortem No.4., Dymna Polana to miejsce, które pozwala oderwać się od codziennej rutyny i przenieść spotkania na nowy, bardziej naturalny poziom.",
+          "description2": "Ognisko wraz z ogromnym paleniskiem sprzyja otwartym rozmowom, swobodnej wymianie pomysłów i prawdziwej integracji, a ciepło ognia łączy ludzi skuteczniej niż niejeden konferencyjny stolik. Polana wyposażona jest w zadaszone altany, zapewniające komfort niezależnie od pogody, oraz w drewniane pnie do siedzenia – naturalne, klimatyczne i wygodne.",
+          "features": {
+            "availability": "Dostępność",
+            "availabilityDesc": "maj - wrzesień",
+            "fireplace": "Ognisko",
+            "fireplaceDesc": "Spotkania w swobodnej atmosferze",
+            "gazebos": "Zadaszone altany",
+            "gazebosDesc": "Komfort niezależnie od pogody",
+            "loungers": "Leżaki i hamaki",
+            "loungersDesc": "Dla pełni relaksu",
+            "nature": "Naturalne otoczenie",
+            "natureDesc": "Przyroda w zasięgu ręki"
+          }
+        },
+        "przystan": {
+          "title": "Przystań Avangarda - tu czas płynie wolniej...",
+          "description": "Położona nad samym brzegiem Narwi Przystań Avangarda to miejsce stworzone do relaksu wśród natury. Woda, zieleń, cisza i wyjątkowy, wakacyjny klimat sprawiają, że każda chwila tu staje się niezapomniana. Przystań ze swoją bogatą infrastrukturą oferuje wiele możliwości zarówno do aktywnego spędzenia czasu, swobodnej rekreacji jak i wyjątkowych wieczorów na tarasie pod żaglami.",
+          "mediterraneanButton": "Kolacja śródziemnomorska",
+          "features": {
+            "availability": "Dostępność",
+            "availabilityDesc": "maj - wrzesień",
+            "kayaking": "Spływy kajakowe",
+            "kayakingDesc": "pod opieką ratowników",
+            "tournament": "Plażowy turniej sportowy",
+            "tournamentDesc": "Siatkówka & badminton",
+            "beaching": "Plażing nad Narwią",
+            "beachingDesc": "Łóżka i kosze plażowe",
+            "dinners": "Kolacje",
+            "dinnersDesc": "W śródziemnomorskim stylu",
+            "music": "Muzyka",
+            "musicDesc": "DJ lub na żywo"
+          }
+        }
+      }
+    },
+    "description": "W Hotelu Avangarda to Ty i Twój biznes jesteście najważniejsi. Tutaj wsłuchamy się w Twoje potrzeby, zaproponujemy nieszablonowe rozwiązania i sprawimy, że Twoi pracownicy wyjadą wzmocnieni i pełni energii do działania. Jeżeli na swoją konferencję szukasz butikowego hotelu na wyłączność – świetnie trafiłeś! Tu nie będziesz jednym z wielu, u nas możesz być jednym jedynym i to dla Ciebie przygotujemy program integracji czy scenariusz wieczornej imprezy po dniu pełnym intensywnej pracy.Poznaj nasze możliwości, stworzone z myślą o kompletnej obsłudze pobytów biznesowych – od noclegów, poprzez konferencje, całodzienne integracje aż po bogatą ofertę niezapomnianych wieczorów.",
+    "mainTitle": "Konferencje \n & Eventy",
+    "mainDescription": "Butikowy hotel, położony w cichym, zielonym zakątku Mazowsza, zaledwie godzinę drogi od Warszawy, oferuje możliwość wynajmu\n na wyłączność i stanowi doskonałe miejsce do organizacji wydarzeń biznesowych – od kameralnych spotkań zarządu po duże konferencje, eventy, targi i spotkania branżowe. Tworzymy długotrwałe relacje\n z Klientami Biznesowymi, zapewniając indywidualne, pełne zaangażowania podejście oraz gotowość, by sprostać nawet najbardziej wymagającym projektom.",
+    "facilities": {
+      "rooms": "8 sal",
+      "roomsDescription": "Sale konferencyjne (ponad 1000 m² / dla 600 osób)",
+      "attractions": "Atrakcje",
+      "attractionsDescription": "Kręgle, kajaki, basen, Spa",
+      "outdoorDining": "Kolacje w plenerze",
+      "outdoorDiningDescription": "Fort No. 4, Przystań Avangarda, Dymna Polana"
+    },
+    "spa": {
+      "title": "Biznes SPA",
+      "leftTitle": "Usługi SPA dla firm",
+      "leftDescription": "W naszym Hotelu doskonale rozumiemy, jak ważna jest równowaga między pracą a relaksem, dlatego przygotowaliśmy specjalną ofertę usług SPA dla biznesu Zapoznaj się z ofertą warsztatów SPA dla firm, które będą atrakcyjnym urozmaiceniem standardowych konferencji, wyróżnij najlepszych pracowników obdarowując ich voucherem do SPA lub skorzystaj z propozycji zorganizowania dla swojej firmy Biznes Day SPA, gdzie w relaksującej atmosferze wzmocnicie relacje w zespole.",
+      "description": "Strefa SPA w Hotelu Avangarda to przestrzeń zaprojektowana do relaksu\n i wyciszenia po dniu pełnym wyzwań. Z myślą o potrzebach Gości biznesowych przygotowaliśmy szybką regenerację po intensywnym dniu pracy – ekspresowe zabiegi, które nie tylko relaksują, ale również wspierają koncentrację, poprawiają samopoczucie i sprzyjają utrzymaniu wysokiej efektywności.",
+      "description2": "Nasi wykwalifikowani terapeuci zaoferują starannie dobrany wachlarz masaży i rytuałów, dostosowanych do indywidualnych potrzeb,\n by zapewnić maksymalny efekt w optymalnym czasie.",
+      "downloadOffer": "Pobierz ofertę",
+      "services": {
+        "massages": {
+          "title": "Masaże",
+          "subtitle": "Relaks i regeneracja"
+        },
+        "faceTreatments": {
+          "title": "Zabiegi na twarz",
+          "subtitle": "Światowe marki kosmetyków"
+        },
+        "bodyTreatments": {
+          "title": "Zabiegi na ciało",
+          "subtitle": "Pielęgnacja od stóp do głów"
+        },
+        "workshops": {
+          "title": "Warsztaty Spa",
+          "subtitle": "Baw się i ucz pięknie!"
+        },
+        "vouchers": {
+          "title": "Vouchery do Spa",
+          "subtitle": "Wyraź swoją wdzięczność"
+        },
+        "daySpaBusiness": {
+          "title": "Biznesowe Day Spa",
+          "subtitle": "Inny sposób na integrację"
+        }
+      }
+    },
+    "downloadOffer": "Pobierz ofertę biznesową",
+    "checkAvailability": "Sprawdź dostępność",
+    "roomsTitle": "Sale Konferencyjne",
+    "roomsDescription": "W Hotelu Avangarda znajdziesz nowoczesne i funkcjonalne przestrzenie, które z łatwością dopasujesz do charakteru swojego wydarzenia. Każda z sal jest wyposażona w szybkie łącze Wi-Fi, ekran, projektor, nagłośnienie, mikrofon oraz flipchart, co zapewnia komfort pracy i sprawny przebieg każdego spotkania.",
+    "roomSelect": {
+      "title": "Sale Konferencyjne",
+      "description": "W Hotelu Avangarda znajdziesz nowoczesne i funkcjonalne przestrzenie, które z łatwością dopasujesz do charakteru swojego wydarzenia. Każda z sal jest wyposażona w szybkie łącze Wi-Fi, ekran, projektor, nagłośnienie, mikrofon oraz flipchart, co zapewnia komfort pracy i sprawny przebieg każdego spotkania.",
+      "popular": "Popularna",
+      "upTo": "do",
+      "people": "osób",
+      "roomDescriptionOld": "Opis sali",
+      "standardEquipment": "Wyposażenie standardowe",
+      "additionalEquipmentOld": "Dodatkowe wyposażenie",
+      "additionalEquipmentNote": "flipchart sucho ścieralny / magnetyczny z kompletem kartek i markerów, notesy, ołówki.",
+      "inquireAboutRoom": "ZAPYTAJ O SALĘ",
+      "viewRoom": "Widok sali",
+      "capacityTypes": {
+        "theater": "Teatr",
+        "classroom": "Szkolne",
+        "ushape": "Podkowa",
+        "banquet": "Bankiet",
+        "boardroom": "Boardroom"
+      },
+      "equipment": {
+        "wifi": "Internet",
+        "screen": "Ekran",
+        "projector": "Projektor multimedialny",
+        "sound": "Nagłośnienie konferencyjne",
+        "mic": "Mikrofon bezprzewodowy",
+        "slideSwitcher": "Przełącznik slajdów"
+      },
+      "badgeTexts": {
+        "exhibition": "Przestrzeń targowa",
+        "prestigious": "Prestiżowa",
+        "green": "Zielone konferencje"
+      }
+    },
+    "arrangementTitle": "Galeria aranżacji",
+    "arrangementDescription": "Nasze sale konferencyjne można aranżować na wiele sposobów, aby dostosować je do charakteru Twojego wydarzenia. Poniżej przedstawiamy najpopularniejsze układy i ich pojemność dla wybranej sali.",
+    "downloadPlans": "Pobierz plany aranżacji",
+    "availabilityTitle": "Sprawdź dostępność",
+    "availabilityDescription": "Poniżej znajdziesz kalendarz z dostępnymi terminami dla wybranej sali konferencyjnej. Zielone daty oznaczają dostępne terminy. Wybierz datę, aby sprawdzić szczegóły lub zarezerwować salę.",
+    "selectedDate": "Wybrany termin",
+    "roomAvailable": "Sala jest dostępna w tym terminie!",
+    "reserveRoom": "Zarezerwuj salę",
+    "inquireDetails": "Zapytaj o szczegóły",
+    "downloadForm": {
+      "title": "Pobierz ofertę biznesową",
+      "description": "Wypełnij krótki formularz, aby otrzymać pełną ofertę biznesową wraz z cennikiem i możliwościami aranżacji.",
+      "fullName": "Imię i nazwisko",
+      "company": "Firma",
+      "email": "Email",
+      "phone": "Telefon",
+      "download": "Pobierz ofertę"
+    },
+    "rooms": {
+      "grand": {
+        "name": "Grand Hall",
+        "size": "680m²",
+        "description": "Nasza największa sala konferencyjna o powierzchni 680m² to idealne miejsce na duże konferencje, kongresy, gale i wydarzenia firmowe. Sala może być aranżowana na wiele sposobów, a także dzielona na 2 mniejsze przestrzenie po 340m².",
+        "features": {
+          "audioVisual": "Najnowocześniejszy system audio-wizualny",
+          "wifi": "Szybkie WiFi (1 Gb/s)",
+          "screens": "4 ekrany projekcyjne 4K",
+          "soundSystem": "System nagłośnienia Bose",
+          "divisible": "Możliwość podziału na 2 mniejsze sale",
+          "climate": "Klimatyzacja z indywidualną regulacją",
+          "lighting": "Oświetlenie LED z regulacją natężenia",
+          "accessible": "Dostęp dla osób niepełnosprawnych",
+          "terrace": "Bezpośredni dostęp do tarasu",
+          "reception": "Dedykowana recepcja"
+        }
+      },
+      "executive": {
+        "name": "Exec Room",
+        "size": "120m²",
+        "description": "Elegancka sala konferencyjna (Kominkowa) zaprojektowana z myślą o spotkaniach zarządu, prezentacjach dla klientów i mniejszych szkoleniach. Wyposażona w najnowocześniejsze technologie i komfortowe meble.",
+        "features": {
+          "touchScreen": "85-calowy interaktywny ekran dotykowy",
+          "wifi": "Szybkie WiFi (1 Gb/s)",
+          "videoConference": "System wideokonferencyjny",
+          "soundSystem": "Nagłośnienie Bose",
+          "climate": "Klimatyzacja",
+          "lighting": "Oświetlenie LED",
+          "acoustic": "Wyciszenie akustyczne premium",
+          "chairs": "Ergonomiczne fotele"
+        }
+      },
+      "business": {
+        "name": "Business Center",
+        "size": "90m²",
+        "description": "Funkcjonalna sala konferencyjna idealna na szkolenia, warsztaty i spotkania biznesowe. Jasna i przestronna, z dostępem do tarasu, co umożliwia organizację przerw kawowych na świeżym powietrzu.",
+        "features": {
+          "screen": "75-calowy ekran 4K",
+          "wifi": "Szybkie WiFi (1 Gb/s)",
+          "videoConference": "System wideokonferencyjny",
+          "soundSystem": "Nagłośnienie",
+          "climate": "Klimatyzacja",
+          "naturalLight": "Naturalne światło",
+          "terrace": "Dostęp do tarasu"
+        }
+      },
+      "vip": {
+        "name": "Sala VIP",
+        "size": "20m²",
+        "description": "Kameralna i luksusowa przestrzeń zaprojektowana z myślą o spotkaniach na wysokim szczeblu i ekskluzywnych rozmowach biznesowych. Wykończenia premium i najnowocześniejsza technologia zapewniają doskonałe warunki do podejmowania ważnych decyzji.",
+        "features": {
+          "touchScreen": "65-calowy interaktywny wyświetlacz 4K",
+          "wifi": "Dedykowane szybkie WiFi (1 Gb/s)",
+          "videoConference": "Zaawansowany system wideokonferencyjny",
+          "premium": "Meble i wykończenia premium",
+          "privacy": "Wzmocniona izolacja akustyczna",
+          "catering": "Dedykowana obsługa cateringowa",
+          "climate": "Indywidualna kontrola klimatu"
+        }
+      }
+    },
+    "arrangements": {
+      "icons": {
+        "theater": "kinowy",
+        "classroom": "szkolny",
+        "boardroom": "zarząd",
+        "banquet": "bankietowy",
+        "ushape": "kształt-u"
+      },
+      "theater": {
+        "description": "Układ kinowy, idealny na prezentacje i wykłady"
+      },
+      "classroom": {
+        "description": "Układ szkolny ze stołami, idealny na szkolenia"
+      },
+      "boardroom": {
+        "description": "Układ z jednym dużym stołem, idealny na spotkania zarządu"
+      },
+      "banquet": {
+        "description": "Układ bankietowy z okrągłymi stołami"
+      },
+      "ushape": {
+        "description": "Układ w kształcie litery U, idealny na dyskusje"
+      },
+      "layoutTitle": "Pojemność w różnych układach:",
+      "people": "osób",
+      "additionalEquipmentOld2": "Dodatkowe wyposażenie:",
+      "additionalEquipmentDescriptionOld2": "flipchart sucho ścieralny / magnetyczny z kompletnym zestawem arkuszy i markerów, bloczki, ołówki.",
+      "roomDescriptionOld2": "Opis sali",
+      "askAboutRoomOld2": "ZAPYTAJ O SALĘ",
+      "popularBadge": "Popularna",
+      "up": "do",
+      "imageAlt": "Widok sali",
+      "equipmentTitle": "Wyposażenie standardowe",
+      "badges": {
+        "exhibitionSpace": "Przestrzeń targowa",
+        "prestigious": "Prestiżowa", 
+        "greenConferences": "Zielone konferencje"
+      },
+      "equipment": {
+        "internet": "Internet",
+        "screen": "Ekran",
+        "projector": "Projektor multimedialny",
+        "sound": "Nagłośnienie konferencyjne",
+        "microphone": "Mikrofon bezprzewodowy",
+        "slideSwitcher": "Przełącznik slajdów"
+      },
+      "rooms": {
+        "bankietowa-a": {
+          "name": "Sala Bankietowa A",
+          "description": "Idealna na średnie i mniejsze konferencje i bankiety. Z dostępem do światła dziennego i opcją zaciemnienia. Posiada oświetlenie sceniczne, LED-owe oraz podświetlane sufity. Klimatyzacja strefowa z możliwością nawiewu świeżego powietrza."
+        },
+        "bankietowa-b": {
+          "name": "Sala Bankietowa B", 
+          "description": "Idealna na średnie i mniejsze konferencje i bankiety. Z dostępem do światła dziennego i opcją zaciemnienia. Posiada oświetlenie sceniczne, LED-owe oraz podświetlane sufity. Klimatyzacja strefowa z możliwością nawiewu świeżego powietrza. Możliwość podziału na 2 mniejsze sale o powierzchni 120 i 220 m2 stwarza idealną przestrzeń do organizacji kameralnych przyjęć w eleganckich wnętrzach."
+        },
+        "bankietowa-ab": {
+          "name": "Sala Bankietowa A+B",
+          "description": "Nowoczesna i wszechstronna sala konferencyjno-eventowa, o wysokości 4m, bez filarów, to idealne miejsce na organizację dużych konferencji, bankietów. Z dostępem do światła dziennego i opcją zaciemnienia. Posiada możliwość wprowadzenia auta – idealne rozwiązanie dla eventów motoryzacyjnych. Posiada oświetlenie sceniczne, LED-owe oraz podświetlane sufity. Klimatyzacja strefowa z możliwością nawiewu świeżego powietrza."
+        },
+        "foyer-sali-bankietowej": {
+          "name": "Foyer Sali Bankietowej",
+          "description": "Idealna przestrzeń wystawiennicza i komfortowe miejsce na organizację strefy powitalnej z serwisem kawowym. Reprezentacyjna powierzchrzeń dla stoisk wystawienniczych, ekspozycji produktowych czy prezentacji multimedialnych. Posiada własne szatnie, przestronne łazienki oraz wygodne kanapy zapewniające możliwość swobodnych rozmów."
+        },
+        "sosnowa-ab": {
+          "name": "Sala Sosnowa A+B",
+          "description": "Funkcjonalna, naturalnie urządzona sala, z dostępem do światła dziennego i możliwością zaciemnienia. Posiada bezpośrednie wyjście na umeblowany taras."
+        },
+        "sosnowa-a": {
+          "name": "Sala Sosnowa A",
+          "description": "Funkcjonalna, naturalnie urządzona sala, z dostępem do światła dziennego i możliwością zaciemnienia. Posiada bezpośrednie wyjście na umeblowany taras."
+        },
+        "sosnowa-b": {
+          "name": "Sala Sosnowa B",
+          "description": "Funkcjonalna, naturalnie urządzona sala, z dostępem do światła dziennego i możliwością zaciemnienia."
+        },
+        "kominkowa": {
+          "name": "Sala Kominkowa",
+          "description": "Ekskluzywna przestrzeń biznesowa z eleganckim wystrojem wnętrza oraz otwartym kominkiem. Posiada bezpośrednie przejście do części hotelowej zapewniające dyskrecję i wygodę, a dedykowany taras i własna łazienka dopełniają komfortu uczestników."
+        },
+        "sala-vip": {
+          "name": "Sala VIP",
+          "description": "Przytulna sala konferencyjna usytuowana na poziomie -1 hotelu. Utrzymana w eleganckim, biznesowym stylu, idealna do kameralnych spotkań czy spotkań zarządu. Bez dostępu do światła dziennego zapewnia maksymalną koncentrację, niezależnie od pory dnia."
+        },
+        "konferencyjna-ab": {
+          "name": "Sala Konferencyjna A+B",
+          "description": "Nowoczesna sala konferencyjna usytuowana na poziomie -1 hotelu. Bez dostępu do światła dziennego, idealne miejsce na konferencje i szkolenia wymagające ciszy i zaangażowania. Podłoga wyłożona wykładziną dywanową zapewnia dodatkowy komfort. Możliwość podziału na dwie niezależne części."
+        },
+        "konferencyjna-a": {
+          "name": "Sala Konferencyjna A",
+          "description": "Nowoczesna sala konferencyjna usytuowana na poziomie -1 hotelu. Bez dostępu do światła dziennego, idealne miejsce na konferencje i szkolenia wymagające ciszy i zaangażowania. Podłoga wyłożona wykładziną dywanową zapewnia dodatkowy komfort."
+        },
+        "konferencyjna-b": {
+          "name": "Sala Konferencyjna B",
+          "description": "Nowoczesna sala konferencyjna usytuowana na poziomie -1 hotelu. Bez dostępu do światła dziennego, idealne miejsce na konferencje i szkolenia wymagające ciszy i zaangażowania. Podłoga wyłożona wykładziną dywanową zapewnia dodatkowy komfort."
+        },
+        "fort-no-4": {
+          "name": "Fort No. 4",
+          "description": "Zamień standardową salę konferencyjną na zieloną otwartą przestrzeń i uwolnij kreatywność swojego zespołu w tak pięknych okolicznościach przyrody! Fort No. 4 to połączenie naturalnej prostoty z hotelowym komfortem. Zadaszona przestrzeń Fortu w połączeniu z kamiennym amfiteatrem daje możliwość wykreowania wyjątkowej przestrzeni na konferencję inną niż wszystkie."
+        }
+      }
+    },
+    "roomInfo": {
+      "screens": "Ekrany",
+      "screensInfo": "4K Ultra HD",
+      "wifi": "WiFi",
+      "wifiInfo": "1 Gb/s",
+      "audio": "Audio",
+      "audioInfo": "System Bose",
+      "capacity": "Pojemność",
+      "capacityInfo": "do",
+      "lighting": "Oświetlenie",
+      "lightingInfo": "LED regulowane",
+      "catering": "Catering",
+      "cateringInfo": "Dostępny",
+      "equipment": "Wyposażenie i udogodnienia:"
+    },
+    "packages": {
+      "title": "Pakiety konferencyjne",
+      "basic": {
+        "name": "Pakiet podstawowy",
+        "description": "Sala, sprzęt AV, woda, przerwa kawowa",
+        "price": "od 120 zł / os."
+      },
+      "standard": {
+        "name": "Pakiet biznes",
+        "description": "Sala, sprzęt AV, 2 przerwy kawowe, lunch",
+        "price": "od 180 zł / os."
+      },
+      "premium": {
+        "name": "Pakiet premium",
+        "description": "Sala, sprzęt AV, całodzienny catering, obsługa techniczna",
+        "price": "od 250 zł / os."
+      }
+    },
+    "rentals": {
+      "title": "Wynajem godzinowy",
+      "grand": {
+        "price": "od 1200 zł / godz."
+      },
+      "executive": {
+        "price": "od 600 zł / godz."
+      },
+      "business": {
+        "price": "od 400 zł / godz."
+      },
+      "vip": {
+        "price": "od 350 zł / godz."
+      },
+      "note": "* Ceny mogą się różnić w zależności od sezonu i dodatkowych usług. Przy wynajmie całodniowym oferujemy atrakcyjne rabaty."
+    },
+    "banquets": {
+      "title": "Wieczory pełne smaku",
+      "description1": "Niewątpliwie jednym z naszych największych atutów jest kuchnia, bardzo wysoko oceniana przez Gości, oferująca potrawy przygotowane\n z najwyższą starannością, smaczne, precyzyjnie dobrane do charakteru każdego spotkania.",
+      "description2": "Przygotowana przez nas pełna oprawa wieczoru, w tym muzyka czy scenariusz kolacji tematycznej, sprawi, że Państwa wydarzenie na długo pozostanie w pamięci uczestników, pozostawiając same dobre wspomnienia i wzmacniając relacje w zespole.",
+      "downloadOffer": "Pobierz ofertę",
+      "offerUnavailable": "Oferta niedostępna",
+      "features": {
+        "businessDinners": {
+          "title": "Kolacje biznesowe",
+          "description": "Elegancko i klimatycznie"
+        },
+        "banquets": {
+          "title": "Bankiety",
+          "description": "Wystawnie i z klasą"
+        },
+        "galas": {
+          "title": "Uroczyste gale",
+          "description": "Celebruj w wyjątkowej oprawie"
+        },
+        "themedEvenings": {
+          "title": "Wieczory tematyczne",
+          "description": "Buduj dobre wspomnienia"
+        },
+        "culinaryShows": {
+          "title": "Pokazy kulinarne",
+          "description": "Warsztaty i stacje live cooking"
+        },
+        "music": {
+          "title": "Muzyka",
+          "description": "DJ lub muzyka na żywo"
+        }
+      }
+    },
+    "selectRooms": {
+      "title": "Wybierz salę konferencyjną",
+      "description": "Każda sala oferuje unikalne możliwości dostosowane do różnych typów wydarzeń.\n Wybierz salę, aby zobaczyć jej wyposażenie, pojemność i dostępne układy.",
+      "roomDetails": "Szczegóły sali",
+      "capacities": {
+        "theater": "Teatr",
+        "classroom": "Klasa",
+        "boardroom": "Sala konferencyjna",
+        "banquet": "Bankiet",
+        "ushape": "U-shape",
+        "people": "osób"
+      },
+      "additionalEquipment": "Dodatkowe wyposażenie:",
+      "additionalEquipmentDescription": "flipchart suchościeralny/magnetyczny z kompletnym zestawem arkuszy i markerów, bloczki, ołówki.",
+      "roomDescription": "Opis sali",
+      "askAboutRoom": "ZAPYTAJ O SALĘ",
+      "popularBadge": "Popularna",
+      "up": "do",
+      "imageAlt": "Widok sali",
+      "equipmentTitle": "Wyposażenie standardowe",
+      "badges": {
+        "exhibitionSpace": "Przestrzeń wystawowa",
+        "prestigious": "Prestiżowa",
+        "greenConferences": "Zielone konferencje"
+      },
+      "equipment": {
+        "internet": "Internet",
+        "screen": "Ekran",
+        "projector": "Projektor multimedialny",
+        "sound": "Konferencyjny system dźwiękowy",
+        "microphone": "Mikrofon bezprzewodowy",
+        "slideSwitcher": "Przełącznik slajdów"
+      },
+      "rooms": {
+        "bankietowa-a": {
+          "name": "Sala Bankietowa A",
+          "description": "Przestronna i elegancka sala konferencyjna z nowoczesnym wyposażeniem. Idealna na duże spotkania biznesowe, konferencje i prezentacje. Sala zapewnia komfort i profesjonalne warunki dla wszystkich uczestników."
+        },
+        "bankietowa-b": {
+          "name": "Sala Bankietowa B",
+          "description": "Reprezentacyjna sala konferencyjna o wysokim standardzie. Doskonała na spotkania zarządu, prezentacje produktów i wydarzenia biznesowe wymagające eleganckich warunków."
+        },
+        "bankietowa-ab": {
+          "name": "Sala Bankietowa A+B",
+          "description": "Największa z naszych sal konferencyjnych powstała z połączenia sal A i B. Idealna na duże konferencje, zjazdy firmowe i wydarzenia wymagające dużej przestrzeni."
+        },
+        "foyer-sali-bankietowej": {
+          "name": "Foyer Sali Bankietowej",
+          "description": "Przestronna strefa foyer doskonała na wystawy, rejestrację uczestników, przerwy kawowe i networking podczas wydarzeń biznesowych."
+        },
+        "sosnowa-ab": {
+          "name": "Sala Sosnowa A+B",
+          "description": "Komfortowa sala konferencyjna w stylu naturalnym z elementami drewnianymi. Idealna na średnie spotkania biznesowe i warsztaty w kameralnej atmosferze."
+        },
+        "sosnowa-a": {
+          "name": "Sala Sosnowa A",
+          "description": "Kameralna sala konferencyjna z ciepłą atmosferą. Doskonała na małe spotkania zespołowe, warsztaty i szkolenia w gronie do 30 osób."
+        },
+        "sosnowa-b": {
+          "name": "Sala Sosnowa B",
+          "description": "Przytulna sala konferencyjna z naturalnym wystrojem. Idealna na małe grupy robocze, sesje burzy mózgów i spotkania projektowe."
+        },
+        "kominkowa": {
+          "name": "Sala Kominkowa",
+          "description": "Ekskluzywna sala konferencyjna z kominkiem tworzącą wyjątkową atmosferę. Doskonała na spotkania zarządu, negocjacje biznesowe i wydarzenia VIP."
+        },
+        "sala-vip": {
+          "name": "Sala VIP",
+          "description": "Najbardziej ekskluzywna z naszych sal konferencyjnych. Przeznaczona dla najważniejszych spotkań biznesowych, negocjacji i wydarzeń wymagających najwyższego standardu."
+        },
+        "konferencyjna-ab": {
+          "name": "Sala Konferencyjna A+B",
+          "description": "Uniwersalna sala konferencyjna powstała z połączenia dwóch mniejszych sal. Doskonała na konferencje, szkolenia i spotkania biznesowe średniej wielkości."
+        },
+        "konferencyjna-a": {
+          "name": "Sala Konferencyjna A",
+          "description": "Nowoczesna sala konferencyjna z pełnym wyposażeniem audiowizualnym. Idealna na prezentacje, spotkania teamów i szkolenia biznesowe."
+        },
+        "konferencyjna-b": {
+          "name": "Sala Konferencyjna B",
+          "description": "Funkcjonalna sala konferencyjna z możliwością różnych układów miejsc. Doskonała na warsztaty, spotkania projektowe i sesje szkoleniowe."
+        },
+        "fort-no-4": {
+          "name": "Fort No. 4",
+          "description": "Unikalna sala konferencyjna w zabytkowym forcie z nietypową atmosferą. Idealna na kreative sessions, eventy firmowe i spotkania w wyjątkowym otoczeniu historycznym."
+        }
+      }
+    },
+    "trustedCompanies": {
+      "title": "Zaufali Nam",
+      "description": "Jesteśmy dumni z zaufania, jakim obdarzają nas renomowane firmy.\n Nasze doświadczenie w organizacji wydarzeń biznesowych sprawia, że jesteśmy pierwszym wyborem dla wymagających klientów.",
+      "bottomText": "Dołącz do grona zadowolonych klientów, którzy wybrali Hotel Avangarda jako miejsce swoich najważniejszych wydarzeń biznesowych.",
+      "logoAlt": "Logo firmy"
+    }
+  },
+  "entertainment": {
+    "title": "ROZRYWKA",
+    "description": "Odkryj szeroką gamę atrakcji i aktywności, które sprawią, że Twój pobyt będzie pełen niezapomnianych wrażeń. W Avangarda każdy znajdzie coś dla siebie."
+  },
+  "weddings": {
+    "title": "Małe i wielkie uroczystości rodzinne",
+    "description": "Zorganizuj z nami niezapomnianą rodzinną uroczystość – zarówno tę dużą \n i wyjątkową, wymagającą szczególnej oprawy, jak i kameralne spotkanie pełne ciepła. Hotel Avangarda, oprócz doskonałej gastronomii, oferuje kompleksową obsługę przyjęć, oddając do dyspozycji Gości komfortowy hotel z basenem, kręgielnię, salę zabaw dla dzieci oraz parking. Pod czujnym okiem koordynatora, z pomocą doświadczonych kucharzy \n i profesjonalnej obsługi kelnerskiej, dbamy o każdy detal, tworząc razem wyjątkowe rodzinne wspomnienia.",
+    "learnMore": "Dowiedz się więcej"
+  },
+  "components": {
+    "details": "Szczegóły",
+    "disableDraftMode": "Wyłącz tryb roboczy",
+    "mainBuilding": "Budynek Główny",
+    "externalBuilding": "Budynek Zewnętrzny",
+    "filterByCategory": "Filtruj według kategorii"
+  },
+  "alts": {
+    "weddingDessertTable": "Słodki stół weselny"
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Ania",
+      "location": "Warszawa",
+      "rating": 5,
+      "text": "Niesamowite miejsce! Personel bardzo pomocny, pokoje czyste i wygodne. SPA to prawdziwa oaza spokoju. Na pewno wrócimy!",
+      "platform": "TripAdvisor"
+    },
+    {
+      "id": 2,
+      "name": "Michał",
+      "location": "Wyszków",
+      "rating": 5,
+      "text": "Hotel przekroczył nasze oczekiwania. Restauracja serwuje wyśmienite posiłki, a lokalizacja jest idealna na relaks z dala od miejskiego zgiełku.",
+      "platform": "Booking.com"
+    },
+    {
+      "id": 3,
+      "name": "Katarzyna",
+      "location": "Ostrołęka",
+      "rating": 5,
+      "text": "Organizowaliśmy tu wesele i wszystko było perfekcyjne. Obsługa na najwyższym poziomie, jedzenie wyśmienite, goście zachwyceni!",
+      "platform": "Google"
+    }
+  ],
+  "footer": {
+    "description": "Prawdziwa Avangarda w sercu malowniczego Różana. Elegancja, gościnność i bogactwo atrakcji tworzą tu przestrzeń pełną niezapomnianych wrażeń. Idealna na wypoczynek, spotkania biznesowe i rodzinne chwile.",
+    "contact": "Kontakt",
+    "location": "Lokalizacja",
+    "events": "Przyjęcia",
+    "conferences": "Konferencje",
+    "findUs": "Znajdź nas",
+    "quickNavigation": "Szybka nawigacja",
+    "mapAlt": "Mapa lokalizacji Hotel Avangarda",
+    "address": {
+      "street": "ul. Królowej Bony 3",
+      "city": "06-230, Różan",
+      "country": "Polska"
+    },
+    "copyright": "Copyright © 2025 Hotel Avangarda. All rights reserved.",
+    "terms": "Regulamin",
+    "privacy": "Prywatność",
+    "childProtection": "Standard Ochrony Małoletnich"
+  }
+}
