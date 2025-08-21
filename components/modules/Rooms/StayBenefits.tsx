@@ -14,54 +14,6 @@ import {
   BrushCleaning,
 } from "lucide-react";
 
-const benefits = [
-  {
-    icon: Gift,
-    title: "NAJLEPSZE OFERTY",
-    description: "Specjalne oferty tylko na naszej stronie",
-  },
-  {
-    icon: CheckCircle,
-    title: "NATYCHMIASTOWE POTWIERDZENIE",
-    description: "Błyskawiczne potwierdzenie rezerwacji",
-  },
-  {
-    icon: Tag,
-    title: "NAJNIŻSZE CENY",
-    description: "Gwarancja najlepszych cen online",
-  },
-  {
-    icon: Shield,
-    title: "BEZPIECZNE PŁATNOŚCI",
-    description: "Pełne bezpieczeństwo transakcji",
-  },
-  {
-    icon: Car,
-    title: "DARMOWY PARKING",
-    description: "Bezpłatny dozorowany parking",
-  },
-  {
-    icon: Wifi,
-    title: "BEZPŁATNY INTERNET",
-    description: "WiFi w całym hotelu za darmo",
-  },
-  {
-    icon: Baby,
-    title: "PRZYJAZNY DZIECIOM",
-    description: "Łóżeczka, przewijaki, niania elektroniczna",
-  },
-  {
-    icon: BrushCleaning,
-    title: "CODZIENNE SPRZĄTANIE",
-    description: "Codzienna obsługa i uzupełnianie",
-  },
-  {
-    icon: Accessibility,
-    title: "DOSTĘPNY DLA NIEPEŁNOSPRAWNYCH",
-    description: "Pełne przystosowanie dla osób z niepełnosprawnością",
-  },
-];
-
 const fadeInLeft = {
   initial: { opacity: 0, x: -30 },
   animate: { opacity: 1, x: 0 },
@@ -69,9 +21,99 @@ const fadeInLeft = {
 
 interface StayBenefitsProps {
   className?: string;
+  dict: {
+    stayBenefits: {
+      benefits: {
+        bestOffers: {
+          title: string;
+          description: string;
+        };
+        instantConfirmation: {
+          title: string;
+          description: string;
+        };
+        lowestPrices: {
+          title: string;
+          description: string;
+        };
+        securePayments: {
+          title: string;
+          description: string;
+        };
+        freeParking: {
+          title: string;
+          description: string;
+        };
+        freeWifi: {
+          title: string;
+          description: string;
+        };
+        childFriendly: {
+          title: string;
+          description: string;
+        };
+        dailyHousekeeping: {
+          title: string;
+          description: string;
+        };
+        accessibleFriendly: {
+          title: string;
+          description: string;
+        };
+      };
+    };
+  };
 }
 
-const StayBenefits = ({ className }: StayBenefitsProps) => {
+const StayBenefits = ({ className, dict }: StayBenefitsProps) => {
+  const benefits = [
+    {
+      icon: Gift,
+      title: dict.stayBenefits.benefits.bestOffers.title,
+      description: dict.stayBenefits.benefits.bestOffers.description,
+    },
+    {
+      icon: CheckCircle,
+      title: dict.stayBenefits.benefits.instantConfirmation.title,
+      description: dict.stayBenefits.benefits.instantConfirmation.description,
+    },
+    {
+      icon: Tag,
+      title: dict.stayBenefits.benefits.lowestPrices.title,
+      description: dict.stayBenefits.benefits.lowestPrices.description,
+    },
+    {
+      icon: Shield,
+      title: dict.stayBenefits.benefits.securePayments.title,
+      description: dict.stayBenefits.benefits.securePayments.description,
+    },
+    {
+      icon: Car,
+      title: dict.stayBenefits.benefits.freeParking.title,
+      description: dict.stayBenefits.benefits.freeParking.description,
+    },
+    {
+      icon: Wifi,
+      title: dict.stayBenefits.benefits.freeWifi.title,
+      description: dict.stayBenefits.benefits.freeWifi.description,
+    },
+    {
+      icon: Baby,
+      title: dict.stayBenefits.benefits.childFriendly.title,
+      description: dict.stayBenefits.benefits.childFriendly.description,
+    },
+    {
+      icon: BrushCleaning,
+      title: dict.stayBenefits.benefits.dailyHousekeeping.title,
+      description: dict.stayBenefits.benefits.dailyHousekeeping.description,
+    },
+    {
+      icon: Accessibility,
+      title: dict.stayBenefits.benefits.accessibleFriendly.title,
+      description: dict.stayBenefits.benefits.accessibleFriendly.description,
+    },
+  ];
+
   return (
     <section className="w-full py-16 md:py-28 relative">
       <BackgroundLogoBottomDark />

@@ -11,7 +11,25 @@ import { useState, useRef, useCallback } from "react";
 
 interface TestimonialsProps {
   lang?: string;
-  dict?: any;
+  dict: {
+    testimonials: {
+      title: string;
+      description: string;
+      ratings: {
+        tripadvisor: string;
+        booking: string;
+        google: string;
+      };
+    };
+    testimonials: Array<{
+      id: number;
+      name: string;
+      location: string;
+      rating: number;
+      text: string;
+      platform: string;
+    }>;
+  };
 }
 
 const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
@@ -20,7 +38,7 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
   const [touchEnd, setTouchEnd] = useState<number | null>(null);
   const sliderRef = useRef<HTMLDivElement>(null);
 
-  // Sample testimonials data
+  // Use testimonials from dictionary, fallback to default if not provided
   const testimonials = dict?.testimonials || [
     {
       id: 1,
@@ -94,10 +112,12 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
           {/* Left side - Text content */}
           <div className="lg:w-1/2">
             <AnimatedDecorativeBar className="w-20 h-2 bg-avangarda mb-6" />
-            <h1 className="title-dark capitalize">Co mówią nasi goście?</h1>
+            <h1 className="title-dark capitalize">
+              {dict.testimonialsSection?.title || "Co mówią nasi goście?"}
+            </h1>
             <p className="main-paragraph-dark max-w-lg">
-              Poznaj opinie naszych gości i przekonaj się, dlaczego wybierają
-              Hotel Avangarda
+              {dict.testimonialsSection?.description ||
+                "Poznaj opinie naszych gości i przekonaj się, dlaczego wybierają Hotel Avangarda"}
             </p>
           </div>
 
@@ -112,7 +132,10 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                     <div className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative">
                       <Image
                         src="/BW-tripadvisor.png"
-                        alt="TripAdvisor Reviews"
+                        alt={
+                          dict.testimonialsSection?.ratings?.tripadvisor ||
+                          "TripAdvisor Reviews"
+                        }
                         fill
                         className="object-contain"
                       />
@@ -138,7 +161,10 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                     <div className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative">
                       <Image
                         src="/BW-booking-6.png"
-                        alt="Booking.com"
+                        alt={
+                          dict.testimonialsSection?.ratings?.booking ||
+                          "Booking.com"
+                        }
                         fill
                         className="object-contain"
                       />
@@ -164,7 +190,10 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                     <div className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative">
                       <Image
                         src="/BW-google.jpg"
-                        alt="Google Reviews"
+                        alt={
+                          dict.testimonialsSection?.ratings?.google ||
+                          "Google Reviews"
+                        }
                         fill
                         className="object-contain rounded-full"
                       />
@@ -193,7 +222,10 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                 <div className="bg-white backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-3 relative">
                   <Image
                     src="/BW-tripadvisor.png"
-                    alt="TripAdvisor Reviews"
+                    alt={
+                      dict.testimonialsSection?.ratings?.tripadvisor ||
+                      "TripAdvisor Reviews"
+                    }
                     fill
                     className="object-contain"
                   />
@@ -215,7 +247,10 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                 <div className="bg-white backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-3 relative">
                   <Image
                     src="/BW-booking-6.png"
-                    alt="Booking.com"
+                    alt={
+                      dict.testimonialsSection?.ratings?.booking ||
+                      "Booking.com"
+                    }
                     fill
                     className="object-contain p-2"
                   />
@@ -237,7 +272,10 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                 <div className="bg-white backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-3 relative">
                   <Image
                     src="/BW-google.jpg"
-                    alt="Google Reviews"
+                    alt={
+                      dict.testimonialsSection?.ratings?.google ||
+                      "Google Reviews"
+                    }
                     fill
                     className="object-contain rounded-full"
                   />
@@ -372,7 +410,10 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
               <button
                 onClick={prevSlide}
                 className="bg-white/10 backdrop-blur-sm p-3 rounded-full hover:bg-white/20 transition-colors"
-                aria-label="Previous testimonial"
+                aria-label={
+                  dict.testimonialsSection?.navigation?.previous ||
+                  "Previous testimonial"
+                }
               >
                 <ChevronLeft className="h-5 w-5 text-white" />
               </button>
@@ -386,7 +427,12 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                     className={`w-2 h-2 rounded-full transition-colors ${
                       currentSlide === index ? "bg-avangarda" : "bg-white/30"
                     }`}
-                    aria-label={`Go to testimonial ${index + 1}`}
+                    aria-label={
+                      dict.testimonialsSection?.navigation?.goTo?.replace(
+                        "{number}",
+                        (index + 1).toString()
+                      ) || `Go to testimonial ${index + 1}`
+                    }
                   />
                 ))}
               </div>
@@ -394,7 +440,10 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
               <button
                 onClick={nextSlide}
                 className="bg-white/10 backdrop-blur-sm p-3 rounded-full hover:bg-white/20 transition-colors"
-                aria-label="Next testimonial"
+                aria-label={
+                  dict.testimonialsSection?.navigation?.next ||
+                  "Next testimonial"
+                }
               >
                 <ChevronRight className="h-5 w-5 text-white" />
               </button>

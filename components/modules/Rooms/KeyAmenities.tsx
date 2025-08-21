@@ -5,33 +5,6 @@ import Image from "next/image";
 import { Container } from "@/components/container";
 import { Heart, Star, Baby } from "lucide-react";
 
-const amenities = [
-  {
-    image: "/frenchie.jpg",
-    icon: Heart,
-    title: "PRZYJAZNY DLA ZWIERZĄT",
-    subtitle: "Twój pies jest mile widziany",
-    description:
-      "Zapraszamy Gości z czworonożnymi przyjaciółmi. Nasz hotel jest w pełni przystosowany do pobytu ze zwierzętami domowymi.",
-  },
-  {
-    image: "/klub/klub-02.JPG",
-    icon: Star,
-    title: "WSZYSTKO W CENIE",
-    subtitle: "Atrakcje wliczone w pobyt",
-    description:
-      "Cena pokoju obejmuje dostęp do wszystkich atrakcji hotelowych - SPA, basenu, sauny i strefy rekreacyjnej.",
-  },
-  {
-    image: "/offers/offers-3.jpg",
-    icon: Baby,
-    title: "DLA NAJMŁODSZYCH",
-    subtitle: "Udogodnienia dla dzieci",
-    description:
-      "Oferujemy pełne wyposażenie dla rodzin z dziećmi - łóżeczka, krzesełka do karmienia i strefę zabaw.",
-  },
-];
-
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
   animate: { opacity: 1, y: 0 },
@@ -39,9 +12,54 @@ const fadeInUp = {
 
 interface KeyAmenitiesProps {
   className?: string;
+  dict: {
+    keyAmenities: {
+      title: string;
+      description: string;
+      forKids: {
+        title: string;
+        subtitle: string;
+        description: string;
+      };
+      inclusions: {
+        title: string;
+        subtitle: string;
+        description: string;
+      };
+      petFriendly: {
+        title: string;
+        subtitle: string;
+        description: string;
+      };
+    };
+  };
 }
 
-const KeyAmenities = ({ className }: KeyAmenitiesProps) => {
+const KeyAmenities = ({ className, dict }: KeyAmenitiesProps) => {
+  const amenities = [
+    {
+      image: "/offers/offers-3.jpg",
+      icon: Baby,
+      title: dict.keyAmenities.forKids.title,
+      subtitle: dict.keyAmenities.forKids.subtitle,
+      description: dict.keyAmenities.forKids.description,
+    },
+    {
+      image: "/klub/klub-02.JPG",
+      icon: Star,
+      title: dict.keyAmenities.inclusions.title,
+      subtitle: dict.keyAmenities.inclusions.subtitle,
+      description: dict.keyAmenities.inclusions.description,
+    },
+    {
+      image: "/frenchie.jpg",
+      icon: Heart,
+      title: dict.keyAmenities.petFriendly.title,
+      subtitle: dict.keyAmenities.petFriendly.subtitle,
+      description: dict.keyAmenities.petFriendly.description,
+    },
+  ];
+
   return (
     <div className={`relative py-20 md:py-32 bg-white ${className || ""}`}>
       <Container>
@@ -55,7 +73,7 @@ const KeyAmenities = ({ className }: KeyAmenitiesProps) => {
               transition={{ duration: 0.6 }}
               className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-alata uppercase tracking-wider max-w-3xl mx-auto"
             >
-              Zatroszczymy się o Twoje potrzeby
+              {dict.keyAmenities.title}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -64,8 +82,7 @@ const KeyAmenities = ({ className }: KeyAmenitiesProps) => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed"
             >
-              Odkryj wyjątkowe udogodnienia, które czynią nasz hotel idealnym
-              miejscem dla każdego gościa
+              {dict.keyAmenities.description}
             </motion.p>
           </div>
 

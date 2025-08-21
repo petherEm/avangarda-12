@@ -1900,5 +1900,64 @@
       }
     },
     "notFound": "Voucher not found."
+  },
+  "keyAmenities": {
+    "title": "We'll Take Care of Your Needs",
+    "description": "Discover unique amenities that make our hotel the perfect place for every guest",
+    "forKids": {
+      "title": "For the Youngest",
+      "subtitle": "Child-friendly amenities",
+      "description": "Plenty of attractions for children, special menus in restaurants, and room amenities available upon request."
+    },
+    "inclusions": {
+      "title": "Many Attractions Included in Your Stay",
+      "subtitle": "Your stay is more than just accommodation",
+      "description": "Our guests enjoy breakfast, access to the wellness area, and parking included in their stay. Children are welcome in our playroom."
+    },
+    "petFriendly": {
+      "title": "Pet-Friendly",
+      "subtitle": "Your dog is warmly welcomed",
+      "description": "We welcome guests with their four-legged friends. Our hotel is fully equipped to accommodate pets."
+    }
+  },
+  "stayBenefits": {
+    "benefits": {
+      "bestOffers": {
+        "title": "BEST OFFERS",
+        "description": "Special offers only on our website"
+      },
+      "instantConfirmation": {
+        "title": "INSTANT CONFIRMATION",
+        "description": "Lightning-fast booking confirmation"
+      },
+      "lowestPrices": {
+        "title": "LOWEST PRICES",
+        "description": "Best price guarantee online"
+      },
+      "securePayments": {
+        "title": "SECURE PAYMENTS",
+        "description": "Complete transaction security"
+      },
+      "freeParking": {
+        "title": "FREE PARKING",
+        "description": "Free supervised parking"
+      },
+      "freeWifi": {
+        "title": "FREE INTERNET",
+        "description": "WiFi throughout the hotel for free"
+      },
+      "childFriendly": {
+        "title": "CHILD-FRIENDLY",
+        "description": "Cribs, changing tables, baby monitor"
+      },
+      "dailyHousekeeping": {
+        "title": "DAILY HOUSEKEEPING",
+        "description": "Daily service and replenishment"
+      },
+      "accessibleFriendly": {
+        "title": "ACCESSIBLE FOR DISABLED",
+        "description": "Full accommodation for people with disabilities"
+      }
+    }
   }
 }

@@ -2002,5 +2002,79 @@
       }
     },
     "notFound": "Nie znaleziono vouchera."
+  },
+  "keyAmenities": {
+    "title": "Zatroszczymy się o Twoje potrzeby",
+    "description": "Odkryj wyjątkowe udogodnienia, które czynią nasz hotel idealnym miejscem dla każdego gościa",
+    "forKids": {
+      "title": "Dla najmłodszych",
+      "subtitle": "Udogodnienia dla dzieci",
+      "description": "Mnóstwo atrakcji dla dzieci, specjalne menu w restauracjach oraz udogodnienia w pokojach dostępne na życzenie."
+    },
+    "inclusions": {
+      "title": "Mnóstwo atrakcji w cenie pobytu",
+      "subtitle": "Pobyt u nas to nie tylko nocleg",
+      "description": "W cenie pobytu nasi Goście mają zapewnione śniadanie, możliwość korzystania ze strefy wellness oraz parking. Dzieci zapraszamy na salę zabaw."
+    },
+    "petFriendly": {
+      "title": "Przyjazny dla zwierząt",
+      "subtitle": "Twój pies jest mile widziany",
+      "description": "Zapraszamy Gości z czworonożnymi przyjaciółmi. Nasz hotel jest w pełni przystosowany do pobytu ze zwierzętami domowymi."
+    }
+  },
+  "stayBenefits": {
+    "benefits": {
+      "bestOffers": {
+        "title": "NAJLEPSZE OFERTY",
+        "description": "Specjalne oferty tylko na naszej stronie"
+      },
+      "instantConfirmation": {
+        "title": "NATYCHMIASTOWE POTWIERDZENIE",
+        "description": "Błyskawiczne potwierdzenie rezerwacji"
+      },
+      "lowestPrices": {
+        "title": "NAJNIŻSZE CENY",
+        "description": "Gwarancja najlepszych cen online"
+      },
+      "securePayments": {
+        "title": "BEZPIECZNE PŁATNOŚCI",
+        "description": "Pełne bezpieczeństwo transakcji"
+      },
+      "freeParking": {
+        "title": "DARMOWY PARKING",
+        "description": "Bezpłatny dozorowany parking"
+      },
+      "freeWifi": {
+        "title": "BEZPŁATNY INTERNET",
+        "description": "WiFi w całym hotelu za darmo"
+      },
+      "childFriendly": {
+        "title": "PRZYJAZNY DZIECIOM",
+        "description": "Łóżeczka, przewijaki, niania elektroniczna"
+      },
+      "dailyHousekeeping": {
+        "title": "CODZIENNE SPRZĄTANIE",
+        "description": "Codzienna obsługa i uzupełnianie"
+      },
+      "accessibleFriendly": {
+        "title": "DOSTĘPNY DLA NIEPEŁNOSPRAWNYCH",
+        "description": "Pełne przystosowanie dla osób z niepełnosprawnością"
+      }
+    }
+  },
+  "testimonialsSection": {
+    "title": "Co mówią nasi goście?",
+    "description": "Poznaj opinie naszych gości i przekonaj się, dlaczego wybierają Hotel Avangarda",
+    "ratings": {
+      "tripadvisor": "Opinie TripAdvisor",
+      "booking": "Booking.com",
+      "google": "Opinie Google"
+    },
+    "navigation": {
+      "previous": "Poprzednia opinia",
+      "next": "Następna opinia",
+      "goTo": "Przejdź do opinii {number}"
+    }
   }
+
 }
