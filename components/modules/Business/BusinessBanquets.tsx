@@ -88,7 +88,7 @@ const BusinessBanquets = ({
 
   return (
     <div ref={sectionRef} className="relative overflow-hidden">
-      <Container className="relative w-full py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 mt-8 sm:mt-12 md:mt-16 lg:mt-20 mb-8 sm:mb-12 md:mb-14 lg:mb-14">
+      <Container className="relative w-full py-8 sm:py-12 md:py-16 lg:py-18 xl:py-20 mt-8 sm:mt-12 md:mt-16 lg:mt-20 mb-8 sm:mb-12 md:mb-14 lg:mb-14">
         {/* Background */}
         <div className="absolute inset-0 lg:max-h-[1100px] z-0">
           <BackgroundLogoBottomDark />
@@ -302,7 +302,7 @@ const BusinessBanquets = ({
                   whileInView="animate"
                   viewport={{ once: true }}
                 >
-                  <div className="relative h-[800px] xl:h-[900px] w-full overflow-hidden">
+                  <div className="relative h-[800px] xl:h-[1000px] w-full overflow-hidden">
                     <motion.div
                       className="relative w-full"
                       style={{

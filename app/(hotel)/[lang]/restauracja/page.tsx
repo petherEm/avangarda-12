@@ -11,19 +11,15 @@ import { getAllMenus } from "@/sanity/lib/menus/getMenusByRestaurant";
 // Gallery images for Restaurant Dzika Róża
 const restaurantGalleryImages = [
   {
-    src: "/restaurant/rest-10.jpg",
-    alt: "Eleganckie wnętrze restauracji",
+    src: "/restaurant/bar-przystan-main.jpeg",
+    alt: "Przystan Avangarda Main",
   },
   {
-    src: "/restaurant/rest-03.jpg",
-    alt: "Bar restauracyjny",
-  },
-  {
-    src: "/restaurant/rest-09.jpg",
+    src: "/restaurant/rest-08.jpg",
     alt: "Prywatna sala restauracyjna",
   },
   {
-    src: "/restaurant/rest-07.jpg",
+    src: "/restaurant/rest-11.jpg",
     alt: "Tradycyjne polskie dania",
   },
   {
@@ -31,15 +27,24 @@ const restaurantGalleryImages = [
     alt: "Restauracja Dzika Róża",
   },
   {
-    src: "/restaurant/rest-05.jpg",
+    src: "/restaurant/rest-12.jpg",
     alt: "Wykwintne potrawy",
   },
   {
-    src: "/restaurant/rest-02.jpg",
+    src: "/restaurant/rest-01.jpg",
+    alt: "Restauracja Dzika Róża",
+  },
+
+  {
+    src: "/restaurant/rest-bar-main-01.jpeg",
     alt: "Elegancka atmosfera",
   },
   {
-    src: "/restaurant/rest-04.jpg",
+    src: "/restaurant/rest-07.jpg",
+    alt: "Dzika Roza dish",
+  },
+  {
+    src: "/restaurant/rest-coola-main-02.jpeg",
     alt: "Profesjonalna obsługa",
   },
 ];
@@ -47,35 +52,35 @@ const restaurantGalleryImages = [
 // Gallery images for Klub Coola
 const klubCoolaGalleryImages = [
   {
-    src: "/klub/klub-01.JPG",
+    src: "/klub/coola-new-02.jpeg",
     alt: "Klub Coola - wnętrze",
   },
   {
-    src: "/klub/klub-02.JPG",
+    src: "/klub/coola-new-03.jpeg",
     alt: "Wnętrze klubu",
   },
   {
-    src: "/klub/klub-03.JPG",
+    src: "/klub/coola-new-04.jpeg",
     alt: "Strefa gier",
   },
   {
-    src: "/klub/klub-04.JPG",
+    src: "/klub/coola-new-05.jpeg",
     alt: "Bar i restauracja",
   },
   {
-    src: "/klub/klub-05.JPG",
+    src: "/klub/klub-05.jpg",
     alt: "Kręgielnia",
   },
   {
-    src: "/klub/klub-06.JPG",
+    src: "/klub/klub-06.jpg",
     alt: "Sala rozrywki",
   },
   {
-    src: "/klub/klub-07.JPG",
+    src: "/klub/klub-07.jpg",
     alt: "Strefa baru",
   },
   {
-    src: "/klub/klub-08.JPG",
+    src: "/klub/coola-new-01.jpeg",
     alt: "Atmosfera wieczorna",
   },
 ];
@@ -83,36 +88,32 @@ const klubCoolaGalleryImages = [
 // Gallery images for Bar Przystań
 const barrPrzystanGalleryImages = [
   {
-    src: "/outdoor/out-01.jpg",
+    src: "/outdoor/active-rest-02.jpeg",
     alt: "Bar Przystań - widok na rzekę",
   },
   {
-    src: "/outdoor/out-02.jpg",
+    src: "/outdoor/active-rest-03.jpeg",
     alt: "Widok na Narew",
   },
   {
-    src: "/outdoor/out-03.jpg",
+    src: "/outdoor/active-rest-04.jpeg",
     alt: "Taras nad rzeką",
   },
   {
-    src: "/outdoor/out-04.jpg",
+    src: "/outdoor/outdoor-event-01.jpg",
     alt: "Grill i świeże ryby",
   },
   {
-    src: "/outdoor/out-05.jpg",
+    src: "/outdoor/outdoor-event-02.jpeg",
     alt: "Przystań wieczorem",
   },
   {
-    src: "/outdoor/out-06.jpg",
+    src: "/outdoor/outdoor-event-03.jpeg",
     alt: "Taras restauracyjny",
   },
   {
-    src: "/outdoor/out-07.jpg",
+    src: "/outdoor/room-barbec-01.jpeg",
     alt: "Widok z tarasu",
-  },
-  {
-    src: "/outdoor/out-08.jpg",
-    alt: "Atmosfera nad rzeką",
   },
 ];
 

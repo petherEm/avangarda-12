@@ -72,7 +72,7 @@ export default function EventsIntro({ dict, lang }: EventsIntroProps) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
-            className="relative aspect-square w-full overflow-hidden"
+            className="relative aspect-[4/5] w-full overflow-hidden"
           >
             <Image
               src="/wedding/family-events.jpeg"
@@ -115,7 +115,7 @@ export default function EventsIntro({ dict, lang }: EventsIntroProps) {
             {Object.entries(VENUES_DATA).map(([key, venue]) => (
               <TabsContent key={key} value={key} className="mt-0">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-                  <div className="relative aspect-[4/3] md:h-[480px] w-full overflow-hidden">
+                  <div className="relative aspect-[4/5] md:h-[580px] w-full overflow-hidden">
                     <Image
                       src={venue.image || "/placeholder.svg"}
                       alt={t(venue.nameKey)}

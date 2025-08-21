@@ -34,7 +34,7 @@ export default function GastroBarPrzystan({
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="relative aspect-square w-full overflow-hidden "
+              className="relative aspect-[4/5] h-[500px]md:h-[660px] w-full overflow-hidden "
             >
               <Image
                 src="/restaurant/rest-bar-main-01.jpeg"

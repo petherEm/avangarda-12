@@ -358,8 +358,8 @@ export default function ConferenceRoomsComponent({
   ];
 
   return (
-    <div className="mt-10 mb-10 bg-gradient-to-br from-gray-50 to-white w-full text-primary py-8 md:py-14">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 whitespace-pre-line">
+    <div className="mt-8 mb-10 bg-gradient-to-br from-gray-50 to-white w-full text-primary py-8 md:py-10">
+      <div className="max-w-7xl mx-auto sm:px-4 whitespace-pre-line">
         {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -376,7 +376,7 @@ export default function BusinessEntertainment({
                     )}
                 </div>
                 <div className="space-y-6">
-                  <div className="relative aspect-video w-full h-[500px] overflow-hidden ">
+                  <div className="relative aspect-video w-full h-[500px] md:h-[600px] overflow-hidden ">
                     <Image
                       src="/klub/klub-04.JPG"
                       alt="Klub Coola"
@@ -514,7 +514,7 @@ export default function BusinessEntertainment({
                 </div>
                 <div className="space-y-6">
                   {/* Full-width image for outdoor tab */}
-                  <div className="relative aspect-video w-full h-[500px] overflow-hidden ">
+                  <div className="relative aspect-video w-full h-[500px] md:h-[600px] overflow-hidden ">
                     <Image
                       src="/entertainment/10.jpeg"
                       alt={dict.business.entertainment.spaces.outdoor.title}
@@ -648,7 +648,7 @@ export default function BusinessEntertainment({
                     )}
                 </div>
                 <div className="space-y-6">
-                  <div className="relative aspect-video w-full h-[500px] overflow-hidden">
+                  <div className="relative aspect-video w-full h-[600px] overflow-hidden">
                     <Image
                       src="/fort/fort-main-01.jpeg"
                       alt="Fort No. 4"
@@ -770,7 +770,7 @@ export default function BusinessEntertainment({
                     )}
                 </div>
                 <div className="space-y-6">
-                  <div className="relative aspect-video w-full h-[500px] overflow-hidden">
+                  <div className="relative aspect-video w-full  h-[500px] md:h-[700px] overflow-hidden">
                     <Image
                       src="/outdoor/room-barbec-01.jpeg"
                       alt="Dymna Polana"
@@ -928,7 +928,7 @@ export default function BusinessEntertainment({
                   </div>
                 </div>
                 <div className="space-y-6">
-                  <div className="relative aspect-video w-full h-[500px] overflow-hidden">
+                  <div className="relative aspect-video w-full h-[500px] md:h-[600px] overflow-hidden">
                     <Image
                       src="/restaurant/bar-przystan-main.jpeg"
                       alt={

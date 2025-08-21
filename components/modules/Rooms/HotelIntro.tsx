@@ -227,7 +227,7 @@ const About = ({ dict, lang }: AboutProps) => {
             </div>
 
             {/* Right Column - Text Content */}
-            <div className="lg:col-span-5 space-y-6 lg:pl-8">
+            <div className="lg:col-span-5 lg:pl-8 h-[600px] flex flex-col justify-start">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

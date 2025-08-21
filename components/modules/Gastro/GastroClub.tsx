@@ -155,7 +155,7 @@ export default function GastroClub({
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="relative aspect-square w-full overflow-hidden"
+              className="relative aspect-[4/5] h-[600px] w-full overflow-hidden"
             >
               <Image
                 src="/restaurant/rest-coola-main-02.jpeg"
