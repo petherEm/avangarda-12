@@ -187,7 +187,7 @@ function VouchersGrid({ vouchers, lang = "en", dict }: VouchersGridProps) {
                           : voucher.enname || ""
                       }
                       fill
-                      className="object-cover"
+                      className="object-cover object-right"
                     />
 
                     {/* Enhanced gradient overlay */}
@@ -264,7 +264,7 @@ function VouchersGrid({ vouchers, lang = "en", dict }: VouchersGridProps) {
       variants={container}
       initial="hidden"
       animate="show"
-      className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto"
+      className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto"
     >
       {vouchers?.map((voucher, index) => {
         const voucherImage = getVoucherImage(voucher, lang);
@@ -276,7 +276,7 @@ function VouchersGrid({ vouchers, lang = "en", dict }: VouchersGridProps) {
             className="group"
           >
             <div className="bg-white overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 h-full">
-              <div className="relative w-full aspect-[6/3] overflow-hidden">
+              <div className="relative w-full aspect-[7/4] overflow-hidden">
                 <Image
                   src={voucherImage}
                   alt={

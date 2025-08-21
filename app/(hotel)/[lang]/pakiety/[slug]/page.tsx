@@ -23,6 +23,8 @@ import {
   Camera,
   Shield,
   MapPin,
+  BookOpen,
+  UserSquare2,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -496,7 +498,7 @@ const OffersPageId = async ({ params }: { params: Params }) => {
                 <div className="p-8 md:p-10">
                   <div className="flex items-center mb-8">
                     <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mr-4">
-                      <MapPin className="h-6 w-6 text-avangarda" />
+                      <BookOpen className="h-6 w-6 text-avangarda" />
                     </div>
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
                       {lang === "pl"
@@ -520,7 +522,7 @@ const OffersPageId = async ({ params }: { params: Params }) => {
             <div className="p-8 md:p-10">
               <div className="flex items-center mb-8">
                 <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mr-4">
-                  <MapPin className="h-6 w-6 text-avangarda" />
+                  <UserSquare2 className="h-6 w-6 text-avangarda" />
                 </div>
                 <h2 className="text-2xl font-bold text-gray-800">
                   {lang === "pl" ? "Kontakt" : "Contact"}

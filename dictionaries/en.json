@@ -114,7 +114,10 @@
     },
     "roomAmenities": {
       "wifi": "Free Wi-Fi",
-      "ac": "Air conditioning"
+      "ac": "Air conditioning",
+      "tv": "Television",
+      "bathroom": "Bathroom with shower",
+      "beverages": "Beverages"
     },
     "single": {
       "name": "Single Room",
@@ -1811,7 +1814,7 @@
     "hero": {
       "badge": "Gift Voucher",
       "cashVoucher": "Cash Voucher", 
-      "purchaseButton": "Purchase Voucher"
+      "purchaseButton": "Buy Voucher"
     },
     "benefits": {
       "title": "Why Avangarda Voucher?",

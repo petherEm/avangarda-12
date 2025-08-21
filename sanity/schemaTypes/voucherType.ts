@@ -39,12 +39,6 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'voucherValue',
-      title: 'Wartość Vouchera',
-      type: 'number',
-      validation: (Rule) => Rule.required().positive(),
-    }),
-    defineField({
       name: 'pldescription',
       title: 'Opis PL',
       type: 'text',
@@ -54,18 +48,29 @@ export default defineType({
       title: 'Opis EN',
       type: 'text',
     }),
+    defineField({
+      name: 'plconditions',
+      title: 'Warunki użycia PL',
+      type: 'text',
+      description: 'Warunki i zasady korzystania z vouchera w języku polskim',
+    }),
+    defineField({
+      name: 'enconditions',
+      title: 'Warunki użycia EN',
+      type: 'text',
+      description: 'Terms and conditions for using the voucher in English',
+    }),
   ],
   preview: {
     select: {
       title: 'plname',
-      subtitle: 'voucherValue',
       media: 'voucherImage',
     },
     prepare(selection) {
-      const { title, subtitle } = selection;
+      const { title } = selection;
       return {
         ...selection,
-        subtitle: subtitle ? `Wartość: ${subtitle} PLN` : '',
+        subtitle: 'Gift Voucher',
       };
     },
   },

@@ -26,6 +26,7 @@ import {
   Armchair,
   ChevronLeft,
   ChevronRight,
+  ShowerHead,
   X,
 } from "lucide-react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
@@ -47,7 +48,7 @@ const featureIcons = {
   dining: Utensils,
   balcony: Maximize,
   audio: Music,
-  shower: Droplets,
+  shower: ShowerHead,
   lounge: Armchair,
   default: Check,
 };
@@ -460,7 +461,7 @@ export default function RoomsIntro({ dict, lang }: RoomsIntroProps) {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="relative aspect-[8/7] w-full overflow-hidden"
+            className="relative aspect-[4/3] w-full overflow-hidden"
           >
             <Image
               src="/rooms/room-intro.png"
@@ -502,7 +503,10 @@ export default function RoomsIntro({ dict, lang }: RoomsIntroProps) {
                   {[
                     { icon: Wind, text: dict.rooms.roomAmenities.ac },
                     { icon: Tv, text: dict.rooms.roomAmenities.tv },
-                    { icon: Bath, text: dict.rooms.roomAmenities.bathroom },
+                    {
+                      icon: ShowerHead,
+                      text: dict.rooms.roomAmenities.bathroom,
+                    },
                     { icon: Coffee, text: dict.rooms.roomAmenities.beverages },
                   ].map((amenity, index) => (
                     <motion.div

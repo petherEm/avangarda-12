@@ -1,8 +1,6 @@
 import { type SchemaTypeDefinition } from 'sanity'
-
 import {offerType} from './offerType'
 import {blockContentType} from './blockContentType'
-import { offerScope } from './offerScope'
 import { categoryType } from './categoryType'
 import voucherType from './voucherType'
 import { menuType } from './menuType'
@@ -14,5 +12,5 @@ import { eventType } from './eventType'
 
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [blockContentType, offerType, categoryType, offerScope, voucherType, menuType,eventType, businessType, spaType, popupType, popupSpaType],
+  types: [blockContentType, offerType, categoryType, voucherType, menuType,eventType, businessType, spaType, popupType, popupSpaType],
 }

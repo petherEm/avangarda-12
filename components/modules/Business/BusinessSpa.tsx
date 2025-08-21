@@ -7,16 +7,7 @@ import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import BackgroundLogoBottomDark from "@/components/background-logo-bottom-dark";
 import { AnimatedDecorativeBar } from "@/components/animated-decorative-bar";
-import {
-  Clock,
-  Heart,
-  Dumbbell,
-  Coffee,
-  ArrowRight,
-  SmilePlus,
-  Waves,
-  Download,
-} from "lucide-react";
+import { Download } from "lucide-react";
 import { fileUrl } from "@/lib/fileUrl";
 
 interface BusinessSpaProps {
@@ -75,17 +66,15 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
     springConfig
   );
 
-  // Services with icons - Updated to match the image exactly
+  // Services without icons
   const services = [
     {
-      icon: Heart,
       title: dict?.business?.spa?.services?.massages?.title || "Masaże",
       subtitle:
         dict?.business?.spa?.services?.massages?.subtitle ||
         "Relaks i regeneracja",
     },
     {
-      icon: SmilePlus,
       title:
         dict?.business?.spa?.services?.faceTreatments?.title ||
         "Zabiegi na twarz",
@@ -94,7 +83,6 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
         "Światowe marki kosmetyków",
     },
     {
-      icon: Waves,
       title:
         dict?.business?.spa?.services?.bodyTreatments?.title ||
         "Zabiegi na ciało",
@@ -103,14 +91,12 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
         "Pielęgnacja od stóp do głów",
     },
     {
-      icon: Dumbbell,
       title: dict?.business?.spa?.services?.workshops?.title || "Warsztaty Spa",
       subtitle:
         dict?.business?.spa?.services?.workshops?.subtitle ||
         "Baw się i ucz pięknie!",
     },
     {
-      icon: Clock,
       title:
         dict?.business?.spa?.services?.vouchers?.title || "Vouchery do Spa",
       subtitle:
@@ -118,7 +104,6 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
         "Wyraź swoją wdzięczność",
     },
     {
-      icon: Coffee,
       title:
         dict?.business?.spa?.services?.daySpaBusiness?.title ||
         "Biznesowe Day Spa",
@@ -279,7 +264,7 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                 </div>
               </motion.div>
 
-              {/* Services Grid - Mobile - All 6 services */}
+              {/* Services Grid - Mobile - All 6 services without icons */}
               <motion.div
                 className="grid grid-cols-3 gap-2 sm:gap-3 mb-6 pb-8"
                 initial="initial"
@@ -291,10 +276,9 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                     key={index}
                     variants={slideInFromRight}
                     transition={{ delay: 0.1 * index, duration: 0.6 }}
-                    className="p-2 sm:p-3 border-b-2 border-avangarda bg-white/10 backdrop-blur-sm"
+                    className="p-3 sm:p-4 border-b-2 border-avangarda bg-white/10 backdrop-blur-sm min-h-[100px] sm:min-h-[120px] flex flex-col justify-center"
                     whileHover={{ scale: 1.05 }}
                   >
-                    <service.icon className="h-5 w-5 text-avangarda mb-2" />
                     <div className="text-sm font-medium text-white mb-1">
                       {service.title}
                     </div>
@@ -549,7 +533,7 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                     </motion.div>
                   </motion.div>
 
-                  {/* Services Grid - Desktop - All 6 services */}
+                  {/* Services Grid - Desktop - All 6 services without icons */}
                   <motion.div
                     className="grid grid-cols-3 gap-3 pt-8 pb-16"
                     initial="initial"
@@ -561,11 +545,10 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                         key={index}
                         variants={slideInFromRight}
                         transition={{ delay: 0.1 * index, duration: 0.6 }}
-                        className="p-3 border-b-2 border-avangarda bg-white/10 backdrop-blur-sm"
+                        className="p-4 border-b-2 border-avangarda bg-white/10 backdrop-blur-sm min-h-[140px] flex flex-col justify-center whitespace-pre-line"
                         whileHover={{ scale: 1.05 }}
                       >
-                        <service.icon className="h-5 w-5 text-avangarda mb-2" />
-                        <div className="text-lg font-medium text-white mb-1">
+                        <div className="text-lg font-medium text-white mb-2">
                           {service.title}
                         </div>
                         <div className="text-sm text-white/80">

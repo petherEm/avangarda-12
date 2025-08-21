@@ -9,9 +9,10 @@ export const getAllVouchers = async () => {
       enname,
       slug,
       voucherImage,
-      voucherValue,
       pldescription,
-      endescription
+      endescription,
+      plconditions,
+      enconditions
     } | order(_createdAt desc)`
   );
   

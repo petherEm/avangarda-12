@@ -12,17 +12,17 @@ const getNestedValue = (obj: any, path: string) => {
 
 interface OffersIntroProps {
   dict: {
-      offers: {
-        browseTitle: string;
-      };
+    offers: {
+      browseTitle: string;
     };
+  };
   lang: string;
   offers: Offers[];
 }
 
 const OffersIntro = ({ dict, lang, offers }: OffersIntroProps) => {
   // Helper function for translations
-    // Function to get localized content
+  // Function to get localized content
   const getLocalizedContent = (offer: Offers) => {
     const name = lang === "pl" ? offer.plname : offer.enname;
     const subtitle = lang === "pl" ? offer.subtitle : offer.ensubtitle;

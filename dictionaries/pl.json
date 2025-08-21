@@ -114,7 +114,10 @@
     },
     "roomAmenities": {
       "wifi": "Bezpłatne Wi-Fi",
-      "ac": "Klimatyzacja"
+      "ac": "Klimatyzacja",
+      "tv": "Telewizja",
+      "bathroom": "Łazienka z prysznicem",
+      "beverages": "Napoje"
     },
     "single": {
       "name": "Pokój jednoosobowy",
@@ -390,7 +393,7 @@
     "email": "info@hotelavangarda.pl",
     "imageAlt": "Bar Przystań - widok na rzekę",
     "guestOpinionsTitle": "Opinie Gości",
-    "guestOpinionsSubtitle": "Poznaj opinie naszych gości o niezapomnianych chwilach spędzonych w Przystań Avangarda",
+    "guestOpinionsSubtitle": "Poznaj opinie naszych gości o niezapomnianych chwilach spędzonych w Przystani Avangarda",
     "testimonials": [
       {
         "id": "testimonial-1",
@@ -1434,7 +1437,7 @@
         },
         "bodyTreatments": {
           "title": "Zabiegi na ciało",
-          "subtitle": "Pielęgnacja od stóp do głów"
+          "subtitle": "Pielęgnacja od stóp\n do głów"
         },
         "workshops": {
           "title": "Warsztaty Spa",
@@ -1446,7 +1449,7 @@
         },
         "daySpaBusiness": {
           "title": "Biznesowe Day Spa",
-          "subtitle": "Inny sposób na integrację"
+          "subtitle": "Inny sposób\n na integrację"
         }
       }
     },

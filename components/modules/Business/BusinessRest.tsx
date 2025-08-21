@@ -20,6 +20,18 @@ import {
   Bike,
   Cherry,
   Download,
+  Circle,
+  Tv,
+  MessageCircleWarning,
+  Car,
+  Footprints,
+  Heart,
+  Shield,
+  CloudSun,
+  House,
+  PartyPopper,
+  BedSingle,
+  VolleyballIcon,
 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedDecorativeBar } from "@/components/animated-decorative-bar";
@@ -156,7 +168,7 @@ export default function BusinessEntertainment({
 
   return (
     <div className="mt-6 sm:mt-6 md:mt-4 lg:mt-0 mb-6 lg:mb-0 bg-white w-full text-primary lg:py-10">
-      <div className="max-w-7xl mx-auto sm:px-4 ">
+      <div className="max-w-7xl mx-auto sm:px-4">
         {/* Introduction Section - Image on left, text on right */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start mb-16 px-4 sm:px-0">
           {/* Image on the left - aligned with DecorativeBar and matching text height */}
@@ -278,7 +290,7 @@ export default function BusinessEntertainment({
                   </div>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Users className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Circle className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.club.features
@@ -293,7 +305,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Users className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Circle className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.club.features
@@ -308,7 +320,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Users className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Tv className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {dict.business.entertainment.spaces.club.features.sport}
                       </p>
@@ -320,7 +332,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Wine className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <MessageCircleWarning className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.club.features
@@ -436,7 +448,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center ">
-                      <Volleyball className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Circle className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.outdoor.features
@@ -451,7 +463,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center ">
-                      <Clock className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Car className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.outdoor.features
@@ -466,7 +478,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center ">
-                      <Bike className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Footprints className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.outdoor.features
@@ -481,7 +493,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center ">
-                      <Cherry className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Heart className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.outdoor.features
@@ -544,7 +556,7 @@ export default function BusinessEntertainment({
                   </div>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Flame className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <CloudSun className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.fort.features
@@ -574,7 +586,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <TreePine className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Utensils className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.fort.features
@@ -589,7 +601,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Clock className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <House className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.fort.features
@@ -604,7 +616,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Utensils className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <PartyPopper className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.fort.features
@@ -678,7 +690,7 @@ export default function BusinessEntertainment({
                   </div>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Fish className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <CloudSun className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.dymna.features
@@ -693,7 +705,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Utensils className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Flame className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.dymna.features
@@ -708,7 +720,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Wine className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <House className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.dymna.features
@@ -723,7 +735,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Clock className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <BedSingle className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.dymna.features
@@ -797,7 +809,7 @@ export default function BusinessEntertainment({
                   </div>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Fish className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <CloudSun className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.przystan.features
@@ -812,7 +824,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Utensils className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Waves className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.przystan.features
@@ -827,7 +839,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Wine className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <VolleyballIcon className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.przystan.features
@@ -842,7 +854,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Clock className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Waves className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.przystan.features
@@ -857,7 +869,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <TreePine className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Utensils className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.przystan.features
@@ -872,7 +884,7 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                     <div className="bg-avangarda/10 p-4 text-center">
-                      <Users className="h-5 w-5 mx-auto mb-1 text-avangarda" />
+                      <Music className="h-5 w-5 mx-auto mb-1 text-avangarda" />
                       <p className="text-sm font-medium">
                         {
                           dict.business.entertainment.spaces.przystan.features

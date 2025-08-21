@@ -27,7 +27,14 @@ import {
   Star,
   Home,
   Utensils,
-  Bed, // Add this import
+  Bed,
+  ShowerHead,
+  AlarmSmoke,
+  SoapDispenserDroplet, // Add this import
+  Zap, // Electric/power icon
+  Fan,
+  Columns4,
+  Pentagon, // Another good option for air flow
 } from "lucide-react";
 import type { RoomType } from "@/constants";
 import { AnimatedDecorativeBar } from "@/components/animated-decorative-bar";
@@ -196,10 +203,18 @@ function RoomAmenities({ room, dict }: { room: RoomType; dict: any }) {
     switch (iconType) {
       case "bed":
         return Home;
+      case "hairdryer":
+        return AlarmSmoke; // Better for hair dryer (represents air flow)
       case "bath":
-        return Bath;
+        return ShowerHead;
       case "tv":
         return Tv;
+      case "towel":
+        return Columns4;
+      case "bathrobe":
+        return Pentagon;
+      case "toiletries":
+        return SoapDispenserDroplet;
       case "wifi":
         return Wifi;
       case "ac":

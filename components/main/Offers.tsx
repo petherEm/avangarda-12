@@ -14,6 +14,7 @@ import {
   Calendar,
   Clock,
   CalendarDays,
+  Utensils,
 } from "lucide-react";
 import { useRef, useState, useEffect } from "react";
 import { AnimatedDecorativeBar } from "@/components/animated-decorative-bar";
@@ -182,7 +183,7 @@ const Offers = ({ dict, lang, offers }: OffersProps) => {
   };
 
   return (
-    <div className="md:py-20 lg:py-26 mt-6 w-full text-primary">
+    <div className="md:py-8 lg:py-10 mt-4 w-full text-primary">
       <Container className="py-8">
         {/* Centered Header Section - Same for Mobile and Desktop */}
         <div className="text-center mb-12 lg:mb-16">
@@ -408,7 +409,7 @@ const Offers = ({ dict, lang, offers }: OffersProps) => {
                               {localizedContent.name}
                             </h3>
                             {localizedContent.subtitle && (
-                              <p className="text-base text-white/80 mb-3">
+                              <p className="font-semibold text-base text-white/90 mb-3">
                                 {localizedContent.subtitle}
                               </p>
                             )}
@@ -423,13 +424,13 @@ const Offers = ({ dict, lang, offers }: OffersProps) => {
                               )}
                               {offer.meals && (
                                 <div className="flex items-center gap-1.5 text-sm text-white/90 font-bold">
-                                  <Clock className="h-4 w-4 text-avangarda" />
+                                  <Utensils className="h-4 w-4 text-avangarda" />
                                   <span>{offer.meals}</span>
                                 </div>
                               )}
                             </div>
                             {localizedContent.validityPeriod && (
-                              <div className="flex items-center gap-1.5 text-sm text-white/70 font-medium">
+                              <div className="flex items-center gap-1.5 text-sm text-white/90 font-medium">
                                 <CalendarDays className="h-4 w-4 text-avangarda" />
                                 <span>{localizedContent.validityPeriod}</span>
                               </div>

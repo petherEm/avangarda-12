@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import type { Offers } from "../sanity.types";
 import { useRef, useState, useEffect, useMemo } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Utensils } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -334,7 +334,7 @@ function OfferGrid({
                           )}
                           {offer.meals && (
                             <div className="flex items-center gap-1.5 text-sm text-white/90 font-bold">
-                              <Clock className="h-4 w-4 text-avangarda" />
+                              <Utensils className="h-4 w-4 text-avangarda" />
                               <span>{offer.meals}</span>
                             </div>
                           )}
@@ -465,7 +465,7 @@ function OfferGrid({
                         {localizedContent.name}
                       </h3>
                       {localizedContent.subtitle && (
-                        <p className="text-base text-white/80 mb-3">
+                        <p className="font-semibold text-base text-white/90 mb-3">
                           {localizedContent.subtitle}
                         </p>
                       )}
@@ -481,13 +481,13 @@ function OfferGrid({
                         )}
                         {offer.meals && (
                           <div className="flex items-center gap-1.5 text-sm text-white/90 font-bold">
-                            <Clock className="h-4 w-4 text-avangarda" />
+                            <Utensils className="h-4 w-4 text-avangarda" />
                             <span>{offer.meals}</span>
                           </div>
                         )}
                       </div>
                       {localizedContent.validityPeriod && (
-                        <div className="flex items-center gap-1.5 text-sm text-white/70 font-medium">
+                        <div className="flex items-center gap-1.5 text-sm text-white/80 font-medium">
                           <CalendarDays className="h-4 w-4 text-avangarda" />
                           <span>{localizedContent.validityPeriod}</span>
                         </div>

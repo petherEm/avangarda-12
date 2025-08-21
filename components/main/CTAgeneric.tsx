@@ -38,8 +38,8 @@ const Entertainment = ({ lang = "pl", dict }: EntertainmentProps) => {
   }, []);
 
   return (
-    <section className="w-full text-primary overflow-hidden mb-8 relative">
-      <div className="w-full md:py-12 xl:py-6 relative z-10">
+    <section className="-mt-10 w-full text-primary overflow-hidden mb-8 relative">
+      <div className="w-full md:py-6 xl:py-6 relative z-10">
         {/* Content Container */}
         <div className="max-w-7xl mx-auto px-4 space-y-6">
           <h1 className="title-light text-center text-avangarda">

@@ -18,7 +18,7 @@ const VouchersIntro: React.FC<VouchersIntroProps> = ({
   vouchers,
 }) => {
   return (
-    <Container className="py-10 mt-6 sm:mt-6 md:mt-4 lg:mt-0 mb-6 lg:mb-0 bg-gradient-to-br from-neutral-600 via-[#46464c] to-neutral-900 text-white w-full lg:py-20">
+    <Container className="py-10 mt-6 sm:mt-6 md:mt-4 lg:mt-0 mb-6 lg:mb-0 bg-primary text-white w-full lg:py-20">
       <div id="voucher" className="max-w-7xl mx-auto sm:px-4">
         {/* Vouchers Grid Section */}
         {vouchers && vouchers.length > 0 && (

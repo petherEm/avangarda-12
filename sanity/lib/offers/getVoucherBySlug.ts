@@ -10,9 +10,10 @@ export const getVoucherBySlug = async (slug: string) => {
       enname,
       slug,
       voucherImage,
-      voucherValue,
       pldescription,
-      endescription
+      endescription,
+      plconditions,
+      enconditions
     }`
   );
   
