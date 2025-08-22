@@ -26,6 +26,12 @@ import {
   Dumbbell,
   Download,
   Star,
+  BedDouble,
+  UtensilsCrossedIcon,
+  ThermometerSun,
+  HeartPlus,
+  CandyCane,
+  Tractor,
 } from "lucide-react";
 import { AnimatedDecorativeBar } from "@/components/animated-decorative-bar";
 import BackgroundLogoBottomDark from "@/components/background-logo-bottom-dark";
@@ -118,7 +124,7 @@ export default function ForKidsIntro({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Swimming className="h-5 w-5 text-avangarda" />
+                    <BedDouble className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.forKidsIntro.kidsFriendly.features.familyRooms
@@ -154,7 +160,7 @@ export default function ForKidsIntro({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="h-5 w-5 text-avangarda" />
+                    <UtensilsCrossed className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.forKidsIntro.kidsFriendly.features.healthyKitchen
@@ -268,7 +274,7 @@ export default function ForKidsIntro({
               >
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Circle className="h-5 w-5 text-avangarda" />
+                    <Gamepad2 className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.forKidsIntro.fourPlayZones.features.playRoom.title}
                     </h3>
@@ -298,7 +304,7 @@ export default function ForKidsIntro({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Gamepad2 className="h-5 w-5 text-avangarda" />
+                    <Baby className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.forKidsIntro.fourPlayZones.features.playground
@@ -316,7 +322,7 @@ export default function ForKidsIntro({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Baby className="h-5 w-5 text-avangarda" />
+                    <ThermometerSun className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.forKidsIntro.fourPlayZones.features.marina.title}
                     </h3>
@@ -536,7 +542,7 @@ export default function ForKidsIntro({
               >
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Playground className="h-5 w-5 text-avangarda" />
+                    <Baby className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.forKidsIntro.kidsSpa.features.paddling.title}
                     </h3>
@@ -548,7 +554,7 @@ export default function ForKidsIntro({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Baby className="h-5 w-5 text-avangarda" />
+                    <Waves className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.forKidsIntro.kidsSpa.features.shallowPool.title}
                     </h3>
@@ -560,7 +566,7 @@ export default function ForKidsIntro({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Swimming className="h-5 w-5 text-avangarda" />
+                    <HeartPlus className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.forKidsIntro.kidsSpa.features.kidsSpaServices.title}
                     </h3>
@@ -734,7 +740,7 @@ export default function ForKidsIntro({
               >
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Waves className="h-5 w-5 text-avangarda" />
+                    <CandyCane className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.forKidsIntro.seasonalAttractions.features
@@ -752,7 +758,7 @@ export default function ForKidsIntro({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Swimming className="h-5 w-5 text-avangarda" />
+                    <Tractor className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.forKidsIntro.seasonalAttractions.features
@@ -1018,7 +1024,7 @@ export default function ForKidsIntro({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="h-5 w-5 text-avangarda" />
+                    <Sparkles className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.forKidsIntro.kidsParty.features.animations.title}
                     </h3>

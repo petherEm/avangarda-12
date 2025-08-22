@@ -25,6 +25,11 @@ import {
   MapPin,
   Bike,
   Dumbbell,
+  HeartPlus,
+  SoapDispenserDroplet,
+  SunSnow,
+  HeartPulse,
+  Sailboat,
 } from "lucide-react";
 import { AnimatedDecorativeBar } from "@/components/animated-decorative-bar";
 import BackgroundLogoBottomDark from "@/components/background-logo-bottom-dark";
@@ -110,7 +115,7 @@ export default function OutdoorEntertainment({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Swimming className="h-5 w-5 text-avangarda" />
+                    <Waves className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.entertainmentIntro.hotelFull.features.pool.title}
                     </h3>
@@ -490,7 +495,7 @@ export default function OutdoorEntertainment({
               >
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Playground className="h-5 w-5 text-avangarda" />
+                    <HeartPlus className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.entertainmentIntro.spaSection.features.massages
@@ -508,7 +513,7 @@ export default function OutdoorEntertainment({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Baby className="h-5 w-5 text-avangarda" />
+                    <SoapDispenserDroplet className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.entertainmentIntro.spaSection.features.treatments
@@ -526,7 +531,7 @@ export default function OutdoorEntertainment({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Swimming className="h-5 w-5 text-avangarda" />
+                    <Waves className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.entertainmentIntro.spaSection.features.pool.title}
                     </h3>
@@ -559,7 +564,7 @@ export default function OutdoorEntertainment({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="h-5 w-5 text-avangarda" />
+                    <SunSnow className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {dict.entertainmentIntro.spaSection.features.saunas.title}
                     </h3>
@@ -573,7 +578,7 @@ export default function OutdoorEntertainment({
                 </div>
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="h-5 w-5 text-avangarda" />
+                    <HeartPulse className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.entertainmentIntro.spaSection.features.saltCave
@@ -705,7 +710,7 @@ export default function OutdoorEntertainment({
 
                 <div className="bg-avangarda/10 p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <Swimming className="h-5 w-5 text-avangarda" />
+                    <Waves className="h-5 w-5 text-avangarda" />
                     <h3 className="font-medium text-primary">
                       {
                         dict.entertainmentIntro.activeRest.features.pedalBoats

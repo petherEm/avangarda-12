@@ -4,7 +4,6 @@ import { getVoucherBySlug } from "@/sanity/lib/offers/getVoucherBySlug";
 import { getDictionary } from "@/lib/dictionary";
 import { imageUrl } from "@/lib/imageUrl";
 import {
-  Info,
   Gift,
   Shield,
   HelpCircle,
@@ -23,7 +22,6 @@ import { Button } from "@/components/ui/button";
 import OffersCTA from "@/components/modules/Offers/OffersCTA";
 import { Tag, ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import VoucherFeaturesBanner from "@/components/voucher-features-banner";
 import Link from "next/link";
 
 interface Params {
@@ -43,10 +41,12 @@ const VoucherPageId = async ({ params }: { params: Params }) => {
     const name = lang === "pl" ? voucher?.plname : voucher?.enname;
     const description =
       lang === "pl" ? voucher?.pldescription : voucher?.endescription;
+    const conditions =
+      lang === "pl" ? voucher?.plconditions : voucher?.enconditions;
     return {
       name: name || "No title available",
       description: description,
-      value: voucher?.voucherValue || 0,
+      conditions: conditions,
     };
   };
 
@@ -56,19 +56,8 @@ const VoucherPageId = async ({ params }: { params: Params }) => {
     : {
         name: "Gift Voucher",
         description: "No description available",
-        value: 0,
+        conditions: null,
       };
-
-  // Format value with currency
-  const formattedValue = new Intl.NumberFormat(
-    lang === "pl" ? "pl-PL" : "en-US",
-    {
-      style: "currency",
-      currency: "PLN",
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 2,
-    }
-  ).format(localizedContent.value);
 
   // Convert description array to string
   const descriptionText = Array.isArray(localizedContent.description)
@@ -236,35 +225,35 @@ const VoucherPageId = async ({ params }: { params: Params }) => {
       </section>
 
       {/* Enhanced Content Section */}
-      <Container className="py-12 md:py-20">
+      <Container className="py-8 md:py-12">
         {voucher ? (
-          <div className="max-w-6xl mx-auto space-y-12">
+          <div className="max-w-6xl mx-auto space-y-8">
             {/* Voucher Benefits - New Enhanced Section */}
             <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-l-4 border-avangarda">
-              <div className="p-8 md:p-10">
-                <div className="flex items-center mb-8">
-                  <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mr-4">
-                    <Gift className="h-6 w-6 text-avangarda" />
+              <div className="p-6 md:p-8">
+                <div className="flex items-center mb-6">
+                  <div className="w-10 h-10 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
+                    <Gift className="h-5 w-5 text-avangarda" />
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+                  <h2 className="text-xl md:text-2xl font-bold text-gray-800">
                     {dict.vouchers.benefits.title}
                   </h2>
                 </div>
 
                 {/* Benefits Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                   {voucherBenefits.map((benefit, index) => (
                     <div
                       key={index}
-                      className="text-center p-6 bg-gradient-to-br from-gray-50 to-white border border-gray-100 hover:border-avangarda/30 hover:shadow-md transition-all duration-300 group"
+                      className="text-center p-4 bg-gradient-to-br from-gray-50 to-white border border-gray-100 hover:border-avangarda/30 hover:shadow-md transition-all duration-300 group"
                     >
-                      <div className="w-16 h-16 bg-avangarda/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-avangarda/20 transition-colors">
-                        <benefit.icon className="h-8 w-8 text-avangarda" />
+                      <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-avangarda/20 transition-colors">
+                        <benefit.icon className="h-6 w-6 text-avangarda" />
                       </div>
-                      <h3 className="font-semibold text-gray-800 mb-2">
+                      <h3 className="font-semibold text-gray-800 mb-2 text-sm">
                         {benefit.title}
                       </h3>
-                      <p className="text-sm text-gray-600 leading-relaxed">
+                      <p className="text-xs text-gray-600 leading-relaxed">
                         {benefit.description}
                       </p>
                     </div>
@@ -275,33 +264,33 @@ const VoucherPageId = async ({ params }: { params: Params }) => {
 
             {/* How to Use - Enhanced */}
             <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-l-4 border-avangarda">
-              <div className="p-8 md:p-10">
-                <div className="flex items-center mb-8">
-                  <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mr-4">
-                    <HelpCircle className="h-6 w-6 text-avangarda" />
+              <div className="p-6 md:p-8">
+                <div className="flex items-center mb-6">
+                  <div className="w-10 h-10 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
+                    <HelpCircle className="h-5 w-5 text-avangarda" />
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+                  <h2 className="text-xl md:text-2xl font-bold text-gray-800">
                     {dict.vouchers.howToUse.title}
                   </h2>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {usageSteps.map((step, index) => (
                     <div key={index} className="text-center group">
-                      <div className="relative mb-6">
-                        <div className="w-20 h-20 bg-gradient-to-br from-avangarda to-avangarda/80 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110">
-                          <step.icon className="h-10 w-10 text-white" />
+                      <div className="relative mb-4">
+                        <div className="w-16 h-16 bg-gradient-to-br from-avangarda to-avangarda/80 rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110">
+                          <step.icon className="h-8 w-8 text-white" />
                         </div>
-                        <div className="absolute -top-2 -right-2 w-8 h-8 bg-white border-2 border-avangarda rounded-full flex items-center justify-center shadow-md">
-                          <span className="text-sm font-bold text-avangarda">
+                        <div className="absolute -top-1 -right-1 w-6 h-6 bg-white border-2 border-avangarda rounded-full flex items-center justify-center shadow-md">
+                          <span className="text-xs font-bold text-avangarda">
                             {step.step}
                           </span>
                         </div>
                       </div>
-                      <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                      <h3 className="text-lg font-semibold text-gray-800 mb-2">
                         {step.title}
                       </h3>
-                      <p className="text-gray-600 leading-relaxed">
+                      <p className="text-sm text-gray-600 leading-relaxed">
                         {step.description}
                       </p>
                     </div>
@@ -312,27 +301,27 @@ const VoucherPageId = async ({ params }: { params: Params }) => {
 
             {/* Perfect Gift For - New Section */}
             <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-l-4 border-avangarda">
-              <div className="p-8 md:p-10">
-                <div className="flex items-center mb-8">
-                  <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mr-4">
-                    <Heart className="h-6 w-6 text-avangarda" />
+              <div className="p-6 md:p-8">
+                <div className="flex items-center mb-6">
+                  <div className="w-10 h-10 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
+                    <Heart className="h-5 w-5 text-avangarda" />
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+                  <h2 className="text-xl md:text-2xl font-bold text-gray-800">
                     {dict.vouchers.perfectGift.title}
                   </h2>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   {dict.vouchers.perfectGift.occasions.map(
                     (occasion, index) => (
                       <div
                         key={index}
-                        className="flex items-center p-4 bg-gradient-to-r from-avangarda/5 to-transparent border border-avangarda/20 hover:border-avangarda/40 hover:shadow-md transition-all duration-300 group"
+                        className="flex items-center p-3 bg-gradient-to-r from-avangarda/5 to-transparent border border-avangarda/20 hover:border-avangarda/40 hover:shadow-md transition-all duration-300 group"
                       >
-                        <div className="p-2 bg-avangarda/10 rounded-full mr-3 group-hover:bg-avangarda/20 transition-colors">
-                          <CheckCircle className="h-4 w-4 text-avangarda" />
+                        <div className="p-1.5 bg-avangarda/10 rounded-full mr-2 group-hover:bg-avangarda/20 transition-colors">
+                          <CheckCircle className="h-3 w-3 text-avangarda" />
                         </div>
-                        <span className="text-gray-700 font-medium">
+                        <span className="text-gray-700 font-medium text-sm">
                           {occasion}
                         </span>
                       </div>
@@ -342,134 +331,95 @@ const VoucherPageId = async ({ params }: { params: Params }) => {
               </div>
             </div>
 
-            {/* Enhanced Terms and Conditions */}
-            <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-l-4 border-avangarda">
-              <div className="p-8 md:p-10">
-                <div className="flex items-center mb-8">
-                  <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mr-4">
-                    <Shield className="h-6 w-6 text-avangarda" />
+            {/* Voucher Conditions - From Sanity */}
+            {localizedContent.conditions && (
+              <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-l-4 border-avangarda">
+                <div className="p-6 md:p-8">
+                  <div className="flex items-center mb-6">
+                    <div className="w-10 h-10 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
+                      <Shield className="h-5 w-5 text-avangarda" />
+                    </div>
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-800">
+                      {dict.vouchers.terms.title}
+                    </h2>
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
-                    {dict.vouchers.terms.title}
-                  </h2>
-                </div>
 
-                <div className="space-y-8">
-                  {/* Voucher do restauracji Dzika Róża */}
-                  <div className="bg-gradient-to-br from-gray-50 to-white p-6 border border-gray-200 hover:border-avangarda/30 transition-colors">
-                    <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                      <div className="w-8 h-8 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
-                        <Gift className="h-4 w-4 text-avangarda" />
+                  <div className="bg-gradient-to-br from-gray-50 to-white p-4 border border-gray-200 hover:border-avangarda/30 transition-colors">
+                    <div className="flex items-start">
+                      <div className="w-6 h-6 bg-avangarda/10 rounded-full flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                        <Gift className="h-3 w-3 text-avangarda" />
                       </div>
-                      {dict.vouchers.terms.restaurant.title}
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      {dict.vouchers.terms.restaurant.description}
-                    </p>
-                  </div>
-
-                  {/* Voucher do Klubu Coola */}
-                  <div className="bg-gradient-to-br from-gray-50 to-white p-6 border border-gray-200 hover:border-avangarda/30 transition-colors">
-                    <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                      <div className="w-8 h-8 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
-                        <Gift className="h-4 w-4 text-avangarda" />
+                      <div className="flex-1">
+                        <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">
+                          {localizedContent.conditions}
+                        </p>
                       </div>
-                      {dict.vouchers.terms.club.title}
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      {dict.vouchers.terms.club.description}
-                    </p>
+                    </div>
                   </div>
 
-                  {/* Voucher SPA */}
-                  <div className="bg-gradient-to-br from-gray-50 to-white p-6 border border-gray-200 hover:border-avangarda/30 transition-colors">
-                    <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                      <div className="w-8 h-8 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
-                        <Gift className="h-4 w-4 text-avangarda" />
+                  <div className="mt-4 p-3 bg-blue-50 border border-blue-200">
+                    <div className="flex items-start">
+                      <AlertCircle className="h-4 w-4 text-blue-600 mt-0.5 mr-2 flex-shrink-0" />
+                      <div>
+                        <p className="text-xs text-blue-800 leading-relaxed">
+                          <strong className="text-blue-900">
+                            {lang === "pl" ? "Ważne:" : "Important:"}
+                          </strong>{" "}
+                          {dict.vouchers.terms.important}
+                        </p>
                       </div>
-                      {dict.vouchers.terms.spa.title}
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      {dict.vouchers.terms.spa.description}
-                    </p>
-                  </div>
-
-                  {/* Voucher na usługi hotelowe */}
-                  <div className="bg-gradient-to-br from-gray-50 to-white p-6 border border-gray-200 hover:border-avangarda/30 transition-colors">
-                    <h3 className="text-xl font-semibold text-gray-800 mb-4 flex items-center">
-                      <div className="w-8 h-8 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
-                        <Gift className="h-4 w-4 text-avangarda" />
-                      </div>
-                      {dict.vouchers.terms.hotel.title}
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed">
-                      {dict.vouchers.terms.hotel.description}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="mt-6 p-4 bg-blue-50 border border-blue-200">
-                  <div className="flex items-start">
-                    <AlertCircle className="h-5 w-5 text-blue-600 mt-0.5 mr-3 flex-shrink-0" />
-                    <div>
-                      <p className="text-sm text-blue-800 leading-relaxed">
-                        <strong className="text-blue-900">
-                          {lang === "pl" ? "Ważne:" : "Important:"}
-                        </strong>{" "}
-                        {dict.vouchers.terms.important}
-                      </p>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            )}
 
             {/* Contact & Practical Info */}
             <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-l-4 border-avangarda">
-              <div className="p-8 md:p-10">
-                <div className="flex items-center mb-8">
-                  <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mr-4">
-                    <MapPin className="h-6 w-6 text-avangarda" />
+              <div className="p-6 md:p-8">
+                <div className="flex items-center mb-6">
+                  <div className="w-10 h-10 bg-avangarda/10 rounded-full flex items-center justify-center mr-3">
+                    <MapPin className="h-5 w-5 text-avangarda" />
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
+                  <h2 className="text-xl md:text-2xl font-bold text-gray-800">
                     {dict.vouchers.practicalInfo.title}
                   </h2>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  <div className="text-center p-6 bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-avangarda/30 transition-colors">
-                    <Phone className="h-8 w-8 text-avangarda mx-auto mb-3" />
-                    <h3 className="font-semibold text-gray-800 mb-2">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="text-center p-4 bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-avangarda/30 transition-colors">
+                    <Phone className="h-6 w-6 text-avangarda mx-auto mb-2" />
+                    <h3 className="font-semibold text-gray-800 mb-2 text-sm">
                       {dict.vouchers.practicalInfo.reservations.title}
                     </h3>
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-xs">
                       {dict.vouchers.practicalInfo.reservations.phone}
                     </p>
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-xs">
                       {dict.vouchers.practicalInfo.reservations.email}
                     </p>
                   </div>
-                  <div className="text-center p-6 bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-avangarda/30 transition-colors">
-                    <Clock className="h-8 w-8 text-avangarda mx-auto mb-3" />
-                    <h3 className="font-semibold text-gray-800 mb-2">
+                  <div className="text-center p-4 bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-avangarda/30 transition-colors">
+                    <Clock className="h-6 w-6 text-avangarda mx-auto mb-2" />
+                    <h3 className="font-semibold text-gray-800 mb-2 text-sm">
                       {dict.vouchers.practicalInfo.hours.title}
                     </h3>
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-xs">
                       {dict.vouchers.practicalInfo.hours.time}
                     </p>
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-xs">
                       {dict.vouchers.practicalInfo.hours.description}
                     </p>
                   </div>
-                  <div className="text-center p-6 bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-avangarda/30 transition-colors">
-                    <CreditCard className="h-8 w-8 text-avangarda mx-auto mb-3" />
-                    <h3 className="font-semibold text-gray-800 mb-2">
+                  <div className="text-center p-4 bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-avangarda/30 transition-colors">
+                    <CreditCard className="h-6 w-6 text-avangarda mx-auto mb-2" />
+                    <h3 className="font-semibold text-gray-800 mb-2 text-sm">
                       {dict.vouchers.practicalInfo.payment.title}
                     </h3>
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-xs">
                       {dict.vouchers.practicalInfo.payment.cards}
                     </p>
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-xs">
                       {dict.vouchers.practicalInfo.payment.cash}
                     </p>
                   </div>
