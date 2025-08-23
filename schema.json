@@ -1001,13 +1001,6 @@
         },
         "optional": true
       },
-      "voucherValue": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "number"
-        },
-        "optional": true
-      },
       "pldescription": {
         "type": "objectAttribute",
         "value": {
@@ -1021,59 +1014,15 @@
           "type": "string"
         },
         "optional": true
-      }
-    }
-  },
-  {
-    "name": "offerScope",
-    "type": "document",
-    "attributes": {
-      "_id": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        }
       },
-      "_type": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string",
-          "value": "offerScope"
-        }
-      },
-      "_createdAt": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        }
-      },
-      "_updatedAt": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        }
-      },
-      "_rev": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        }
-      },
-      "plname": {
+      "plconditions": {
         "type": "objectAttribute",
         "value": {
           "type": "string"
         },
         "optional": true
       },
-      "enname": {
-        "type": "objectAttribute",
-        "value": {
-          "type": "string"
-        },
-        "optional": true
-      },
-      "description": {
+      "enconditions": {
         "type": "objectAttribute",
         "value": {
           "type": "string"

@@ -184,20 +184,10 @@ export type Voucher = {
     crop?: SanityImageCrop;
     _type: "image";
   };
-  voucherValue?: number;
   pldescription?: string;
   endescription?: string;
-};
-
-export type OfferScope = {
-  _id: string;
-  _type: "offerScope";
-  _createdAt: string;
-  _updatedAt: string;
-  _rev: string;
-  plname?: string;
-  enname?: string;
-  description?: string;
+  plconditions?: string;
+  enconditions?: string;
 };
 
 export type Category = {
@@ -618,7 +608,7 @@ export type SanityAssetSourceData = {
   url?: string;
 };
 
-export type AllSanitySchemaTypes = PopupSpa | Popup | SpaOffer | BusinessOffer | Event | Menu | Voucher | OfferScope | Category | Offers | BlockContent | SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageHotspot | SanityImageCrop | SanityFileAsset | SanityImageAsset | SanityImageMetadata | Geopoint | Slug | SanityAssetSourceData;
+export type AllSanitySchemaTypes = PopupSpa | Popup | SpaOffer | BusinessOffer | Event | Menu | Voucher | Category | Offers | BlockContent | SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageHotspot | SanityImageCrop | SanityFileAsset | SanityImageAsset | SanityImageMetadata | Geopoint | Slug | SanityAssetSourceData;
 export declare const internalGroqTypeReferenceTo: unique symbol;
 // Source: ./sanity/lib/menus/getEventBySlug.ts
 // Variable: EVENTS_BY_TYPE_QUERY
@@ -1380,7 +1370,7 @@ export type PRIMARY_SPA_OFFER_QUERYResult = {
 
 // Source: ./sanity/lib/offers/getVoucherBySlug.ts
 // Variable: VOUCHER_BY_SLUG_QUERY
-// Query: *[_type == "voucher" && slug.current == $slug][0] {      _id,      plname,      enname,      slug,      voucherImage,      voucherValue,      pldescription,      endescription    }
+// Query: *[_type == "voucher" && slug.current == $slug][0] {      _id,      plname,      enname,      slug,      voucherImage,      pldescription,      endescription,      plconditions,      enconditions    }
 export type VOUCHER_BY_SLUG_QUERYResult = {
   _id: string;
   plname: string | null;
@@ -1398,14 +1388,15 @@ export type VOUCHER_BY_SLUG_QUERYResult = {
     crop?: SanityImageCrop;
     _type: "image";
   } | null;
-  voucherValue: number | null;
   pldescription: string | null;
   endescription: string | null;
+  plconditions: string | null;
+  enconditions: string | null;
 } | null;
 
 // Source: ./sanity/lib/offers/getVouchers.ts
 // Variable: ALL_VOUCHERS_QUERY
-// Query: *[_type == "voucher"] {      _id,      plname,      enname,      slug,      voucherImage,      voucherValue,      pldescription,      endescription    } | order(_createdAt desc)
+// Query: *[_type == "voucher"] {      _id,      plname,      enname,      slug,      voucherImage,      pldescription,      endescription,      plconditions,      enconditions    } | order(_createdAt desc)
 export type ALL_VOUCHERS_QUERYResult = Array<{
   _id: string;
   plname: string | null;
@@ -1423,9 +1414,10 @@ export type ALL_VOUCHERS_QUERYResult = Array<{
     crop?: SanityImageCrop;
     _type: "image";
   } | null;
-  voucherValue: number | null;
   pldescription: string | null;
   endescription: string | null;
+  plconditions: string | null;
+  enconditions: string | null;
 }>;
 
 // Source: ./sanity/lib/popups/getPopups.ts
@@ -1550,8 +1542,8 @@ declare module "@sanity/client" {
     "*[_type == \"spaOffer\"] {\n      _id,\n      offerName,\n      slug,\n      offerFile,\n      description\n    } | order(_createdAt desc)": ALL_SPA_OFFERS_QUERYResult;
     "*[_type == \"spaOffer\" && slug.current == $slug] {\n      _id,\n      offerName,\n      slug,\n      offerFile,\n      description\n    }[0]": SPA_OFFER_BY_SLUG_QUERYResult;
     "*[_type == \"spaOffer\"] | order(_createdAt desc) [0] {\n      _id,\n      offerName,\n      slug,\n      offerFile,\n      description\n    }": PRIMARY_SPA_OFFER_QUERYResult;
-    "*[_type == \"voucher\" && slug.current == $slug][0] {\n      _id,\n      plname,\n      enname,\n      slug,\n      voucherImage,\n      voucherValue,\n      pldescription,\n      endescription\n    }": VOUCHER_BY_SLUG_QUERYResult;
-    "*[_type == \"voucher\"] {\n      _id,\n      plname,\n      enname,\n      slug,\n      voucherImage,\n      voucherValue,\n      pldescription,\n      endescription\n    } | order(_createdAt desc)": ALL_VOUCHERS_QUERYResult;
+    "*[_type == \"voucher\" && slug.current == $slug][0] {\n      _id,\n      plname,\n      enname,\n      slug,\n      voucherImage,\n      pldescription,\n      endescription,\n      plconditions,\n      enconditions\n    }": VOUCHER_BY_SLUG_QUERYResult;
+    "*[_type == \"voucher\"] {\n      _id,\n      plname,\n      enname,\n      slug,\n      voucherImage,\n      pldescription,\n      endescription,\n      plconditions,\n      enconditions\n    } | order(_createdAt desc)": ALL_VOUCHERS_QUERYResult;
     "\n        *[_type == \"popup\" && isActive == true && (\n            (!defined(displayFrom) && !defined(displayTo)) ||\n            (!defined(displayFrom) && displayTo > now()) ||\n            (!defined(displayTo) && displayFrom <= now()) ||\n            (displayFrom <= now() && displayTo > now())\n        )] {\n            _id,\n            pltitle,\n            entitle,\n            slug,\n            plkeyMessage,\n            enkeyMessage,\n            popupImage,\n            isActive,\n            displayFrom,\n            displayTo\n        } | order(_createdAt desc)": ACTIVE_POPUPS_QUERYResult;
     "\n        *[_type == \"popup\"] {\n            _id,\n            pltitle,\n            entitle,\n            slug,\n            plkeyMessage,\n            enkeyMessage,\n            popupImage,\n            isActive,\n            displayFrom,\n            displayTo\n        } | order(_createdAt desc)": ALL_POPUPS_QUERYResult;
     "*[_type == \"popupSpa\"] {\n      _id,\n      pltitle,\n      entitle,\n      slug,\n      plkeyMessage,\n      enkeyMessage,\n      popupImage,\n      isActive,\n      displayFrom,\n      displayTo\n    } | order(_createdAt desc)": ALL_SPA_POPUPS_QUERYResult;

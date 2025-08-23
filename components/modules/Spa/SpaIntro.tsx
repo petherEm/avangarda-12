@@ -639,7 +639,7 @@ export default function SpaIntro({
             <div className="flex items-center justify-center gap-3 mb-8">
               <div className="h-px flex-1 bg-avangarda"></div>
               <h2 className="text-2xl font-semibold text-center text-primary">
-                Zapraszamy
+                {dict.spaIntro.saltCave.galleryTitle || "Zapraszamy"}
               </h2>
               <div className="h-px flex-1 bg-avangarda"></div>
             </div>
@@ -741,7 +741,7 @@ export default function SpaIntro({
             <div className="flex items-center justify-center gap-3 mb-8">
               <div className="h-px flex-1 bg-avangarda"></div>
               <h2 className="text-2xl font-semibold text-center text-primary">
-                Zapraszamy
+                {dict.spaIntro.gym.galleryTitle || "Zapraszamy"}
               </h2>
               <div className="h-px flex-1 bg-avangarda"></div>
             </div>

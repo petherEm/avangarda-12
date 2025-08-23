@@ -665,7 +665,8 @@
         "alt1": "Wnętrze groty solnej",
         "alt2": "Sól himalajska w grocie", 
         "alt3": "Oświetlenie w grocie"
-      }
+      },
+       "galleryTitle": "Zapraszamy"
     },
     "gym": {
       "title": "Siłownia & Fitness",
@@ -677,7 +678,8 @@
         "alt2": "Strefa siłowa", 
         "alt3": "Wolne ciężary",
         "alt4": "Panorama siłowni"
-      }
+      },
+      "galleryTitle": "Zapraszamy"
     },
     "testimonials": {
       "title": "Opinie Gości",
@@ -2076,5 +2078,4 @@
       "goTo": "Przejdź do opinii {number}"
     }
   }
-
 }

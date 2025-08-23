@@ -27,13 +27,15 @@ const OffersCTA = ({ dict, lang }) => {
     >
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4">
-          Zadzwoń aby zarezerwować! <br />
-          Oferta ograniczona liczbą miejsc.
+          {lang === "pl"
+            ? "Zadzwoń aby zarezerwować! \nOferta ograniczona liczbą miejsc."
+            : "Call to book! \nLimited availability offer."}
         </h2>
 
         <p className="text-lg mb-8 max-w-2xl mx-auto">
-          Opowiemy Ci o szczegółach oferty, dopasujemy ofertę do Twoich potrzeb
-          i zarezerwujemy dla Ciebie miejsce.
+          {lang === "pl"
+            ? "Opowiemy Ci o szczegółach oferty, dopasujemy ofertę do Twoich potrzeb i zarezerwujemy dla Ciebie miejsce."
+            : "We will tell you about the offer details, tailor the offer to your needs and reserve a place for you."}
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -49,7 +51,11 @@ const OffersCTA = ({ dict, lang }) => {
               onMouseLeave={() => setIsHovering(false)}
             >
               <Phone className="h-5 w-5" />
-              {isHovering ? phoneNumber : "Zadzwoń"}
+              {isHovering
+                ? phoneNumber
+                : lang === "pl"
+                  ? "Zadzwoń"
+                  : "Call now"}
             </Button>
           </Link>
         </div>

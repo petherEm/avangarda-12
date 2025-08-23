@@ -64,8 +64,8 @@
     }
   },
   "offers": {
-    "title": "Explore our packages and exclusive offers",
-    "description": "Take time to unwind or stay active in a setting full of style. Pick the package that matches your needs and explore everything Hotel Avangarda has prepared for you.",
+    "title": "Explore our packages\n and exclusive offers",
+    "description": "Take time to unwind or stay active in a setting full of style. Pick the package that matches your needs\n and explore everything Hotel Avangarda has prepared for you.",
     "details": "Details",
     "from": "from",
     "seeAll": "See All Packages",
@@ -77,7 +77,7 @@
   "restaurants": {
     "title": "Restaurants & Bars",
     "description": "Three unique venues, three distinct flavors. At Dzika Róża, tradition meets modernity with exquisite dishes that delight our guests. Klub Coola serves authentic Italian pizza, handcrafted burgers, and pastries from our hotel patisserie. And at the seasonal Przystań Avangarda, fresh fish and a holiday atmosphere take center stage. A children’s menu is available at all of our venues.",
-    "details": "Details"
+    "details": "Learn more"
   },
   "diningDetails": {
     "ctaTitle": "Reserve Your Table Today",
@@ -671,7 +671,8 @@
         "alt1": "Salt cave interior",
         "alt2": "Himalayan salt in the cave",
         "alt3": "Cave lighting"
-      }
+      },
+      "galleryTitle": "Welcome"
     },
     "gym": {
       "title": "Gym & Fitness",
@@ -683,7 +684,8 @@
         "alt2": "Strength zone",
         "alt3": "Free weights", 
         "alt4": "Gym overview"
-      }
+      },
+       "galleryTitle": "Welcome"
     },
     "testimonials": {
       "title": "Guest Reviews",
@@ -1415,8 +1417,8 @@
       }
     },
     "description": "We offer modern and fully equipped conference spaces that will meet the expectations of even the most demanding business clients. Our conference rooms are perfect for trainings, conferences, board meetings, and corporate events. We provide the highest quality service, modern audiovisual equipment, and flexible space arrangement options.",
-    "mainTitle": "Conferences & Events",
-    "mainDescription": "Our boutique hotel, nestled in a quiet, green corner of Mazovia just an hour from Warsaw, offers exclusive rental opportunities and is the perfect venue for business events – from intimate board meetings to large conferences, exhibitions, trade fairs, and industry gatherings. We build lasting partnerships with our corporate clients, providing a highly personalized approach, full dedication, and the readiness to meet even the most demanding projects.",
+    "mainTitle": "Conferences\n & Events",
+    "mainDescription": "Our boutique hotel, nestled in a quiet, green corner of Mazovia just\n an hour from Warsaw, offers exclusive rental opportunities and is\n the perfect venue for business events – from intimate board meetings\n to large conferences, exhibitions, trade fairs, and industry gatherings.\n We build lasting partnerships with our corporate clients, providing\n a highly personalized approach, full dedication, and the readiness\n to meet even the most demanding projects.",
     "facilities": {
       "rooms": "8 conference rooms",
       "roomsDescription": "Conference rooms (over 1000 m² / for 600 people)",
@@ -1958,6 +1960,20 @@
         "title": "ACCESSIBLE FOR DISABLED",
         "description": "Full accommodation for people with disabilities"
       }
+    }
+  },
+  "testimonialsSection": {
+    "title": "What do our guests say?",
+    "description": "Discover our guests' opinions and find out why they choose Hotel Avangarda",
+    "ratings": {
+      "tripadvisor": "TripAdvisor Reviews",
+      "booking": "Booking.com",
+      "google": "Google Reviews"
+    },
+    "navigation": {
+      "previous": "Previous testimonial",
+      "next": "Next testimonial",
+      "goTo": "Go to testimonial {number}"
     }
   }
 }

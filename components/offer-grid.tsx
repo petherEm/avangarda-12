@@ -10,10 +10,20 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Tag, Calendar, Clock, CalendarDays } from "lucide-react";
 import { imageUrl } from "@/lib/imageUrl";
 
+interface OfferGridDict {
+  components?: {
+    filterByCategory?: string;
+    details?: string;
+  };
+  offers?: {
+    knowMore?: string;
+  };
+}
+
 interface OfferGridProps {
   offers: Offers[];
   lang?: string;
-  dict?: any;
+  dict?: OfferGridDict;
   getLocalizedContent?: (offer: Offers) => {
     name: string;
     subtitle: string;

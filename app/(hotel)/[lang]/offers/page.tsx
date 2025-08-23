@@ -22,9 +22,13 @@ const Offers = async ({ params }: { params: Promise<{ lang: string }> }) => {
       <OffersIntro dict={dict} lang={lang} offers={offers} />
       <VouchersIntro dict={dict} lang={lang} vouchers={vouchers} />
       <GenericCTA
-        header="Skontaktuj się z nami"
-        leadText="Chętnie pomożemy dobrać ofertę dopasowaną do Twoich potrzeb. Zarezerwuj wyjątkowy pakiet pobytowy lub voucher i ciesz się niezapomnianym czasem w Hotelu Avangarda."
-        phoneNumber="+48 574 383 282"
+        header={lang === "pl" ? "Skontaktuj się z nami" : "Contact us"}
+        leadText={
+          lang === "pl"
+            ? "Chętnie pomożemy dobrać ofertę dopasowaną do Twoich potrzeb. Zarezerwuj wyjątkowy pakiet pobytowy lub voucher i ciesz się niezapomnianym czasem w Hotelu Avangarda."
+            : "We are happy to help you choose an offer tailored to your needs. Book a unique stay package or voucher and enjoy an unforgettable time at Hotel Avangarda."
+        }
+        phoneNumber="+48 29 752 50 34"
         variant="light"
       />
     </>

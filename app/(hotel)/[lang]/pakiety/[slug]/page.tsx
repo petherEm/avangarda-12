@@ -541,7 +541,7 @@ const OffersPageId = async ({ params }: { params: Params }) => {
                   <h3 className="font-semibold text-gray-800 mb-2">
                     {lang === "pl" ? "Rezerwacje" : "Reservations"}
                   </h3>
-                  <p className="text-gray-600 text-sm">+48 574 383 282</p>
+                  <p className="text-gray-600 text-sm">+48 29 752 50 34</p>
                 </div>
                 <div className="text-center p-6 bg-gradient-to-br from-gray-50 to-white border border-gray-200">
                   <MapPin className="h-8 w-8 text-avangarda mx-auto mb-3" />

@@ -36,7 +36,7 @@ export default function EventsIntro({ dict, lang }: EventsIntroProps) {
   const t = (key: string) => getNestedValue(dict, key) || key;
 
   return (
-    <Container className="mt-6 sm:mt-6 md:mt-4 lg:mt-0 mb-6 lg:mb-0 bg-white w-full text-primary lg:py-10">
+    <Container className="mt-6 sm:mt-6 md:mt-4 lg:mt-10 mb-6 lg:mb-0 bg-white w-full text-primary lg:py-10">
       <div className="max-w-7xl mx-auto sm:px-4">
         {/* Introduction Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-16 whitespace-pre-line">

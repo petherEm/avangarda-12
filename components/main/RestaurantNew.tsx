@@ -80,7 +80,7 @@ const RestaurantNew = ({ dict, lang }: RestaurantProps) => {
             >
               <Link href={restaurantUrl}>
                 <Button size="lg" variant="fillRight">
-                  Dowiedz się więcej
+                  {dict.restaurants.details || "Dowiedz się więcej"}
                 </Button>
               </Link>
             </motion.div>

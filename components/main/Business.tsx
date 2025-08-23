@@ -248,7 +248,7 @@ const Business = ({ lang = "pl", dict }: BusinessProps) => {
                       variant="fillRight"
                       className="px-6 sm:px-8 py-2 sm:py-3"
                     >
-                      Dowiedz się więcej
+                      {dict?.business?.learnMore || "Dowiedz się więcej"}
                     </Button>
                   </Link>
                 </motion.div>
@@ -303,7 +303,7 @@ const Business = ({ lang = "pl", dict }: BusinessProps) => {
                           variant="fillRight"
                           className="border-none"
                         >
-                          Dowiedz się więcej
+                          {dict?.business?.learnMore || "Dowiedz się więcej"}
                         </Button>
                       </Link>
                     </motion.div>

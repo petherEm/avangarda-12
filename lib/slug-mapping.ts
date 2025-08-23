@@ -8,7 +8,7 @@ export const slugMappings = {
     pakiety: "pakiety",
     spa: "spa",
     hotel: "hotel",
-    rozrywka: "rozrywka",
+    atrakcje: "atrakcje",
     dzieci: "dzieci",
     przyjecia: "przyjecia",
     vouchery: "vouchery"
@@ -19,7 +19,7 @@ export const slugMappings = {
     pakiety: "offers", 
     spa: "spa",
     hotel: "hotel",
-    rozrywka: "entertainment",
+    atrakcje: "entertainment",
     dzieci: "kids",
     przyjecia: "events",
     vouchery: "vouchers"

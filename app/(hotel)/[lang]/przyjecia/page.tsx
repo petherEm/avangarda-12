@@ -35,16 +35,18 @@ export default async function EventsMainPage({
       <EventsIntro dict={dict} lang={lang} />
       <LoopGallery
         images={eventsGalleryImages}
-        title={
-          getNestedValue(dict, "events.gallery.title") || "Nasze przyjęcia"
-        }
+        title={lang === "pl" ? "Nasze przyjęcia" : "Our events"}
       />
       <EventsByCategory dict={dict} lang={lang} eventsData={eventsData} />
       <GenericCTA
-        header="Skontaktuj się z nami"
-        leadText="Masz pytania lub chcesz omówić szczegóły współpracy? Skontaktuj się z nami telefonicznie lub pobierz naszą szczegółową ofertę."
-        phoneNumber="+48 574 383 282"
-        downloadOffer="Pobierz ofertę"
+        header={lang === "pl" ? "Skontaktuj się z nami" : "Contact us"}
+        leadText={
+          lang === "pl"
+            ? "Masz pytania lub chcesz omówić szczegóły współpracy? Skontaktuj się z nami telefonicznie lub pobierz naszą szczegółową ofertę."
+            : "Do you have questions or want to discuss cooperation details? Contact us by phone or download our detailed offer."
+        }
+        phoneNumber="+48 29 752 50 34"
+        downloadOffer={lang === "pl" ? "Pobierz ofertę" : "Download offer"}
         variant="light"
       />
     </>

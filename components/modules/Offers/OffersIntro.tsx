@@ -15,13 +15,15 @@ interface OffersIntroProps {
     offers: {
       browseTitle: string;
     };
+    components?: {
+      filterByCategory?: string;
+    };
   };
   lang: string;
   offers: Offers[];
 }
 
 const OffersIntro = ({ dict, lang, offers }: OffersIntroProps) => {
-  // Helper function for translations
   // Function to get localized content
   const getLocalizedContent = (offer: Offers) => {
     const name = lang === "pl" ? offer.plname : offer.enname;
@@ -92,6 +94,7 @@ const OffersIntro = ({ dict, lang, offers }: OffersIntroProps) => {
             <OfferGrid
               offers={offers}
               lang={lang}
+              dict={dict}
               getLocalizedContent={getLocalizedContent}
             />
           </motion.div>

@@ -7,6 +7,7 @@ import GastroRest from "@/components/modules/Gastro/GastroRest";
 import LoopGallery from "@/components/loop-gallery";
 import { getDictionary } from "@/lib/dictionary";
 import { getAllMenus } from "@/sanity/lib/menus/getMenusByRestaurant";
+import GenericCTA from "@/components/generic-cta";
 
 // Gallery images for Restaurant Dzika Róża
 const restaurantGalleryImages = [
@@ -147,7 +148,10 @@ export default async function GastroMainPage({
         menus={menusByRestaurant["dzika-roza"]}
       />
       {/* Restaurant Gallery - Full Width Edge to Edge */}
-      <LoopGallery images={restaurantGalleryImages} />
+      <LoopGallery
+        title={lang === "pl" ? "Nasza restauracja" : "Our restaurant"}
+        images={restaurantGalleryImages}
+      />
       <GastroClub
         dict={dict}
         lang={lang}
@@ -155,6 +159,7 @@ export default async function GastroMainPage({
       />
       {/* Club Gallery - Full Width Edge to Edge */}
       <LoopGallery
+        title={lang === "pl" ? "Nasz klub Coola" : "Our club Coola"}
         images={klubCoolaGalleryImages}
         titleColor="dark"
         backgroundTheme="dark"
@@ -165,8 +170,24 @@ export default async function GastroMainPage({
         menus={menusByRestaurant["bar-przystan"]}
       />
       {/* Bar Przystań Gallery - Full Width Edge to Edge */}
-      <LoopGallery images={barrPrzystanGalleryImages} />
-      <GastroCTA dict={dict} lang={lang} />
+      <LoopGallery
+        title={
+          lang === "pl" ? "Nasza Przystań Avangarda" : "Our Przystań Avangarda"
+        }
+        images={barrPrzystanGalleryImages}
+      />
+      <GenericCTA
+        header={
+          lang === "pl" ? "Zarezerwuj stolik" : "Don't Wait! Book a table"
+        }
+        leadText={
+          lang === "pl"
+            ? "Zarezerwuj stolik w naszej restauracji i ciesz się wyjątkowym doświadczeniem kulinarnym."
+            : "Book a table in our restaurant and enjoy a delightful dining experience."
+        }
+        phoneNumber="+48 29 752 50 34"
+        variant="dark"
+      />
     </>
   );
 }

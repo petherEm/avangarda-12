@@ -8,17 +8,23 @@ import Image from "next/image";
 import BackgroundLogoBottomDark from "@/components/background-logo-bottom-dark";
 import { AnimatedDecorativeBar } from "@/components/animated-decorative-bar";
 import { useState, useRef, useCallback } from "react";
+import Link from "next/link";
 
 interface TestimonialsProps {
   lang?: string;
   dict: {
-    testimonials: {
+    testimonialsSection: {
       title: string;
       description: string;
       ratings: {
         tripadvisor: string;
         booking: string;
         google: string;
+      };
+      navigation?: {
+        previous: string;
+        next: string;
+        goTo: string;
       };
     };
     testimonials: Array<{
@@ -129,7 +135,12 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                 {/* TripAdvisor */}
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative">
+                    <Link
+                      href="https://www.tripadvisor.com/Hotel_Review-g2429389-d13109754-Reviews-Hotel_Avangarda-Rozan_Mazovia_Province_Central_Poland.html?m=19905"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative hover:scale-105 transition-transform"
+                    >
                       <Image
                         src="/BW-tripadvisor.png"
                         alt={
@@ -139,7 +150,7 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                         fill
                         className="object-contain"
                       />
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex mb-1">
                         {[...Array(5)].map((_, i) => (
@@ -158,7 +169,12 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                 {/* Booking.com */}
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative">
+                    <Link
+                      href="https://www.booking.com/Share-xMhRNk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative hover:scale-105 transition-transform"
+                    >
                       <Image
                         src="/BW-booking-6.png"
                         alt={
@@ -168,7 +184,7 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                         fill
                         className="object-contain"
                       />
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex mb-1">
                         {[...Array(5)].map((_, i) => (
@@ -187,7 +203,12 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                 {/* Google */}
                 <div className="flex-1">
                   <div className="flex items-center gap-2">
-                    <div className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative">
+                    <Link
+                      href="https://www.google.com/travel/search?gsas=1&ts=EggKAggDCgIIAxocEhoSFAoHCOkPEAkYARIHCOkPEAkYAhgBMgIQAA&qs=MhRDZ3NJME1fUHE4Q1A1cTZaQVJBQjgC&ap=ugEHcmV2aWV3cw&ictx=111&biw=1271&bih=1038&hl=pl-PL&ved=0CAAQ5JsGahcKEwjwm_uMhqGPAxUAAAAAHQAAAAAQBA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-white backdrop-blur-sm rounded-full w-12 h-12 flex-shrink-0 flex items-center justify-center relative hover:scale-105 transition-transform"
+                    >
                       <Image
                         src="/BW-google.jpg"
                         alt={
@@ -197,7 +218,7 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                         fill
                         className="object-contain rounded-full"
                       />
-                    </div>
+                    </Link>
                     <div>
                       <div className="flex mb-1">
                         {[...Array(5)].map((_, i) => (
@@ -219,7 +240,12 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
             <div className="hidden lg:grid grid-cols-3 gap-6">
               {/* TripAdvisor */}
               <div className="text-center">
-                <div className="bg-white backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-3 relative">
+                <Link
+                  href="https://www.tripadvisor.com/Hotel_Review-g2429389-d13109754-Reviews-Hotel_Avangarda-Rozan_Mazovia_Province_Central_Poland.html?m=19905"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white backdrop-blur-sm rounded-full w-20 h-20 items-center justify-center mx-auto mb-3 relative hover:scale-105 transition-transform inline-flex"
+                >
                   <Image
                     src="/BW-tripadvisor.png"
                     alt={
@@ -229,7 +255,7 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                     fill
                     className="object-contain"
                   />
-                </div>
+                </Link>
                 <div className="flex justify-center mb-2">
                   {[...Array(5)].map((_, i) => (
                     <Star
@@ -238,13 +264,18 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                     />
                   ))}
                 </div>
-                <div className="text-2xl font-bold text-white mb-1">4.8/5</div>
+                <div className="text-2xl font-bold text-white mb-1">5/5</div>
                 <div className="text-gray-300 text-sm">TripAdvisor</div>
               </div>
 
               {/* Booking.com */}
               <div className="text-center">
-                <div className="bg-white backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-3 relative">
+                <Link
+                  href="https://www.booking.com/Share-xMhRNk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-3 relative hover:scale-105 transition-transform inline-flex"
+                >
                   <Image
                     src="/BW-booking-6.png"
                     alt={
@@ -254,7 +285,7 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                     fill
                     className="object-contain p-2"
                   />
-                </div>
+                </Link>
                 <div className="flex justify-center mb-2">
                   {[...Array(5)].map((_, i) => (
                     <Star
@@ -269,7 +300,12 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
 
               {/* Google */}
               <div className="text-center">
-                <div className="bg-white backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-3 relative">
+                <Link
+                  href="https://www.google.com/travel/search?gsas=1&ts=EggKAggDCgIIAxocEhoSFAoHCOkPEAkYARIHCOkPEAkYAhgBMgIQAA&qs=MhRDZ3NJME1fUHE4Q1A1cTZaQVJBQjgC&ap=ugEHcmV2aWV3cw&ictx=111&biw=1271&bih=1038&hl=pl-PL&ved=0CAAQ5JsGahcKEwjwm_uMhqGPAxUAAAAAHQAAAAAQBA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white backdrop-blur-sm rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-3 relative hover:scale-105 transition-transform inline-flex"
+                >
                   <Image
                     src="/BW-google.jpg"
                     alt={
@@ -279,7 +315,7 @@ const Testimonials = ({ lang = "pl", dict }: TestimonialsProps) => {
                     fill
                     className="object-contain rounded-full"
                   />
-                </div>
+                </Link>
                 <div className="flex justify-center mb-2">
                   {[...Array(5)].map((_, i) => (
                     <Star

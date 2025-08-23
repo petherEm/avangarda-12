@@ -400,7 +400,7 @@ export default function OutdoorEntertainment({
             <div className="flex items-center justify-center gap-3 mb-8">
               <div className="h-px flex-1 bg-white/30"></div>
               <h2 className="text-2xl font-semibold text-center text-white">
-                Zapraszamy
+                {dict.entertainmentIntro.klubCoola.galleryTitle}
               </h2>
               <div className="h-px flex-1 bg-white/30"></div>
             </div>
@@ -819,7 +819,7 @@ export default function OutdoorEntertainment({
             <div className="flex items-center justify-center gap-3 mb-8">
               <div className="h-px flex-1 bg-white/30"></div>
               <h2 className="text-2xl font-semibold text-center text-white">
-                Zapraszamy
+                {dict.entertainmentIntro.activeRest.galleryTitle}
               </h2>
               <div className="h-px flex-1 bg-white/30"></div>
             </div>

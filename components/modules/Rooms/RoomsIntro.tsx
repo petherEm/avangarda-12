@@ -327,7 +327,7 @@ function ModernRoomCard({
 }) {
   const [showGallery, setShowGallery] = useState(false);
   const [galleryIndex, setGalleryIndex] = useState(0);
-  const phoneNumber = "+48 574 383 282";
+  const phoneNumber = "+48 752 50 34";
 
   // Helper function for dynamic key access (only needed for room data)
   const getNestedValue = (obj: any, path: string) => {
@@ -394,7 +394,7 @@ function ModernRoomCard({
               onClick={(e) => e.stopPropagation()}
             >
               <Button className="w-full bg-avangarda font-alata px-3 py-2 text-xs text-white hover:bg-avangarda/90 sm:px-4 sm:text-sm transition-colors duration-300">
-                Zarezerwuj
+                {lang === "pl" ? "Zadzwoń" : "Book Now"}
               </Button>
             </Link>
           </div>

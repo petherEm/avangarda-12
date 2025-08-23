@@ -95,10 +95,13 @@ export default async function BusinessMainPageAlt({
       <BusinessSpa dict={dict} lang={lang} spaOffer={spaOffer} />
       <TrustedCompanies dict={dict} lang={lang} />
       <GenericCTA
-        header="Skontaktuj się z nami"
-        leadText="Zadzwoń lub napisz do nas, aby dowiedzieć się więcej o naszej ofercie dla biznesu. Jesteśmy tu, aby pomóc Ci zorganizować idealne wydarzenie."
-        phoneNumber="+48 574 383 282"
-        downloadOffer={lang === "pl" ? "Pobierz ofertę" : "Download offer"}
+        header={lang === "pl" ? "Skontaktuj się z nami" : "Contact us"}
+        leadText={
+          lang === "pl"
+            ? "Zadzwoń lub napisz do nas, aby dowiedzieć się więcej o naszej ofercie dla biznesu. Jesteśmy tu, aby pomóc Ci zorganizować idealne wydarzenie."
+            : "Call or write to us to learn more about our business offer. We are here to help you organize the perfect event."
+        }
+        phoneNumber="+48 505 158 210"
         variant="dark"
       />
     </>

@@ -222,7 +222,7 @@ function EventSection({
         <div
           className={`hidden lg:block lg:col-span-6 ${isImageLeft ? "lg:order-1" : "lg:order-2"}`}
         >
-          <div className="relative w-full aspect-[4/3] lg:aspect-[4/5] overflow-hidden shadow-lg">
+          <div className="relative w-full aspect-[4/3] lg:aspect-[5/7] overflow-hidden shadow-lg">
             <motion.div
               className="relative w-full"
               style={{
@@ -257,9 +257,9 @@ function EventSection({
             </h4>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-6">
               {event.features.map((feature: string, i: number) => (
-                <li key={i} className="flex items-center gap-2">
-                  <div className="h-1.5 w-1.5 rounded-full bg-avangarda"></div>
-                  <span className="text-sm">{feature}</span>
+                <li key={i} className="flex items-start gap-2">
+                  <div className="h-1.5 w-1.5 rounded-full bg-avangarda flex-shrink-0 mt-2"></div>
+                  <span>{feature}</span>
                 </li>
               ))}
             </ul>
@@ -269,7 +269,7 @@ function EventSection({
           <div className="flex flex-col gap-3">
             {event.events.length > 0 ? (
               event.events.map((eventItem: any) => (
-                <a
+                <Link
                   key={eventItem._id}
                   href={eventItem.menuFile ? fileUrl(eventItem.menuFile) : "#"}
                   target="_blank"
@@ -277,9 +277,9 @@ function EventSection({
                 >
                   <Button size="lg" variant="outline" className="w-fit">
                     <Download className="h-4 w-4 mr-2" />
-                    {eventItem.menuName.toUpperCase()}
+                    {dict.eventsByCategory.downloadOffer}
                   </Button>
-                </a>
+                </Link>
               ))
             ) : (
               <Link
