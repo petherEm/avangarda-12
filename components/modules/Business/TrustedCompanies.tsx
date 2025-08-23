@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Marquee from "react-fast-marquee";
 import { AnimatedDecorativeBar } from "@/components/animated-decorative-bar";
 
 interface TrustedCompaniesProps {
@@ -73,8 +74,8 @@ export default function TrustedCompanies({
   ];
 
   // Split companies into two rows
-  const firstRow = companies.slice(0, 8);
-  const secondRow = companies.slice(8, 16);
+  const firstRow = companies.slice(0, 7);
+  const secondRow = companies.slice(7, 14);
 
   return (
     <div className="bg-white w-full text-primary py-8 lg:py-10">
@@ -100,78 +101,47 @@ export default function TrustedCompanies({
       </div>
 
       {/* Moving Logos Section - Full Width */}
-      <div className="w-full overflow-hidden space-y-8">
+      <div className="w-full space-y-8">
         {/* First Row - Moving Right */}
-        <div className="relative overflow-hidden w-full">
-          <motion.div
-            className="flex space-x-12 items-center"
-            animate={{
-              x: [0, -100 * firstRow.length],
-            }}
-            transition={{
-              x: {
-                repeat: Number.POSITIVE_INFINITY,
-                repeatType: "loop",
-                duration: 20,
-                ease: "linear",
-              },
-            }}
-          >
-            {/* Duplicate the array for seamless loop */}
-            {[...firstRow, ...firstRow, ...firstRow].map((company, index) => (
-              <motion.div
-                key={`${company.name}-${index}`}
-                className="flex-shrink-0 w-48 h-32 flex items-center justify-center p-6"
-                whileHover={{ scale: 1.05 }}
-              >
-                <Image
-                  src={company.logo || "/placeholder.svg"}
-                  alt={`${company.name} ${dict.business.trustedCompanies.logoAlt}`}
-                  width={180}
-                  height={120}
-                  className="max-w-full max-h-full object-contain"
-                />
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
+        <Marquee speed={40} gradient={false} pauseOnHover={false}>
+          {firstRow.map((company, index) => (
+            <div
+              key={`${company.name}-${index}`}
+              className="flex-shrink-0 w-48 h-32 flex items-center justify-center p-6 mx-6 hover:scale-105 transition-transform"
+            >
+              <Image
+                src={company.logo || "/placeholder.svg"}
+                alt={`${company.name} ${dict.business.trustedCompanies.logoAlt}`}
+                width={180}
+                height={120}
+                className="max-w-full max-h-full object-contain"
+              />
+            </div>
+          ))}
+        </Marquee>
 
         {/* Second Row - Moving Left */}
-        <div className="relative overflow-hidden w-full">
-          <motion.div
-            className="flex space-x-12 items-center"
-            animate={{
-              x: [-100 * secondRow.length, 0],
-            }}
-            transition={{
-              x: {
-                repeat: Number.POSITIVE_INFINITY,
-                repeatType: "loop",
-                duration: 20,
-                ease: "linear",
-              },
-            }}
-          >
-            {/* Duplicate the array for seamless loop */}
-            {[...secondRow, ...secondRow, ...secondRow].map(
-              (company, index) => (
-                <motion.div
-                  key={`${company.name}-${index}`}
-                  className="flex-shrink-0 w-48 h-32 flex items-center justify-center p-6 "
-                  whileHover={{ scale: 1.05 }}
-                >
-                  <Image
-                    src={company.logo || "/placeholder.svg"}
-                    alt={`${company.name} ${dict.business.trustedCompanies.logoAlt}`}
-                    width={180}
-                    height={120}
-                    className="max-w-full max-h-full object-contain"
-                  />
-                </motion.div>
-              )
-            )}
-          </motion.div>
-        </div>
+        <Marquee
+          speed={40}
+          gradient={false}
+          direction="right"
+          pauseOnHover={false}
+        >
+          {secondRow.map((company, index) => (
+            <div
+              key={`${company.name}-${index}`}
+              className="flex-shrink-0 w-48 h-32 flex items-center justify-center p-6 mx-6 hover:scale-105 transition-transform"
+            >
+              <Image
+                src={company.logo || "/placeholder.svg"}
+                alt={`${company.name} ${dict.business.trustedCompanies.logoAlt}`}
+                width={180}
+                height={120}
+                className="max-w-full max-h-full object-contain"
+              />
+            </div>
+          ))}
+        </Marquee>
       </div>
 
       {/* Bottom Text - Contained */}

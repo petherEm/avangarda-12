@@ -74,7 +74,7 @@ const GastroFort = ({ dict, lang }: AboutProps) => {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px"
-                quality={90}
+                quality={100}
               />
             </div>
           </motion.div>

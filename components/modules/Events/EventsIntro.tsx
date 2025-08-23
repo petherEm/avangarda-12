@@ -158,9 +158,9 @@ export default function EventsIntro({ dict, lang }: EventsIntroProps) {
                       </h4>
                       <ul className="grid grid-cols-2 gap-2">
                         {venue.featuresKeys.map((featureKey, i) => (
-                          <li key={i} className="flex items-center gap-2">
-                            <div className="h-1.5 w-1.5 rounded-full bg-avangarda/100"></div>
-                            <span>{t(featureKey)}</span>
+                          <li key={i} className="flex items-start gap-2">
+                            <div className="h-1.5 w-1.5 min-h-[6px] min-w-[6px] rounded-full bg-avangarda flex-shrink-0 mt-2"></div>
+                            <span className="flex-1">{t(featureKey)}</span>
                           </li>
                         ))}
                       </ul>

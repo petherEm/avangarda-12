@@ -302,12 +302,12 @@ export function Navbar({ lang, dict }: NavbarProps) {
             <div className="flex justify-center gap-4">
               {[
                 {
-                  href: "https://facebook.com",
+                  href: "https://www.facebook.com/hotelavangarda",
                   icon: Facebook,
                   label: "Facebook",
                 },
                 {
-                  href: "https://facebook.com",
+                  href: "https://www.instagram.com/hotel_avangarda",
                   icon: Instagram,
                   label: "Instagram",
                 },
@@ -327,6 +327,7 @@ export function Navbar({ lang, dict }: NavbarProps) {
                   }}
                   aria-label={`Visit our ${label} page`}
                   onClick={() => setIsSheetOpen(false)}
+                  target="_blank"
                 >
                   <Icon className="h-5 w-5" />
                 </a>
@@ -415,16 +416,18 @@ export function Navbar({ lang, dict }: NavbarProps) {
                   style={{ transitionDelay: navVisible ? "300ms" : "0ms" }}
                 >
                   <Link
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/hotelavangarda"
                     className="text-white transition-colors duration-300 hover:text-avangarda"
                     aria-label="Visit our Facebook page"
+                    target="_blank"
                   >
                     <Facebook className="h-4 w-4" />
                   </Link>
                   <Link
-                    href="https://facebook.com"
+                    href="https://www.instagram.com/hotel_avangarda"
                     className="text-white transition-colors duration-300 hover:text-avangarda"
                     aria-label="Visit our Instagram page"
+                    target="_blank"
                   >
                     <Instagram className="h-4 w-4" />
                   </Link>

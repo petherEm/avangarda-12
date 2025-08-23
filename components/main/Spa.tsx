@@ -171,7 +171,7 @@ const Spa = ({ lang = "pl", dict }: SpaProps) => {
 
               {/* Features List - Mobile */}
               <motion.div
-                className="space-y-3 sm:space-y-4 md:space-y-6 px-4 sm:px-6"
+                className="space-y-3 sm:space-y-4 md:space-y-6 sm:px-6"
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: false, amount: 0.3 }}
@@ -186,7 +186,7 @@ const Spa = ({ lang = "pl", dict }: SpaProps) => {
                   <motion.h2
                     variants={fadeInUp}
                     transition={{ delay: 0.2, duration: 0.6 }}
-                    className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 text-center"
+                    className="title-dark whitespace-pre-line"
                   >
                     {dict?.spa?.main?.wellnessTitle}
                   </motion.h2>

@@ -105,7 +105,7 @@ const BusinessBanquets = ({
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <div className="text-center">
+                <div className="">
                   <AnimatedDecorativeBar />
                   <motion.h1
                     variants={fadeInUp}

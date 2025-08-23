@@ -365,7 +365,7 @@ export default function ConferenceRoomsComponent({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-12 md:mb-16"
+          className="mb-12 md:mb-16 px-4 sm:px-0"
         >
           <div className="max-w-4xl">
             <AnimatedDecorativeBar />
@@ -436,13 +436,16 @@ export default function ConferenceRoomsComponent({
                               <div className="flex items-center gap-2 bg-gray-50 px-3 py-2">
                                 <Users className="h-4 w-4 text-avangarda" />
                                 <span className="font-medium">
-                                  {dict.business.selectRooms.up}{" "}
-                                  {Math.max(
-                                    ...Object.values(room.capacities).filter(
-                                      (v) => typeof v === "number"
-                                    )
-                                  )}{" "}
-                                  {dict.business.selectRooms.capacities.people}
+                                  {(() => {
+                                    const maxCapacity = Math.max(
+                                      ...Object.values(room.capacities).filter(
+                                        (v) => typeof v === "number"
+                                      )
+                                    );
+                                    return maxCapacity === -Infinity
+                                      ? ""
+                                      : `${dict.business.selectRooms.up} ${maxCapacity} ${dict.business.selectRooms.capacities.people}`;
+                                  })()}
                                 </span>
                               </div>
                             </div>
@@ -518,16 +521,16 @@ export default function ConferenceRoomsComponent({
                                 <div className="flex items-center gap-2 bg-gray-50 px-4 py-2">
                                   <Users className="h-5 w-5 text-avangarda" />
                                   <span className="font-semibold text-slate-700">
-                                    {dict.business.selectRooms.up}{" "}
-                                    {Math.max(
-                                      ...Object.values(room.capacities).filter(
-                                        (v) => typeof v === "number"
-                                      )
-                                    )}{" "}
-                                    {
-                                      dict.business.selectRooms.capacities
-                                        .people
-                                    }
+                                    {(() => {
+                                      const maxCapacity = Math.max(
+                                        ...Object.values(
+                                          room.capacities
+                                        ).filter((v) => typeof v === "number")
+                                      );
+                                      return maxCapacity === -Infinity
+                                        ? ""
+                                        : `${dict.business.selectRooms.up} ${maxCapacity} ${dict.business.selectRooms.capacities.people}`;
+                                    })()}
                                   </span>
                                 </div>
                               </div>

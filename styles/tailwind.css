@@ -52,6 +52,24 @@
   }
 }
 
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 /* Define custom utilities for fonts */
 @utility font-raleway {
   font-family: var(--font-raleway);
@@ -93,10 +111,6 @@
 @utility main-paragraph-dark {
   @apply text-lg text-white mb-8 leading-relaxed;
 }
-
-
-
-
 
 @layer base {
   body {
@@ -173,6 +187,14 @@
 
   .animate-fade-in-up {
     animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .animate-scroll-right {
+    animation: scroll-right 40s linear infinite;
+  }
+
+  .animate-scroll-left {
+    animation: scroll-left 40s linear infinite;
   }
 }
 

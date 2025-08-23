@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import Marquee from "react-fast-marquee";
 
 interface EntertainmentProps {
   lang?: string;
@@ -22,23 +22,11 @@ const images = [
   { src: "/entertainment/10.jpeg", alt: "Entertainment 10" },
 ];
 
-// Duplicate the array for a seamless loop
-const duplicatedImages = [...images, ...images];
-
 const Entertainment = ({ lang = "pl", dict }: EntertainmentProps) => {
   const phoneNumber = "+48 29 752 50 34";
 
-  const [shouldAnimate, setShouldAnimate] = useState(false);
-
-  // Determine the entertainment URL based on language
-  const entertainmentUrl = lang === "en" ? "/en/rozrywka" : "/pl/rozrywka";
-
-  useEffect(() => {
-    setShouldAnimate(true);
-  }, []);
-
   return (
-    <section className="-mt-10 w-full text-primary overflow-hidden mb-8 relative">
+    <section className="sm:-mt-10 w-full text-primary overflow-hidden mb-8 relative">
       <div className="w-full md:py-6 xl:py-6 relative z-10">
         {/* Content Container */}
         <div className="max-w-7xl mx-auto px-4 space-y-6">
@@ -90,32 +78,13 @@ const Entertainment = ({ lang = "pl", dict }: EntertainmentProps) => {
             />
           </div>
 
-          {/* First Row - Right to Left */}
-          <div className="relative w-[100vw] overflow-hidden z-10">
-            <motion.div
-              className="flex gap-4 md:gap-6"
-              style={{ width: "fit-content" }}
-              initial={{ x: "0%" }}
-              animate={
-                shouldAnimate
-                  ? {
-                      x: ["0%", "-50%"],
-                    }
-                  : {}
-              }
-              transition={{
-                x: {
-                  repeat: Number.POSITIVE_INFINITY,
-                  repeatType: "loop",
-                  duration: 25,
-                  ease: "linear",
-                },
-              }}
-            >
-              {duplicatedImages.map((image, index) => (
+          {/* Seamless Image Marquee */}
+          <div className="relative z-10">
+            <Marquee speed={60} gradient={false} pauseOnHover={false}>
+              {images.map((image, index) => (
                 <div
-                  key={`row1-${index}`}
-                  className="relative w-[280px] md:w-[300px] lg:w-[320px] aspect-[4/5] flex-shrink-0 overflow-hidden shadow-2xl"
+                  key={`${image.src}-${index}`}
+                  className="relative w-[280px] md:w-[300px] lg:w-[320px] aspect-[4/5] flex-shrink-0 overflow-hidden shadow-2xl mx-2 md:mx-3"
                 >
                   <Image
                     src={image.src || "/placeholder.svg"}
@@ -125,11 +94,11 @@ const Entertainment = ({ lang = "pl", dict }: EntertainmentProps) => {
                   />
                 </div>
               ))}
-            </motion.div>
+            </Marquee>
           </div>
         </div>
 
-        <div className="mt-10 flex  items-center justify-center relative z-10">
+        <div className="mt-10 flex items-center justify-center relative z-10">
           <Link
             href={`tel:${phoneNumber.replace(/\s+/g, "")}`}
             className="flex items-center gap-2"

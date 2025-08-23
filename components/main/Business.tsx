@@ -92,7 +92,7 @@ const Business = ({ lang = "pl", dict }: BusinessProps) => {
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <div className="text-center">
+                <div className="md:items-start">
                   <AnimatedDecorativeBar />
                   <motion.h1
                     variants={fadeInUp}
@@ -267,14 +267,16 @@ const Business = ({ lang = "pl", dict }: BusinessProps) => {
                     whileInView="animate"
                     viewport={{ once: true }}
                   >
-                    <AnimatedDecorativeBar />
-                    <motion.h1
-                      variants={fadeInUp}
-                      transition={{ delay: 0.2, duration: 0.6 }}
-                      className="title-dark text-left whitespace-pre-line"
-                    >
-                      {dict?.business?.mainTitle || "Konferencje & Eventy"}
-                    </motion.h1>
+                    <div className="text-left">
+                      <AnimatedDecorativeBar />
+                      <motion.h1
+                        variants={fadeInUp}
+                        transition={{ delay: 0.2, duration: 0.6 }}
+                        className="title-dark whitespace-pre-line"
+                      >
+                        {dict?.business?.mainTitle || "Konferencje & Eventy"}
+                      </motion.h1>
+                    </div>
                   </motion.div>
 
                   {/* Text Content */}

@@ -142,12 +142,12 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <div className="text-center">
+                <div className="text-left">
                   <AnimatedDecorativeBar />
                   <motion.h1
                     variants={fadeInUp}
                     transition={{ delay: 0.2, duration: 0.6 }}
-                    className="title-dark"
+                    className="title-dark text-left"
                   >
                     {dict?.business?.spa?.title}
                   </motion.h1>
@@ -157,7 +157,7 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                   <motion.p
                     variants={fadeInUp}
                     transition={{ delay: 0.3, duration: 0.6 }}
-                    className="main-paragraph-dark"
+                    className="text-lg leading-relaxed text-white"
                   >
                     {dict?.business?.spa?.description}
                   </motion.p>
@@ -165,7 +165,7 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                   <motion.p
                     variants={fadeInUp}
                     transition={{ delay: 0.4, duration: 0.6 }}
-                    className="main-paragraph-dark"
+                    className="text-lg leading-relaxed text-white"
                   >
                     {dict?.business?.spa?.description2}
                   </motion.p>
@@ -234,14 +234,14 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                 whileInView="animate"
                 viewport={{ once: true }}
               >
-                <div className="text-center">
+                <div className="text-left">
                   <AnimatedDecorativeBar />
                   <motion.h1
                     variants={fadeInUp}
                     transition={{ delay: 0.2, duration: 0.6 }}
-                    className="title-dark"
+                    className="title-dark text-left"
                   >
-                    {dict?.business?.spa?.title}
+                    {dict?.business?.spa?.leftTitle || "Usługi SPA dla firm"}
                   </motion.h1>
                 </div>
 
@@ -249,17 +249,10 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                   <motion.p
                     variants={fadeInUp}
                     transition={{ delay: 0.3, duration: 0.6 }}
-                    className="main-paragraph-dark"
+                    className="text-lg leading-relaxed text-white"
                   >
-                    {dict?.business?.spa?.description}
-                  </motion.p>
-
-                  <motion.p
-                    variants={fadeInUp}
-                    transition={{ delay: 0.4, duration: 0.6 }}
-                    className="main-paragraph-dark"
-                  >
-                    {dict?.business?.spa?.description2}
+                    {dict?.business?.spa?.leftDescription ||
+                      "W naszym Hotelu doskonale rozumiemy, jak ważna jest równowaga między pracą a relaksem, dlatego przygotowaliśmy specjalną ofertę usług SPA dla biznesu Zapoznaj się z ofertą warsztatów SPA dla firm, które będą atrakcyjnym urozmaiceniem standardowych konferencji, wyróżnij najlepszych pracowników obdarowując ich voucherem do SPA lub skorzystaj z propozycji zorganizowania dla swojej firmy Biznes Day SPA, gdzie w relaksującej atmosferze wzmocnicie relacje w zespole."}
                   </motion.p>
                 </div>
               </motion.div>

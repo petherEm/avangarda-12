@@ -138,7 +138,7 @@ const VoucherPageId = async ({ params }: { params: Params }) => {
                   ? imageUrl(voucher.voucherImage)
                       .width(800)
                       .height(800)
-                      .quality(90)
+                      .quality(100)
                       .url()
                   : "/placeholder.svg?height=800&width=800&query=gift+voucher"
               }
@@ -211,7 +211,7 @@ const VoucherPageId = async ({ params }: { params: Params }) => {
                 ? imageUrl(voucher.voucherImage)
                     .width(800)
                     .height(1200)
-                    .quality(90)
+                    .quality(100)
                     .url()
                 : "/placeholder.svg?height=1200&width=800&query=gift+voucher"
             }
