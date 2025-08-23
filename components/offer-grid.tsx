@@ -99,7 +99,7 @@ function OfferGrid({
     const validityPeriod =
       validFrom && validUntil ? `${validFrom} - ${validUntil}` : null;
 
-    const perPersonPerNight = lang === "pl" ? "/os./noc" : "/person/night";
+    const perPersonPerNight = lang === "pl" ? "/os./noc" : "/per./night";
 
     return {
       name: name || "No title available",
@@ -382,17 +382,23 @@ function OfferGrid({
                     </div>
 
                     {localizedContent.price && (
-                      <div className="absolute top-4 right-4 bg-white text-pink-600 px-4 py-2 rounded-lg shadow-lg flex items-center gap-2 font-medium">
-                        <Tag className="h-4 w-4" />
-                        <span className="flex flex-col text-center leading-tight">
-                          <span className="text-sm">
-                            {lang === "pl" ? "Od" : "From"}:
-                          </span>
-                          <span className="font-bold">
-                            {localizedContent.price}
-                            {localizedContent.perPersonPerNight}
-                          </span>
-                        </span>
+                      <div className="absolute top-4 right-4 bg-white text-gray-900 px-4 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105 border border-gray-200">
+                        <div className="flex items-center gap-2">
+                          <Tag className="h-5 w-5 text-avangarda" />
+                          <div className="flex flex-col text-center leading-tight">
+                            <div className="flex items-baseline gap-1">
+                              <span className="text-sm text-gray-600">
+                                {lang === "pl" ? "Od" : "From"}
+                              </span>
+                              <span className="font-bold text-lg text-gray-900">
+                                {localizedContent.price}
+                              </span>
+                            </div>
+                            <span className="text-sm text-gray-500 -mt-0.5">
+                              {lang === "pl" ? "/os./noc" : "/per./night"}
+                            </span>
+                          </div>
+                        </div>
                       </div>
                     )}
                   </div>
@@ -529,17 +535,23 @@ function OfferGrid({
                   </div>
 
                   {localizedContent.price && (
-                    <div className="absolute top-4 right-4 bg-white text-pink-600 px-4 py-2 rounded-lg shadow-lg flex items-center gap-2 font-medium">
-                      <Tag className="h-4 w-4" />
-                      <span className="flex flex-col text-center leading-tight">
-                        <span className="text-sm">
-                          {lang === "pl" ? "Od" : "From"}:
-                        </span>
-                        <span className="font-bold">
-                          {localizedContent.price}
-                          {localizedContent.perPersonPerNight}
-                        </span>
-                      </span>
+                    <div className="absolute top-4 right-4 bg-white text-gray-900 px-4 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105 border border-gray-200">
+                      <div className="flex items-center gap-2">
+                        <Tag className="h-5 w-5 text-avangarda" />
+                        <div className="flex flex-col text-center leading-tight">
+                          <div className="flex items-baseline gap-1">
+                            <span className="text-sm text-gray-600">
+                              {lang === "pl" ? "Od" : "From"}
+                            </span>
+                            <span className="font-bold text-lg text-gray-900">
+                              {localizedContent.price}
+                            </span>
+                          </div>
+                          <span className="text-sm text-gray-500 -mt-0.5">
+                            {lang === "pl" ? "/os./noc" : "/per./night"}
+                          </span>
+                        </div>
+                      </div>
                     </div>
                   )}
                 </div>
