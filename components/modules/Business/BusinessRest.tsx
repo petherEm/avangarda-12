@@ -92,6 +92,12 @@ interface BusinessEntertainmentProps {
             title: string;
             badge: string;
             description: string;
+            offers: {
+              americanBbq: string;
+              biesiada: string;
+              wloska: string;
+              grillowa: string;
+            };
             features: {
               availability: string;
               availabilityDesc: string;
@@ -152,6 +158,10 @@ interface BusinessEntertainmentProps {
     club?: any;
     outdoor?: any;
     fort?: any;
+    fortAmericanBbq?: any;
+    fortBiesiada?: any;
+    fortWloska?: any;
+    fortGrillowa?: any;
     dymna?: any;
     przystan?: any;
     mediterranean?: any;
@@ -165,6 +175,37 @@ export default function BusinessEntertainment({
 }: BusinessEntertainmentProps) {
   const [selectedTab, setSelectedTab] = useState<string>("club");
   const phoneNumber = "+48 29 752 50 34";
+
+  // Define the 4 Fort download buttons
+  const fortDownloadButtons = [
+    {
+      key: "americanBbq",
+      offer: entertainmentOffers?.fortAmericanBbq,
+      label:
+        dict.business.entertainment.spaces.fort.offers?.americanBbq ||
+        "American BBQ",
+    },
+    {
+      key: "biesiada",
+      offer: entertainmentOffers?.fortBiesiada,
+      label:
+        dict.business.entertainment.spaces.fort.offers?.biesiada || "Biesiada",
+    },
+    {
+      key: "wloska",
+      offer: entertainmentOffers?.fortWloska,
+      label:
+        dict.business.entertainment.spaces.fort.offers?.wloska ||
+        "Włoska Uczta",
+    },
+    {
+      key: "grillowa",
+      offer: entertainmentOffers?.fortGrillowa,
+      label:
+        dict.business.entertainment.spaces.fort.offers?.grillowa ||
+        "Kolacja Grillowa",
+    },
+  ];
 
   return (
     <div className="mt-6 sm:mt-6 md:mt-4 lg:mt-0 mb-6 lg:mb-0 bg-white w-full text-primary lg:py-10">
@@ -643,21 +684,39 @@ export default function BusinessEntertainment({
                       </p>
                     </div>
                   </div>
-                  {entertainmentOffers?.fort &&
-                    entertainmentOffers.fort.offerFile && (
-                      <div className="mt-4">
-                        <Link
-                          href={fileUrl(entertainmentOffers.fort.offerFile)}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Button variant="avangarda" size="lg">
-                            <Download className="h-3 w-3 sm:h-4 sm:w-4" />
-                            {dict.business.entertainment.downloadOffer}
+
+                  {/* New Fort Download Buttons - 2x2 Grid */}
+                  <div className="grid grid-cols-2 gap-3 mt-6">
+                    {fortDownloadButtons.map((button, index) => (
+                      <div key={button.key}>
+                        {button.offer && button.offer.offerFile ? (
+                          <Link
+                            href={fileUrl(button.offer.offerFile)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <Button
+                              variant="avangarda"
+                              size="default"
+                              className="w-full"
+                            >
+                              <Download className="h-3 w-3 sm:h-4 sm:w-4 mr-2" />
+                              {button.label}
+                            </Button>
+                          </Link>
+                        ) : (
+                          <Button
+                            variant="avangarda"
+                            size="default"
+                            className="w-full"
+                            disabled
+                          >
+                            {button.label}
                           </Button>
-                        </Link>
+                        )}
                       </div>
-                    )}
+                    ))}
+                  </div>
                 </div>
                 <div className="space-y-6">
                   <div className="relative aspect-video w-full h-[600px] overflow-hidden">

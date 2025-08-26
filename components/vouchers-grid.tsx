@@ -27,7 +27,9 @@ const getVoucherImage = (voucher: Voucher, lang: string = "en") => {
     voucherName.includes("dzieci") ||
     voucherName.includes("children") ||
     voucherName.includes("games") ||
-    voucherName.includes("attractions")
+    voucherName.includes("attractions") ||
+    voucherName.includes("coola") ||
+    voucherName.includes("klub")
   ) {
     return "/vouchers/voucher-coola.jpeg";
   }

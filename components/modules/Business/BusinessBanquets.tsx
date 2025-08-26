@@ -20,6 +20,12 @@ interface BusinessBanquetsProps {
         description2: string;
         downloadOffer: string;
         offerUnavailable: string;
+        offers: {
+          banquet: string;
+          buffet: string;
+          business: string;
+          served: string;
+        };
         features: {
           businessDinners: {
             title: string;
@@ -49,7 +55,13 @@ interface BusinessBanquetsProps {
       };
     };
   };
-  banquetOffer?: any;
+  banquetOffers?: {
+    main?: any;
+    banquet?: any;
+    buffet?: any;
+    business?: any;
+    served?: any;
+  };
 }
 
 const fadeInUp = {
@@ -70,7 +82,7 @@ const slideInFromRight = {
 const BusinessBanquets = ({
   lang = "pl",
   dict,
-  banquetOffer,
+  banquetOffers,
 }: BusinessBanquetsProps) => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -85,6 +97,30 @@ const BusinessBanquets = ({
     useTransform(scrollYProgress, [0, 1], ["15%", "-15%"]),
     springConfig
   );
+
+  // Define the 4 download buttons
+  const downloadButtons = [
+    {
+      key: "banquet",
+      offer: banquetOffers?.banquet,
+      label: dict.business.banquets.offers?.banquet || "Kolacja Bankiet",
+    },
+    {
+      key: "buffet",
+      offer: banquetOffers?.buffet,
+      label: dict.business.banquets.offers?.buffet || "Kolacja Bufetowa",
+    },
+    {
+      key: "business",
+      offer: banquetOffers?.business,
+      label: dict.business.banquets.offers?.business || "Kolacja Biznesowa",
+    },
+    {
+      key: "served",
+      offer: banquetOffers?.served,
+      label: dict.business.banquets.offers?.served || "Kolacja Serwowana",
+    },
+  ];
 
   return (
     <div ref={sectionRef} className="relative overflow-hidden">
@@ -132,6 +168,48 @@ const BusinessBanquets = ({
                     {dict.business.banquets.description2}
                   </motion.p>
                 </div>
+
+                {/* Download Buttons - Mobile - 2x2 Grid */}
+                <motion.div
+                  className="grid grid-cols-2 gap-2 sm:gap-3 pt-4"
+                  initial="initial"
+                  whileInView="animate"
+                  viewport={{ once: true }}
+                >
+                  {downloadButtons.map((button, index) => (
+                    <motion.div
+                      key={button.key}
+                      variants={slideInFromRight}
+                      transition={{ delay: 0.5 + 0.1 * index, duration: 0.6 }}
+                    >
+                      {button.offer && button.offer.offerFile ? (
+                        <Link
+                          href={fileUrl(button.offer.offerFile)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Button
+                            size="sm"
+                            variant="fillRight"
+                            className="w-full px-2 py-2 text-xs sm:text-sm"
+                          >
+                            <Download className="h-3 w-3 mr-1" />
+                            {button.label}
+                          </Button>
+                        </Link>
+                      ) : (
+                        <Button
+                          size="sm"
+                          variant="fillRight"
+                          className="w-full px-2 py-2 text-xs sm:text-sm"
+                          disabled
+                        >
+                          {button.label}
+                        </Button>
+                      )}
+                    </motion.div>
+                  ))}
+                </motion.div>
               </motion.div>
 
               {/* Mobile Image */}
@@ -257,38 +335,6 @@ const BusinessBanquets = ({
                     {dict.business.banquets.features.music.description}
                   </div>
                 </motion.div>
-
-                <motion.div
-                  variants={slideInFromRight}
-                  transition={{ delay: 0.7, duration: 0.6 }}
-                  className="col-span-1 sm:col-span-2 flex justify-center pt-4 sm:pt-6"
-                >
-                  {banquetOffer && banquetOffer.offerFile ? (
-                    <Link
-                      href={fileUrl(banquetOffer.offerFile)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button
-                        size="lg"
-                        variant="fillRight"
-                        className="px-6 sm:px-8 py-2 sm:py-3"
-                      >
-                        <Download className="h-3 w-3 sm:h-4 sm:w-4 mr-2" />
-                        {dict.business.banquets.downloadOffer}
-                      </Button>
-                    </Link>
-                  ) : (
-                    <Button
-                      size="lg"
-                      variant="fillRight"
-                      className="px-6 sm:px-8 py-2 sm:py-3"
-                      disabled
-                    >
-                      {dict.business.banquets.offerUnavailable}
-                    </Button>
-                  )}
-                </motion.div>
               </motion.div>
             </div>
 
@@ -365,35 +411,49 @@ const BusinessBanquets = ({
                         {dict.business.banquets.description2}
                       </motion.p>
 
+                      {/* Download Buttons - Desktop - 2x2 Grid */}
                       <motion.div
-                        variants={fadeInLeft}
-                        transition={{ delay: 0.5, duration: 0.6 }}
+                        className="grid grid-cols-2 gap-3"
+                        initial="initial"
+                        whileInView="animate"
+                        viewport={{ once: true }}
                       >
-                        {banquetOffer && banquetOffer.offerFile ? (
-                          <Link
-                            href={fileUrl(banquetOffer.offerFile)}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                        {downloadButtons.map((button, index) => (
+                          <motion.div
+                            key={button.key}
+                            variants={fadeInLeft}
+                            transition={{
+                              delay: 0.5 + 0.1 * index,
+                              duration: 0.6,
+                            }}
                           >
-                            <Button
-                              size="lg"
-                              variant="fillRight"
-                              className="border-none"
-                            >
-                              <Download className="h-4 w-4 mr-2" />
-                              {dict.business.banquets.downloadOffer}
-                            </Button>
-                          </Link>
-                        ) : (
-                          <Button
-                            size="lg"
-                            variant="fillRight"
-                            className="border-none"
-                            disabled
-                          >
-                            {dict.business.banquets.offerUnavailable}
-                          </Button>
-                        )}
+                            {button.offer && button.offer.offerFile ? (
+                              <Link
+                                href={fileUrl(button.offer.offerFile)}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <Button
+                                  size="default"
+                                  variant="fillRight"
+                                  className="w-full border-none"
+                                >
+                                  <Download className="h-4 w-4 mr-2" />
+                                  {button.label}
+                                </Button>
+                              </Link>
+                            ) : (
+                              <Button
+                                size="default"
+                                variant="fillRight"
+                                className="w-full border-none"
+                                disabled
+                              >
+                                {button.label}
+                              </Button>
+                            )}
+                          </motion.div>
+                        ))}
                       </motion.div>
                     </motion.div>
                   </motion.div>

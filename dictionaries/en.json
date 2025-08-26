@@ -1376,6 +1376,12 @@
             "animationsDesc": "Themed parties",
             "music": "Music",
             "musicDesc": "DJ or live music"
+          },
+           "offers": {
+            "americanBbq": "American BBQ",
+            "biesiada": "Polish Feast",
+            "wloska": "Italian Feast",
+            "grillowa": "Grilled Dinner"
           }
         },
         "dymna": {

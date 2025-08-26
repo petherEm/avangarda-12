@@ -14,6 +14,7 @@ interface BusinessSpaProps {
   lang?: string;
   dict?: any;
   spaOffer?: any;
+  spaServicesOffer?: any;
 }
 
 const fadeInUp = {
@@ -41,7 +42,12 @@ const slideInFromRight = {
   animate: { opacity: 1, x: 0 },
 };
 
-const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
+const BusinessSpa = ({
+  lang = "pl",
+  dict,
+  spaOffer,
+  spaServicesOffer,
+}: BusinessSpaProps) => {
   const [windowWidth, setWindowWidth] = useState(0);
   const contentRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -498,9 +504,9 @@ const BusinessSpa = ({ lang = "pl", dict, spaOffer }: BusinessSpaProps) => {
                       variants={fadeInLeft}
                       transition={{ delay: 0.5, duration: 0.6 }}
                     >
-                      {spaOffer && spaOffer.offerFile ? (
+                      {spaServicesOffer && spaServicesOffer.offerFile ? (
                         <Link
-                          href={fileUrl(spaOffer.offerFile)}
+                          href={fileUrl(spaServicesOffer.offerFile)}
                           target="_blank"
                           rel="noopener noreferrer"
                         >

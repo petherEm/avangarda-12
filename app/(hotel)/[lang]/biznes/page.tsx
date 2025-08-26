@@ -34,6 +34,23 @@ export default async function BusinessMainPageAlt({
     (await getBusinessOfferBySlug("wieczory-pelne-smaku")) ||
     (await getPrimaryBusinessOffer());
 
+  // Fetch the 4 new banquet offers
+  const banquetDinnerOffer =
+    (await getBusinessOfferBySlug("kolacja-bankiet")) ||
+    (await getPrimaryBusinessOffer());
+
+  const buffetDinnerOffer =
+    (await getBusinessOfferBySlug("kolacja-bufetowa")) ||
+    (await getPrimaryBusinessOffer());
+
+  const businessDinnerOffer =
+    (await getBusinessOfferBySlug("kolacja-biznesowa")) ||
+    (await getPrimaryBusinessOffer());
+
+  const servedDinnerOffer =
+    (await getBusinessOfferBySlug("kolacja-serwowana")) ||
+    (await getPrimaryBusinessOffer());
+
   // Fetch entertainment offers for each tab
   const clubOffer =
     (await getBusinessOfferBySlug("oferta-klubowe-wieczory")) ||
@@ -45,6 +62,23 @@ export default async function BusinessMainPageAlt({
 
   const fortOffer =
     (await getBusinessOfferBySlug("oferta-fort-no-4-wieczory-tematyczne")) ||
+    (await getPrimaryBusinessOffer());
+
+  // Fetch the 4 new Fort offers
+  const fortAmericanBbqOffer =
+    (await getBusinessOfferBySlug("fort-american-bbq")) ||
+    (await getPrimaryBusinessOffer());
+
+  const fortBiesiadaOffer =
+    (await getBusinessOfferBySlug("fort-biesiada")) ||
+    (await getPrimaryBusinessOffer());
+
+  const fortWloskaOffer =
+    (await getBusinessOfferBySlug("fort-wloska-uczta")) ||
+    (await getPrimaryBusinessOffer());
+
+  const fortGrillowaOffer =
+    (await getBusinessOfferBySlug("fort-kolacja-grillowa")) ||
     (await getPrimaryBusinessOffer());
 
   const dymnaOffer =
@@ -60,18 +94,35 @@ export default async function BusinessMainPageAlt({
     (await getBusinessOfferBySlug("oferta-kolacja-srodziemnomorska")) ||
     (await getPrimaryBusinessOffer());
 
-  // Fetch spa offer
+  // Fetch spa offers
   const spaOffer =
     (await getBusinessOfferBySlug("biznes-spa")) ||
+    (await getPrimaryBusinessOffer());
+
+  const spaServicesOffer =
+    (await getBusinessOfferBySlug("biznes-spa-uslugi-dla-firm")) ||
     (await getPrimaryBusinessOffer());
 
   const entertainmentOffers = {
     club: clubOffer,
     outdoor: outdoorOffer,
     fort: fortOffer,
+    fortAmericanBbq: fortAmericanBbqOffer,
+    fortBiesiada: fortBiesiadaOffer,
+    fortWloska: fortWloskaOffer,
+    fortGrillowa: fortGrillowaOffer,
     dymna: dymnaOffer,
     przystan: przystanOffer,
-    mediterranean: mediterraneanOffer, // Add Mediterranean offer
+    mediterranean: mediterraneanOffer,
+  };
+
+  // Group banquet offers
+  const banquetOffers = {
+    main: banquetOffer,
+    banquet: banquetDinnerOffer,
+    buffet: buffetDinnerOffer,
+    business: businessDinnerOffer,
+    served: servedDinnerOffer,
   };
 
   const title = lang === "pl" ? "Oferta dla biznesu" : "Business events";
@@ -85,14 +136,19 @@ export default async function BusinessMainPageAlt({
         businessOffers={businessOffers}
         conferenceOffer={conferenceOffer}
       />
-      <BusinessBanquets dict={dict} lang={lang} banquetOffer={banquetOffer} />
+      <BusinessBanquets dict={dict} lang={lang} banquetOffers={banquetOffers} />
       <BusinessRommsSelect dict={dict} lang={lang} />
       <BusinessEntertainment
         dict={dict}
         lang={lang}
         entertainmentOffers={entertainmentOffers}
       />
-      <BusinessSpa dict={dict} lang={lang} spaOffer={spaOffer} />
+      <BusinessSpa
+        dict={dict}
+        lang={lang}
+        spaOffer={spaOffer}
+        spaServicesOffer={spaServicesOffer}
+      />
       <TrustedCompanies dict={dict} lang={lang} />
       <GenericCTA
         header={lang === "pl" ? "Skontaktuj się z nami" : "Contact us"}

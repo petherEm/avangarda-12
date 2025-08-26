@@ -1370,6 +1370,12 @@
             "animationsDesc": "Tematyczne imprezy",
             "music": "Muzyka",
             "musicDesc": "DJ lub muzyka na żywo"
+          },
+          "offers": {
+            "americanBbq": "American BBQ",
+            "biesiada": "Biesiada",
+            "wloska": "Włoska Uczta",
+            "grillowa": "Kolacja Grillowa"
           }
         },
         "dymna": {
