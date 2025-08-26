@@ -1414,6 +1414,8 @@
     "mainTitle": "Konferencje \n & Eventy",
     "mainDescription": "Butikowy hotel, położony w cichym, zielonym zakątku Mazowsza, zaledwie godzinę drogi od Warszawy, oferuje możliwość wynajmu\n na wyłączność i stanowi doskonałe miejsce do organizacji wydarzeń biznesowych – od kameralnych spotkań zarządu po duże konferencje, eventy, targi i spotkania branżowe. Tworzymy długotrwałe relacje\n z Klientami Biznesowymi, zapewniając indywidualne, pełne zaangażowania podejście oraz gotowość, by sprostać nawet najbardziej wymagającym projektom.",
     "facilities": {
+      "nrOfRooms":"94",
+      "nrOfRoomsDescription": "Miejsca hotelowe",
       "rooms": "8 sal",
       "roomsDescription": "Sale konferencyjne (ponad 1000 m² / dla 600 osób)",
       "attractions": "Atrakcje",

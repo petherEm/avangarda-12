@@ -160,7 +160,7 @@
       "beds": "1 x king-size bed"
     },
     "externalSingle": {
-      "name": "1-Person Room",
+      "name": "Single Room",
       "description": "An air-conditioned room with a single bed, located on the first or second floor of the hotel’s annex building (100 m from the main Hotel). The room features sloped ceilings and does not have a balcony. Check-in and check-out take place in the main building, where meals included in the offer are also served. Hotel attractions are available in the main building. Please note that the annex has no elevator; access to the room is via stairs. The room offers a view of the historic Tsar’s Road.",
       "price": "from 220 PLN / night",
       "capacity": "1 person",
@@ -168,7 +168,7 @@
       "beds": "1 x single bed"
     },
     "externalDouble": {
-      "name": "2-Person Room",
+      "name": "Double Room",
       "description": "An air-conditioned twin room with two single beds, located on the first or second floor of the hotel’s annex building (100 m from the main Hotel). The child option (0–3 years) does not include an additional bed. The room features sloped ceilings and does not have a balcony. Check-in and check-out are carried out in the main building, where meals included in the package are also served. Hotel attractions are available in the main building. Please note that the annex has no elevator; access to the rooms is via stairs. Some rooms offer views of the historic Tsar’s Road.",
       "price": "from 320 PLN / night",
       "capacity": "1-2 people",
@@ -176,7 +176,7 @@
       "beds": "2 x single beds"
     },
     "externalTriple": {
-      "name": "3-Person Room",
+      "name": "Triple Room",
       "description": "An air-conditioned room with three single beds, located on the first or second floor of the hotel’s annex building (100 m from the main Hotel). The child option (0–3 years) does not include an additional bed. The room features sloped ceilings and does not have a balcony. Check-in and check-out are handled in the main building, where meals included in the package are also served. Hotel facilities and attractions are available in the main building. Please note that the annex has no elevator; access to the rooms is via stairs. Some rooms offer views of the historic Tsar’s Road.",
       "price": "from 440 PLN / night",
       "capacity": "1-3 people",
@@ -1420,6 +1420,8 @@
     "mainTitle": "Conferences\n & Events",
     "mainDescription": "Our boutique hotel, nestled in a quiet, green corner of Mazovia just\n an hour from Warsaw, offers exclusive rental opportunities and is\n the perfect venue for business events – from intimate board meetings\n to large conferences, exhibitions, trade fairs, and industry gatherings.\n We build lasting partnerships with our corporate clients, providing\n a highly personalized approach, full dedication, and the readiness\n to meet even the most demanding projects.",
     "facilities": {
+      "nrOfRooms":"94",
+      "nrOfRoomsDescription": "Hotel rooms",
       "rooms": "8 conference rooms",
       "roomsDescription": "Conference rooms (over 1000 m² / for 600 people)",
       "attractions": "Key Entertainment",

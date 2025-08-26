@@ -296,13 +296,15 @@ export function Footer({ lang, dict }: FooterProps) {
                 >
                   {footerData.terms}
                 </Link>
-                {/* <div className="w-1 h-1 bg-white/30 rounded-full"></div>
+                <div className="w-1 h-1 bg-white/30 rounded-full"></div>
                 <Link
-                  href={getLocalizedHref("/prywatnosc")}
+                  href="/Polityka_Prywatnosci_2025.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white/60 hover:text-avangarda transition-colors text-sm"
                 >
                   {footerData.privacy}
-                </Link> */}
+                </Link>
                 <div className="w-1 h-1 bg-white/30 rounded-full"></div>
                 <Link
                   href="/Standardy_ochrony_maloletnich_Hotel_Avangarda_2025.pdf"

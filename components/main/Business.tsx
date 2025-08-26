@@ -184,7 +184,7 @@ const Business = ({ lang = "pl", dict }: BusinessProps) => {
                   whileHover={{ scale: 1.05 }}
                 >
                   <div className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-1">
-                    98
+                    94
                   </div>
                   <div className="text-xs sm:text-sm md:text-base text-white/80">
                     Miejsca hotelowe
@@ -391,10 +391,11 @@ const Business = ({ lang = "pl", dict }: BusinessProps) => {
                       whileHover={{ scale: 1.05 }}
                     >
                       <div className="text-2xl font-bold text-white mb-1">
-                        98
+                        {dict?.business?.facilities?.nrOfRooms || "94"}
                       </div>
                       <div className="text-base text-white/80">
-                        Miejsca hotelowe
+                        {dict?.business?.facilities?.nrOfRoomsDescription ||
+                          "Miejsca hotelowe"}
                       </div>
                     </motion.div>
 
