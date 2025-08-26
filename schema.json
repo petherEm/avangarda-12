@@ -546,6 +546,13 @@
           "type": "string"
         },
         "optional": true
+      },
+      "offerKey": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
       }
     }
   },

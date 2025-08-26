@@ -6,6 +6,7 @@ export const getAllBusinessOffers = async () => {
     `*[_type == "businessOffer"] {
       _id,
       offerName,
+      offerKey,
       slug,
       offerFile,
       description
@@ -23,11 +24,38 @@ export const getAllBusinessOffers = async () => {
   }
 };
 
+export const getBusinessOfferByKey = async (offerKey: string) => {
+  const BUSINESS_OFFER_BY_KEY_QUERY = defineQuery(
+    `*[_type == "businessOffer" && offerKey == $offerKey] {
+      _id,
+      offerName,
+      offerKey,
+      slug,
+      offerFile,
+      description
+    }[0]`
+  );
+  
+  try {
+    const businessOffer = await sanityFetch({
+      query: BUSINESS_OFFER_BY_KEY_QUERY,
+      params: {
+        offerKey,
+      },
+    });
+    return businessOffer.data || null;
+  } catch (error) {
+    console.error("Error fetching business offer by key", error);
+    return null;
+  }
+};
+
 export const getBusinessOfferBySlug = async (slug: string) => {
   const BUSINESS_OFFER_BY_SLUG_QUERY = defineQuery(
     `*[_type == "businessOffer" && slug.current == $slug] {
       _id,
       offerName,
+      offerKey,
       slug,
       offerFile,
       description
@@ -54,6 +82,7 @@ export const getBusinessOfferByName = async (offerName: string) => {
     `*[_type == "businessOffer" && offerName match $offerName] {
       _id,
       offerName,
+      offerKey,
       slug,
       offerFile,
       description
@@ -80,6 +109,7 @@ export const getPrimaryBusinessOffer = async () => {
     `*[_type == "businessOffer"] | order(_createdAt desc) [0] {
       _id,
       offerName,
+      offerKey,
       slug,
       offerFile,
       description

@@ -14,6 +14,7 @@ export const businessType = defineType({
       description: 'np. Oferta Biznesowa 2025, Pakiet Konferencyjny, Catering Firmowy',
       validation: Rule => Rule.required(),
     }),
+
     defineField({
       name: 'slug',
       title: 'Slug',
@@ -38,6 +39,19 @@ export const businessType = defineType({
       title: 'Opis Oferty',
       type: 'text',
       description: 'Krótki opis oferty biznesowej (opcjonalny)',
+    }),
+        defineField({
+      name: 'offerKey',
+      title: 'Identyfikator Oferty (NIE ZMIENIAJ)',
+      type: 'string',
+      description: 'Unikalny identyfikator tej oferty (np. "conference-premium", "banquet-dinner"). To nigdy nie powinno się zmieniać.',
+      validation: Rule => Rule.required().custom((value) => {
+        // Ensure it's lowercase and uses dashes
+        if (value && !/^[a-z0-9-]+$/.test(value)) {
+          return 'Identyfikator oferty musi zawierać tylko małe litery, cyfry i myślniki';
+        }
+        return true;
+      }),
     }),
   ],
   preview: {

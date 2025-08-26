@@ -109,6 +109,7 @@ export type BusinessOffer = {
     _type: "file";
   };
   description?: string;
+  offerKey?: string;
 };
 
 export type Event = {
@@ -731,10 +732,11 @@ export type ALL_MENUS_QUERYResult = Array<{
 
 // Source: ./sanity/lib/offers/getBusinessOffer.ts
 // Variable: ALL_BUSINESS_OFFERS_QUERY
-// Query: *[_type == "businessOffer"] {      _id,      offerName,      slug,      offerFile,      description    } | order(_createdAt desc)
+// Query: *[_type == "businessOffer"] {      _id,      offerName,      offerKey,      slug,      offerFile,      description    } | order(_createdAt desc)
 export type ALL_BUSINESS_OFFERS_QUERYResult = Array<{
   _id: string;
   offerName: string | null;
+  offerKey: string | null;
   slug: Slug | null;
   offerFile: {
     asset?: {
@@ -748,11 +750,31 @@ export type ALL_BUSINESS_OFFERS_QUERYResult = Array<{
   } | null;
   description: string | null;
 }>;
+// Variable: BUSINESS_OFFER_BY_KEY_QUERY
+// Query: *[_type == "businessOffer" && offerKey == $offerKey] {      _id,      offerName,      offerKey,      slug,      offerFile,      description    }[0]
+export type BUSINESS_OFFER_BY_KEY_QUERYResult = {
+  _id: string;
+  offerName: string | null;
+  offerKey: string | null;
+  slug: Slug | null;
+  offerFile: {
+    asset?: {
+      _ref: string;
+      _type: "reference";
+      _weak?: boolean;
+      [internalGroqTypeReferenceTo]?: "sanity.fileAsset";
+    };
+    media?: unknown;
+    _type: "file";
+  } | null;
+  description: string | null;
+} | null;
 // Variable: BUSINESS_OFFER_BY_SLUG_QUERY
-// Query: *[_type == "businessOffer" && slug.current == $slug] {      _id,      offerName,      slug,      offerFile,      description    }[0]
+// Query: *[_type == "businessOffer" && slug.current == $slug] {      _id,      offerName,      offerKey,      slug,      offerFile,      description    }[0]
 export type BUSINESS_OFFER_BY_SLUG_QUERYResult = {
   _id: string;
   offerName: string | null;
+  offerKey: string | null;
   slug: Slug | null;
   offerFile: {
     asset?: {
@@ -767,10 +789,11 @@ export type BUSINESS_OFFER_BY_SLUG_QUERYResult = {
   description: string | null;
 } | null;
 // Variable: BUSINESS_OFFER_BY_NAME_QUERY
-// Query: *[_type == "businessOffer" && offerName match $offerName] {      _id,      offerName,      slug,      offerFile,      description    }[0]
+// Query: *[_type == "businessOffer" && offerName match $offerName] {      _id,      offerName,      offerKey,      slug,      offerFile,      description    }[0]
 export type BUSINESS_OFFER_BY_NAME_QUERYResult = {
   _id: string;
   offerName: string | null;
+  offerKey: string | null;
   slug: Slug | null;
   offerFile: {
     asset?: {
@@ -785,10 +808,11 @@ export type BUSINESS_OFFER_BY_NAME_QUERYResult = {
   description: string | null;
 } | null;
 // Variable: PRIMARY_BUSINESS_OFFER_QUERY
-// Query: *[_type == "businessOffer"] | order(_createdAt desc) [0] {      _id,      offerName,      slug,      offerFile,      description    }
+// Query: *[_type == "businessOffer"] | order(_createdAt desc) [0] {      _id,      offerName,      offerKey,      slug,      offerFile,      description    }
 export type PRIMARY_BUSINESS_OFFER_QUERYResult = {
   _id: string;
   offerName: string | null;
+  offerKey: string | null;
   slug: Slug | null;
   offerFile: {
     asset?: {
@@ -1533,10 +1557,11 @@ declare module "@sanity/client" {
     "\n        *[_type == \"event\" && isActive == true] {\n            _id,\n            eventType,\n            menuName,\n            slug,\n            menuFile,\n            description,\n            isActive,\n            validFrom,\n            validUntil,\n            displayOrder\n        } | order(eventType asc, displayOrder asc, menuName asc)": ALL_EVENTS_QUERYResult;
     "\n        *[_type == \"menu\" && restaurant == $restaurant && isActive == true] {\n            _id,\n            restaurant,\n            menuName,\n            slug,\n            menuFile,\n            description,\n            isActive,\n            validFrom,\n            validUntil,\n            displayOrder\n        } | order(displayOrder asc, menuName asc)": MENUS_BY_RESTAURANT_QUERYResult;
     "\n        *[_type == \"menu\" && isActive == true] {\n            _id,\n            restaurant,\n            menuName,\n            slug,\n            menuFile,\n            description,\n            isActive,\n            validFrom,\n            validUntil,\n            displayOrder\n        } | order(restaurant asc, displayOrder asc, menuName asc)": ALL_MENUS_QUERYResult;
-    "*[_type == \"businessOffer\"] {\n      _id,\n      offerName,\n      slug,\n      offerFile,\n      description\n    } | order(_createdAt desc)": ALL_BUSINESS_OFFERS_QUERYResult;
-    "*[_type == \"businessOffer\" && slug.current == $slug] {\n      _id,\n      offerName,\n      slug,\n      offerFile,\n      description\n    }[0]": BUSINESS_OFFER_BY_SLUG_QUERYResult;
-    "*[_type == \"businessOffer\" && offerName match $offerName] {\n      _id,\n      offerName,\n      slug,\n      offerFile,\n      description\n    }[0]": BUSINESS_OFFER_BY_NAME_QUERYResult;
-    "*[_type == \"businessOffer\"] | order(_createdAt desc) [0] {\n      _id,\n      offerName,\n      slug,\n      offerFile,\n      description\n    }": PRIMARY_BUSINESS_OFFER_QUERYResult;
+    "*[_type == \"businessOffer\"] {\n      _id,\n      offerName,\n      offerKey,\n      slug,\n      offerFile,\n      description\n    } | order(_createdAt desc)": ALL_BUSINESS_OFFERS_QUERYResult;
+    "*[_type == \"businessOffer\" && offerKey == $offerKey] {\n      _id,\n      offerName,\n      offerKey,\n      slug,\n      offerFile,\n      description\n    }[0]": BUSINESS_OFFER_BY_KEY_QUERYResult;
+    "*[_type == \"businessOffer\" && slug.current == $slug] {\n      _id,\n      offerName,\n      offerKey,\n      slug,\n      offerFile,\n      description\n    }[0]": BUSINESS_OFFER_BY_SLUG_QUERYResult;
+    "*[_type == \"businessOffer\" && offerName match $offerName] {\n      _id,\n      offerName,\n      offerKey,\n      slug,\n      offerFile,\n      description\n    }[0]": BUSINESS_OFFER_BY_NAME_QUERYResult;
+    "*[_type == \"businessOffer\"] | order(_createdAt desc) [0] {\n      _id,\n      offerName,\n      offerKey,\n      slug,\n      offerFile,\n      description\n    }": PRIMARY_BUSINESS_OFFER_QUERYResult;
     "\n        *[_type == \"offers\" && slug.current == $slug && isActive == true] {\n            _id,\n            plname,\n            subtitle,\n            enname,\n            ensubtitle,\n            slug,\n            image,\n            price,\n            validFrom,\n            validUntil,\n            daysNights,\n            endaysNights,\n            meals,\n            pldescription,\n            endescription,\n            offerListing,\n            offerListingEn,\n            mainAttractions,\n            mainAttractionsEn,\n            paidAttractions,\n            paidAttractionsEn,\n            bookingConditions,\n            bookingConditionsEn,\n            practicalInfo,\n            practicalInfoEn,\n            isActive,\n            categories\n        } | order(plname asc) [0]": OFFER_BY_ID_QUERYResult;
     "*[_type == \"offers\" && isActive == true] {\n      _id,\n      plname,\n      subtitle,\n      enname,\n      ensubtitle,\n      slug,\n      image,\n      price,\n      validFrom,\n      validUntil,\n      daysNights,\n      endaysNights,\n      meals,\n      pldescription,\n      endescription,\n      offerListing,\n      offerListingEn,\n      mainAttractions,\n      mainAttractionsEn,\n      paidAttractions,\n      paidAttractionsEn,\n      bookingConditions,\n      bookingConditionsEn,\n      practicalInfo,\n      practicalInfoEn,\n      isActive,\n      orderRank,\n      \"categories\": categories[] {\n        _ref,\n        _key,\n        \"title\": @->title,\n        \"entitle\": @->entitle, \n        \"pltitle\": @->pltitle\n      }\n    } | order(orderRank)": ALL_OFFERS_QUERYResult;
     "*[_type == \"spaOffer\"] {\n      _id,\n      offerName,\n      slug,\n      offerFile,\n      description\n    } | order(_createdAt desc)": ALL_SPA_OFFERS_QUERYResult;

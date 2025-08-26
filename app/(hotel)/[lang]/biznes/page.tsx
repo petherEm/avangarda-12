@@ -10,7 +10,7 @@ import TrustedCompanies from "@/components/modules/Business/TrustedCompanies";
 import { getDictionary } from "@/lib/dictionary";
 import {
   getAllBusinessOffers,
-  getBusinessOfferBySlug,
+  getBusinessOfferByKey,
   getPrimaryBusinessOffer,
 } from "@/sanity/lib/offers/getBusinessOffer";
 
@@ -25,82 +25,82 @@ export default async function BusinessMainPageAlt({
   // Fetch business offers
   const businessOffers = await getAllBusinessOffers();
 
-  // Fetch specific business offers by slug with fallbacks
+  // Fetch specific business offers by stable key with fallbacks
   const conferenceOffer =
-    (await getBusinessOfferBySlug("konferencje-w-butikowym-stylu")) ||
+    (await getBusinessOfferByKey("conference-boutique")) ||
     (await getPrimaryBusinessOffer());
 
   const banquetOffer =
-    (await getBusinessOfferBySlug("wieczory-pelne-smaku")) ||
+    (await getBusinessOfferByKey("banquet-evenings")) ||
     (await getPrimaryBusinessOffer());
 
   // Fetch the 4 new banquet offers
   const banquetDinnerOffer =
-    (await getBusinessOfferBySlug("kolacja-bankiet")) ||
+    (await getBusinessOfferByKey("banquet-dinner")) ||
     (await getPrimaryBusinessOffer());
 
   const buffetDinnerOffer =
-    (await getBusinessOfferBySlug("kolacja-bufetowa")) ||
+    (await getBusinessOfferByKey("buffet-dinner")) ||
     (await getPrimaryBusinessOffer());
 
   const businessDinnerOffer =
-    (await getBusinessOfferBySlug("kolacja-biznesowa")) ||
+    (await getBusinessOfferByKey("business-dinner")) ||
     (await getPrimaryBusinessOffer());
 
   const servedDinnerOffer =
-    (await getBusinessOfferBySlug("kolacja-serwowana")) ||
+    (await getBusinessOfferByKey("served-dinner")) ||
     (await getPrimaryBusinessOffer());
 
   // Fetch entertainment offers for each tab
   const clubOffer =
-    (await getBusinessOfferBySlug("oferta-klubowe-wieczory")) ||
+    (await getBusinessOfferByKey("club-evenings")) ||
     (await getPrimaryBusinessOffer());
 
   const outdoorOffer =
-    (await getBusinessOfferBySlug("oferta-aktywnosci-plenerowe")) ||
+    (await getBusinessOfferByKey("outdoor-activities")) ||
     (await getPrimaryBusinessOffer());
 
   const fortOffer =
-    (await getBusinessOfferBySlug("oferta-fort-no-4-wieczory-tematyczne")) ||
+    (await getBusinessOfferByKey("fort-themed-evenings")) ||
     (await getPrimaryBusinessOffer());
 
   // Fetch the 4 new Fort offers
   const fortAmericanBbqOffer =
-    (await getBusinessOfferBySlug("fort-american-bbq")) ||
+    (await getBusinessOfferByKey("fort-american-bbq")) ||
     (await getPrimaryBusinessOffer());
 
   const fortBiesiadaOffer =
-    (await getBusinessOfferBySlug("fort-biesiada")) ||
+    (await getBusinessOfferByKey("fort-biesiada")) ||
     (await getPrimaryBusinessOffer());
 
   const fortWloskaOffer =
-    (await getBusinessOfferBySlug("fort-wloska-uczta")) ||
+    (await getBusinessOfferByKey("fort-italian-feast")) ||
     (await getPrimaryBusinessOffer());
 
   const fortGrillowaOffer =
-    (await getBusinessOfferBySlug("fort-kolacja-grillowa")) ||
+    (await getBusinessOfferByKey("fort-grilled-dinner")) ||
     (await getPrimaryBusinessOffer());
 
   const dymnaOffer =
-    (await getBusinessOfferBySlug("oferta-dymna-polana")) ||
+    (await getBusinessOfferByKey("dymna-polana")) ||
     (await getPrimaryBusinessOffer());
 
   const przystanOffer =
-    (await getBusinessOfferBySlug("oferta-aktywny-dzien-na-przystani")) ||
+    (await getBusinessOfferByKey("active-day-harbor")) ||
     (await getPrimaryBusinessOffer());
 
   // Fetch Mediterranean dinner offer separately
   const mediterraneanOffer =
-    (await getBusinessOfferBySlug("oferta-kolacja-srodziemnomorska")) ||
+    (await getBusinessOfferByKey("mediterranean-dinner")) ||
     (await getPrimaryBusinessOffer());
 
   // Fetch spa offers
   const spaOffer =
-    (await getBusinessOfferBySlug("biznes-spa")) ||
+    (await getBusinessOfferByKey("business-spa")) ||
     (await getPrimaryBusinessOffer());
 
   const spaServicesOffer =
-    (await getBusinessOfferBySlug("biznes-spa-uslugi-dla-firm")) ||
+    (await getBusinessOfferByKey("business-spa-services")) ||
     (await getPrimaryBusinessOffer());
 
   const entertainmentOffers = {
