@@ -264,7 +264,7 @@ const OffersPageId = async ({ params }: { params: Params }) => {
                       <div className="flex items-center mb-4">
                         <Tag className="mr-2 h-6 w-6 text-avangarda" />
                         <span className="text-2xl md:text-3xl font-bold text-white/95">
-                          {localizedContent.price}
+                          od {localizedContent.price}
                         </span>
                         <span className="text-sm text-white/70 ml-2">
                           {localizedContent.perPersonPerNight}
@@ -516,43 +516,6 @@ const OffersPageId = async ({ params }: { params: Params }) => {
                 </div>
               </div>
             )}
-
-          {/* Contact Info */}
-          <div className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border-l-4 border-avangarda">
-            <div className="p-8 md:p-10">
-              <div className="flex items-center mb-8">
-                <div className="w-12 h-12 bg-avangarda/10 rounded-full flex items-center justify-center mr-4">
-                  <UserSquare2 className="h-6 w-6 text-avangarda" />
-                </div>
-                <h2 className="text-2xl font-bold text-gray-800">
-                  {lang === "pl" ? "Kontakt" : "Contact"}
-                </h2>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div className="text-center p-6 bg-gradient-to-br from-gray-50 to-white border border-gray-200">
-                  <Clock className="h-8 w-8 text-avangarda mx-auto mb-3" />
-                  <h3 className="font-semibold text-gray-800 mb-2">
-                    Check-in / Check-out
-                  </h3>
-                  <p className="text-gray-600 text-sm">15:00 / 11:00</p>
-                </div>
-                <div className="text-center p-6 bg-gradient-to-br from-gray-50 to-white border border-gray-200">
-                  <Users className="h-8 w-8 text-avangarda mx-auto mb-3" />
-                  <h3 className="font-semibold text-gray-800 mb-2">
-                    {lang === "pl" ? "Rezerwacje" : "Reservations"}
-                  </h3>
-                  <p className="text-gray-600 text-sm">+48 29 752 50 34</p>
-                </div>
-                <div className="text-center p-6 bg-gradient-to-br from-gray-50 to-white border border-gray-200">
-                  <MapPin className="h-8 w-8 text-avangarda mx-auto mb-3" />
-                  <h3 className="font-semibold text-gray-800 mb-2">
-                    {lang === "pl" ? "Lokalizacja" : "Location"}
-                  </h3>
-                  <p className="text-gray-600 text-sm">Różan nad Narwią</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </Container>
 

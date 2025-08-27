@@ -180,7 +180,7 @@
       "description": "An air-conditioned room with three single beds, located on the first or second floor of the hotel’s annex building (100 m from the main Hotel). The child option (0–3 years) does not include an additional bed. The room features sloped ceilings and does not have a balcony. Check-in and check-out are handled in the main building, where meals included in the package are also served. Hotel facilities and attractions are available in the main building. Please note that the annex has no elevator; access to the rooms is via stairs. Some rooms offer views of the historic Tsar’s Road.",
       "price": "from 440 PLN / night",
       "capacity": "1-3 people",
-      "size": "23-45m²",
+      "size": "23-25m²",
       "beds": "3 x single bed"
     },
     "externalFamily": {
@@ -310,7 +310,7 @@
       "openingHours": "Opening hours",
       "openingTime": "Mon-Sun: 12:00 – 22:00",
       "reservations": "Reservations",
-      "phone": "Tel: 29 752 50 34",
+      "phone": "Tel: 29 752 50 34 (hotel reception)",
       "email": "info@hotelavangarda.pl",
       "guestOpinions": "Guest Reviews",
       "testimonialDescription": "Discover our guests' opinions about culinary experiences at Dzika Róża Restaurant",
@@ -382,7 +382,7 @@
     "reserveButton": "Reserve a table",
     "openingHours": "Opening hours",
     "openingHoursDetails": {
-      "seasonMayJuneSep": "May, June and September",
+      "seasonMayJuneSep": "May, June",
       "seasonMayJuneSepHours": "Sat-Sun: 2:00 PM – 8:00 PM",
       "seasonJulAug": "July and August",
       "seasonJulAugHours": "daily 12:00 PM - 9:00 PM"
@@ -984,24 +984,24 @@
     },
     "services": {
       "hotStones": {
-        "name": "Hot Stone Massage",
-        "description": "Deeply relaxing massage using hot basalt stones.",
-        "price": "from 220 PLN",
-        "duration": "60 min"
-      },
-      "rejuvenation": {
-        "name": "Luxury rejuvenating treatment",
-        "description": "Intensively regenerating treatment using stem cells.",
-        "price": "from 380 PLN",
-        "duration": "75 min"
-      },
-      "chocolate": {
-        "name": "Chocolate ritual",
-        "description": "Nourishing ritual using natural chocolate and shea butter.",
-        "price": "from 320 PLN",
-        "duration": "90 min"
-      }
+      "name": "Avangarda Massage",
+      "description": "A signature full-body massage tailored to your needs. Dedicated to those who seek relief and a deeply relaxing, soothing experience. The calming aroma of oil, chosen individually before the massage to match your mood and preferences, will allow for a moment of blissful escape.",
+      "price": "240 PLN",
+      "duration": "60 min"
     },
+    "rejuvenation": {
+      "name": "Luxury in Różan",
+      "description": "A comprehensive ritual combining care and deep relaxation. It begins with an aromatic full-body scrub that smooths the skin. Next, a massage with warmed butter is performed to deeply moisturize and relax the muscles. The ritual concludes with a soothing massage of the face, neck, and décolleté, restoring freshness and radiance to the complexion.",
+      "price": "450 PLN",
+      "duration": "120 min"
+    },
+    "chocolate": {
+      "name": "Narew Valley Ritual",
+      "description": "A body care ritual that combines a nourishing massage with a subtle scrub. Performed with an aromatic exfoliating mask that quickly restores smoothness and freshness to the skin.",
+      "price": "270 PLN",
+      "duration": "60 min"
+    }
+},
     "hours": {
       "title": {
         "spa": "Pool & Spa Area",

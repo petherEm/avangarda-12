@@ -45,8 +45,7 @@ export default async function EventsPage({
             ? "Masz pytania lub chcesz omówić szczegóły współpracy? Skontaktuj się z nami telefonicznie lub pobierz naszą szczegółową ofertę."
             : "Do you have questions or want to discuss cooperation details? Contact us by phone or download our detailed offer."
         }
-        phoneNumber="+48 29 752 50 34"
-        downloadOffer={lang === "pl" ? "Pobierz ofertę" : "Download offer"}
+        phoneNumber="+48 505 158 200"
         variant="light"
       />
     </>

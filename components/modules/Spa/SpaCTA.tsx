@@ -15,7 +15,7 @@ const getNestedValue = (obj: any, path: string) => {
 
 const SpaCTA = ({ dict, lang }) => {
   const [isHovering, setIsHovering] = useState(false);
-  const phoneNumber = "+48 574 383 282";
+  const phoneNumber = "+48 22 752 50 34";
 
   // Helper function for translations
   const t = (key: string) => getNestedValue(dict, key) || key;

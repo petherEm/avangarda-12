@@ -650,7 +650,7 @@ export default function SpaIntro({
                   src="/spa/spa-03.jpeg"
                   alt={dict.spaIntro.saltCave.gallery.alt1}
                   fill
-                  className="object-cover"
+                  className="object-cover object-right"
                 />
               </div>
 

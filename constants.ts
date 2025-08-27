@@ -27,9 +27,8 @@ export const ROOMS_DATA: RoomType[] = [
     bedsKey: "rooms.single.beds",
     sizeKey: "rooms.single.size",
     building: "main",
-    image: "/rooms/room-single-01.jpg",
+    image: "/rooms/room-single-02.jpg",
     images: [
-      "/rooms/room-single-01.jpg",
       "/rooms/room-single-02.jpg",
       "/rooms/room-single-03.jpg",
       "/rooms/room-single-04.jpg",

@@ -180,7 +180,7 @@
       "description": "Klimatyzowany pokój z trzema pojedynczymi łóżkami, znajdujący się na pierwszym lub drugim piętrze hotelu. Wybór dziecka w wieku 0-3 lata nie zawiera noclegu na dodatkowym łóżku. W pokoju znajdują się skosy. Pokój nie posiada balkonu. Pokój znajduje się w osobnym budynku w odległości 100m od Hotelu. Zameldowanie oraz wymeldowanie odbywa się w budynku głównym Hotelu. Posiłki wchodzące w skład wykupionej oferty serwowane są w budynku głównym Hotelu. Atrakcje dostępne są w budynku głównym Hotelu. W budynku zewnętrznym nie ma windy, dojście do pokoju odbywa się schodami. Część pokoi z widokiem na zabytkową drogę carską.",
       "price": "od 440 zł / noc",
       "capacity": "1-3 osoby",
-      "size": "23-45m²",
+      "size": "23-25m²",
       "beds": "3 x łóżko pojedyncze"
     },
     "externalFamily": {
@@ -311,7 +311,7 @@
       "openingHours": "Godziny otwarcia",
       "openingTime": "Pon-Ndz: 12:00 – 22:00",
       "reservations": "Rezerwacje",
-      "phone": "Tel: 29 752 50 34",
+      "phone": "Tel: 29 752 50 34 (recepcja hotelu)",
       "email": "info@hotelavangarda.pl",
       "guestOpinions": "Opinie Gości",
       "testimonialDescription": "Poznaj opinie naszych gości o doświadczeniach kulinarnych w Restauracji Dzika Róża",
@@ -383,7 +383,7 @@
     "reserveButton": "Zarezerwuj stolik",
     "openingHours": "Godziny otwarcia",
     "openingHoursDetails": {
-      "seasonMayJuneSep": "Maj, czerwiec i wrzesień",
+      "seasonMayJuneSep": "Maj, czerwiec",
       "seasonMayJuneSepHours": "Sob-Ndz: 14:00 – 20:00",
       "seasonJulAug": "Lipiec i sierpień",
       "seasonJulAugHours": "codziennie 12:00 - 21:00"
@@ -548,7 +548,7 @@
     "activeRest": {
       "title": "Aktywny wypoczynek",
       "imageAlt": "Aktywny wypoczynek",
-      "description": "W Hotelu Avangarda aktywny wypoczynek to czysta przyjemność\n – dla małych i dużych! Spływy kajakowe po Narwi to świetny sposób\n na rodzinny relaks wśród natury. Na aktywnych Gości czekają rowery, kije nordic walking oraz siatkówka plażowa, która dostarcza mnóstwo frajdy w słoneczne dni. Dla miłośników treningu o każdej porze roku dostępna jest również nowoczesna siłownia ze profesjonalnym sprzętem marki Matrix Fitness.",
+      "description": "W Hotelu Avangarda aktywny wypoczynek to czysta przyjemność\n – dla małych i dużych! Spływy kajakowe po Narwi to świetny sposób\n na rodzinny relaks wśród natury. Na aktywnych Gości czekają rowery, kije nordic walking oraz siatkówka plażowa, która dostarcza mnóstwo frajdy w słoneczne dni. Dla miłośników treningu o każdej porze roku dostępna jest również nowoczesna siłownia z profesjonalnym sprzętem marki Matrix Fitness.",
       "features": {
         "kayaking": {
           "title": "Spływy kajakowe",
@@ -987,7 +987,7 @@
         "name": "Luksus w Różanie",
         "description": "Kompleksowy rytuał łączący pielęgnację i głęboki relaks. Rozpoczyna go aromatyczny peeling całego ciała, który wygładzi skórę. Następnie wykonany zostanie masaż na rozgrzanym masełku, który intensywnie nawilży i rozluźni mięśnie. Rytuał wieńczy kojący masaż twarzy, szyi i dekoltu, przywracając cerze świeżość i blask.",
         "price": "450 zł",
-        "duration": "90 min"
+        "duration": "120 min"
       },
       "chocolate": {
         "name": "Rytuał Doliny Narwi",
